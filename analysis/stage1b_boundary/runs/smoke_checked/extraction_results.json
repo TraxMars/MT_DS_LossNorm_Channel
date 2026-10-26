@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "smoke": true,
+  "invariants": {
+    "student_state_unchanged": true,
+    "teacher_state_unchanged": true,
+    "grad_slots_unchanged": true,
+    "teacher_frozen": true,
+    "both_eval": true,
+    "torch_rng_unchanged": true,
+    "cuda_rng_unchanged": true,
+    "unlabeled_image_only": true,
+    "data_stats_unchanged": true
+  },
+  "objective_scale_observations": 52,
+  "raw_observations": 2,
+  "optimizer_steps": 0,
+  "checkpoint_writes": 0,
+  "elapsed_seconds": 21.762214171001688,
+  "peak_allocated_mib": 1959.5576171875
+}

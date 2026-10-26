@@ -1,0 +1,39 @@
+--- /aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/networks/vnet_ds.py
++++ /aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/code/networks/vnet_ds.py
+@@ -145,7 +145,7 @@
+ 
+         return res
+ 
+-    def decoder(self, features):
++    def decoder(self, features, return_features=False):
+         x1 = features[0]
+         x2 = features[1]
+         x3 = features[2]
+@@ -179,11 +179,26 @@
+         if self.has_dropout:
+             x9 = self.dropout(x9)
+         out.append(self.out_conv(x9))
++        if return_features:
++            # These are the existing head inputs, after skip addition/dropout.
++            return out, {"D4": x5_up, "D3": x6_up, "D2": x7_up, "D1": x9}
+         return out
+ 
+ 
+-    def forward(self, x, deepsup=False):
++    def forward(self, x, deepsup=False, return_features=False):
++        """Optionally return nine live stage tensors alongside unchanged logits.
++
++        Encoder E5 and decoder D1 include the original dropout when enabled.
++        Returned tensors share the forward graph; consumers must not mutate them.
++        """
+         features = self.encoder(x)
++        if return_features:
++            out, decoder_features = self.decoder(features, return_features=True)
++            stages = {
++                "encoder": dict(zip(("E1", "E2", "E3", "E4", "E5"), features)),
++                "decoder": decoder_features,
++            }
++            return (out if deepsup else out[-1]), stages
+         out = self.decoder(features)
+ 
+         return out if deepsup else out[-1]

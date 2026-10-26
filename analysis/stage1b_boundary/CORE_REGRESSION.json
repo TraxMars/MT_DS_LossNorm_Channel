@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "command": "python -B tests/verify_core.py",
+  "exit_code": 0,
+  "checks": [
+    "exact upstream four-scale outputs and state keys",
+    "Teacher gradient isolation",
+    "four-head objectives and EMA",
+    "normalize_loss derivative and zero safeguard",
+    "sliding-window overlap/padding/restored shape"
+  ]
+}

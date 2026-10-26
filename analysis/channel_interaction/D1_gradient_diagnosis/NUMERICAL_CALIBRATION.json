@@ -1,0 +1,140 @@
+{
+  "LA": {
+    "FP32": {
+      "path": "analysis/channel_interaction/D1_gradient_diagnosis/results/calibration_fp32/calibration.json",
+      "sha256": "d40eb73570af8f5c05a9512a556d36c9e338be4fdfe1dc6356cddffef299e424",
+      "data": {
+        "dtype": "torch.float32",
+        "checks": {
+          "lossnorm_denominator": 0.0009757454972714186,
+          "normalized_scale_factor": 76.8643055076662,
+          "normalized_scalar": 0.30000001192092896,
+          "gradient_reconstruction": [
+            {
+              "stage": "E3",
+              "raw_max_abs_error": 1.8553691916167736e-10,
+              "raw_relative_l2_error": 1.3320577459905615e-06,
+              "normalized_relative_l2_error": 1.334659526381963e-06,
+              "normalized_max_abs_error": 5.8673322200775146e-08,
+              "raw_reconstructed_norm": 0.0036369379063518996,
+              "lossnorm_reconstructed_norm": 1.1182028253849772
+            },
+            {
+              "stage": "D1",
+              "raw_max_abs_error": 0.0,
+              "raw_relative_l2_error": 0.0,
+              "normalized_relative_l2_error": 0.00021903636044301366,
+              "normalized_max_abs_error": 1.0349787771701813e-05,
+              "raw_reconstructed_norm": 0.0006442029335281574,
+              "lossnorm_reconstructed_norm": 0.1980648443665723
+            }
+          ]
+        },
+        "elapsed_seconds": 19.16904796101153
+      }
+    },
+    "FP64": {
+      "path": "analysis/channel_interaction/D1_gradient_diagnosis/results/calibration_fp64/calibration.json",
+      "sha256": "a79f608c746d89b02c6072244257aed2fd6c19ed2c306b509dcda1b915af2ff8",
+      "data": {
+        "dtype": "torch.float64",
+        "checks": {
+          "lossnorm_denominator": 0.0009757451607781408,
+          "normalized_scale_factor": 76.86433201491742,
+          "normalized_scalar": 0.3,
+          "gradient_reconstruction": [
+            {
+              "stage": "E3",
+              "raw_max_abs_error": 4.404571325722362e-20,
+              "raw_relative_l2_error": 6.761720837374071e-16,
+              "normalized_relative_l2_error": 7.022278179529542e-16,
+              "normalized_max_abs_error": 1.2576745200831851e-17,
+              "raw_reconstructed_norm": 0.003636937691743439,
+              "lossnorm_reconstructed_norm": 1.1182031450229404
+            },
+            {
+              "stage": "D1",
+              "raw_max_abs_error": 0.0,
+              "raw_relative_l2_error": 0.0,
+              "normalized_relative_l2_error": 1.703144641405699e-14,
+              "normalized_max_abs_error": 2.914335439641036e-16,
+              "raw_reconstructed_norm": 0.0006439580792385583,
+              "lossnorm_reconstructed_norm": 0.1979896304251242
+            }
+          ]
+        },
+        "elapsed_seconds": 81.5416365028359
+      }
+    }
+  },
+  "Pancreas": {
+    "FP32": {
+      "path": "analysis/channel_interaction/D1_gradient_diagnosis/results/calibration_pancreas_fp32/calibration.json",
+      "sha256": "2ff7221e9087974a6e4af34fb832a20b4a28aa09d246560ad86da38f6a067ee9",
+      "data": {
+        "dataset": "Pancreas",
+        "dtype": "torch.float32",
+        "checks": {
+          "lossnorm_denominator": 0.0002994683454744518,
+          "normalized_scale_factor": 250.44383198890847,
+          "normalized_scalar": 0.30000001192092896,
+          "gradient_reconstruction": [
+            {
+              "stage": "E3",
+              "raw_max_abs_error": 8.549250196665525e-11,
+              "raw_relative_l2_error": 2.339068670114298e-06,
+              "normalized_relative_l2_error": 2.3394226718663544e-06,
+              "normalized_max_abs_error": 9.313225746154785e-08,
+              "raw_reconstructed_norm": 0.000726310951365183,
+              "lossnorm_reconstructed_norm": 0.7276003915016246
+            },
+            {
+              "stage": "D1",
+              "raw_max_abs_error": 0.0,
+              "raw_relative_l2_error": 0.0,
+              "normalized_relative_l2_error": 2.7570118411127415e-05,
+              "normalized_max_abs_error": 2.428889274597168e-06,
+              "raw_reconstructed_norm": 0.00030662277764498177,
+              "lossnorm_reconstructed_norm": 0.307167133633969
+            }
+          ]
+        },
+        "elapsed_seconds": 44.45635067112744
+      }
+    },
+    "FP64": {
+      "path": "analysis/channel_interaction/D1_gradient_diagnosis/results/calibration_pancreas_fp64/calibration.json",
+      "sha256": "23b8134635bdf7917b74ba1b27dbf596488a19bb65d0fb5e9a5713da18b49e0e",
+      "data": {
+        "dataset": "Pancreas",
+        "dtype": "torch.float64",
+        "checks": {
+          "lossnorm_denominator": 0.00029946841648176455,
+          "normalized_scale_factor": 250.44377260587328,
+          "normalized_scalar": 0.3,
+          "gradient_reconstruction": [
+            {
+              "stage": "E3",
+              "raw_max_abs_error": 2.414043899674756e-20,
+              "raw_relative_l2_error": 1.3581114645135383e-15,
+              "normalized_relative_l2_error": 1.3615752064768237e-15,
+              "normalized_max_abs_error": 2.439454888092385e-17,
+              "raw_reconstructed_norm": 0.0007263110149516638,
+              "lossnorm_reconstructed_norm": 0.7276002826787821
+            },
+            {
+              "stage": "D1",
+              "raw_max_abs_error": 0.0,
+              "raw_relative_l2_error": 0.0,
+              "normalized_relative_l2_error": 1.7270054511079225e-14,
+              "normalized_max_abs_error": 4.200199216208844e-16,
+              "raw_reconstructed_norm": 0.000306590946571015,
+              "lossnorm_reconstructed_norm": 0.3071351732242029
+            }
+          ]
+        },
+        "elapsed_seconds": 96.13460653903894
+      }
+    }
+  }
+}

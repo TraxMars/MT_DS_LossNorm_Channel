@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "phase": "C0",
+  "invariants": {
+    "student_state_unchanged": true,
+    "teacher_state_unchanged": true,
+    "teacher_frozen": true,
+    "no_grad_slots": true,
+    "both_eval": true,
+    "torch_rng_unchanged": true,
+    "cuda_rng_unchanged": true,
+    "python_rng_unchanged": true,
+    "numpy_rng_unchanged": true,
+    "no_leftover_hooks": true,
+    "image_only_U": true,
+    "data_stats_unchanged": true
+  },
+  "cases": 4,
+  "crops": 8,
+  "pair_scale": "native final D1 only",
+  "delta_records": 1440,
+  "intervention_records": 360,
+  "feature_stat_rows": 9728,
+  "parameter_stat_rows": 9728,
+  "compatibility_vector_checks": 80,
+  "elapsed_seconds": 68.6990048000589,
+  "peak_allocated_mib": 3306.71337890625,
+  "optimizer_steps": 0,
+  "checkpoint_writes": 0,
+  "C1_C2_C3_executed": false,
+  "interpretation": "Execution/structural checks PASS; final C0 gate also requires independently summarized fidelity and integrity checks"
+}

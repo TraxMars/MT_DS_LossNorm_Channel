@@ -1,0 +1,20 @@
+{
+  "CHAP": {
+    "repository": "https://github.com/gardnerzhou/CHAP",
+    "commit": "8754bfa5e5d269719b0ca45345c8a28742b13c0d",
+    "gradient_source": "https://github.com/gardnerzhou/CHAP/blob/8754bfa5e5d269719b0ca45345c8a28742b13c0d/utils/grad.py",
+    "gradient_blob": "816e49b06d120406350ccc75589d2197a939bb66",
+    "training_source": "https://github.com/gardnerzhou/CHAP/blob/8754bfa5e5d269719b0ca45345c8a28742b13c0d/train_ours_3D.py",
+    "training_blob": "4b9e3321a622b35d295a80310fb590f6c5c9e4c5",
+    "audited_behavior": "GradSim_3d flattens the last encoder Conv3d output-channel kernels, obtains supervised/unsupervised gradients via backward and optimizer.zero_grad, keeps moving averages, and multiplies signed cosine by relative unsupervised gradient norm. This diagnostic reuses the parameter-coordinate concept only, separates cosine from magnitude, discovers modules by type, and uses autograd.grad without moving averages or optimizer state."
+  },
+  "DuCiSC": {
+    "repository": "https://github.com/ShanghaiTech-IMPACT/DuCiSC",
+    "reference_commit": "cc77a8308d0aa1c59a7c29556478bfd33d804a1a",
+    "network_source": "https://github.com/ShanghaiTech-IMPACT/DuCiSC/blob/cc77a8308d0aa1c59a7c29556478bfd33d804a1a/code/networks/VNet.py",
+    "network_blob": "6918ef43514e3b1c5a57ac1584240f41fbe9dc57",
+    "training_source": "https://github.com/ShanghaiTech-IMPACT/DuCiSC/blob/cc77a8308d0aa1c59a7c29556478bfd33d804a1a/code/train_DuCiSC.py",
+    "training_blob": "099234dcb6a13e158eecf8e6e95ca68991403ea0",
+    "audited_behavior": "Four ordered deep-supervision heads. Current local baseline retains nearest-resampled GT CE/Dice and aggregate per-objective LossNorm, but uses four-scale softmax MSE consistency rather than upstream full DuCiSC hard-pseudo-label/prototype/mix objectives. No upstream training code is executed."
+  }
+}

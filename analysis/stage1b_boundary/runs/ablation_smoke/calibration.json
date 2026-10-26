@@ -1,0 +1,38 @@
+[
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 0,
+    "stage": "E3",
+    "delta_single": 0.5614897251129151,
+    "delta_pair": 0.7940663843878255,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 223984,
+        "available_background": 779536,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11112209834120294
+      },
+      "I": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 184802,
+        "available_background": 737816,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  }
+]

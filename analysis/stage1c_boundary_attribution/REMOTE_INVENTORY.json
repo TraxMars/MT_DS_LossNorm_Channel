@@ -1,0 +1,1459 @@
+{
+  "repository": "TraxMars/MT_DS_LossNorm",
+  "remote_ref": "main",
+  "remote_commit": "5f6303a4ffde996a8200c294a47d35062f54e8b6",
+  "remote_tree": "a4ad8797151d580624d40c2d0d3968d19ae2e66c",
+  "truncated": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha": "b8878d812bac4c3dfd32a444bea3095b3e66ee7b",
+      "size": 592
+    },
+    {
+      "path": "README.md",
+      "sha": "41d1423a8c1b10267f9998e79a838379c8b86a05",
+      "size": 4653
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/best_metrics.json",
+      "sha": "cc26822d68085687b8d93559e50900a9c40889f6",
+      "size": 4647
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/code/networks/vnet_ds.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/config.json",
+      "sha": "f4344790719ca244c69f5bc1c3993552a00bae44",
+      "size": 1116
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/data_split_manifest.json",
+      "sha": "0fadfe212b35997b971e433bf42bd52636436234",
+      "size": 18086
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/latest_validation.json",
+      "sha": "8cd712c9f4a733fcdd797d6a3d5f007fc2c986cb",
+      "size": 4693
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/log.txt",
+      "sha": "2bc4ca370c9e6c9217e47c12e88b85b44b48e333",
+      "size": 178792
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/run_status.json",
+      "sha": "7cce25fc08acc3d684ba319cfd5002b748f57fd1",
+      "size": 244
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/test_metrics.json",
+      "sha": "4ee2fcc02efa8fa514ad4fc98c39da4fecdd83ef",
+      "size": 10943
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/training_metrics.csv",
+      "sha": "13c70a0436c27fd8765418b5356f57560f1fa54d",
+      "size": 250792
+    },
+    {
+      "path": "Results/seed_42/BraTS19_25l/validation_metrics.jsonl",
+      "sha": "39b132f04c6ebf0105a3ec72d25af42e729f0d15",
+      "size": 264024
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/best_metrics.json",
+      "sha": "6fdc42a9cf9c0722602809a5d20bae2f0b58f766",
+      "size": 4671
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/code/networks/vnet_ds.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/config.json",
+      "sha": "fee5609c4884d5e80e3cd0e3722607df1c106ddc",
+      "size": 1116
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/data_split_manifest.json",
+      "sha": "f7c256a262cb3966c7762590c0b11f55c753babe",
+      "size": 18086
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/latest_validation.json",
+      "sha": "168f791d6211ae6b1b72b7b72788d360c161b2a4",
+      "size": 4663
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/log.txt",
+      "sha": "e4088a0191818b19f85fcfa25a70d91b960767b4",
+      "size": 178796
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/run_status.json",
+      "sha": "0175a31e87a037c8677174128efb2f3025f9499f",
+      "size": 244
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/test_metrics.json",
+      "sha": "7aba9156eef06d267b6c265247ecbf3ee0ca94be",
+      "size": 10990
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/training_metrics.csv",
+      "sha": "691d3ab6dea032214ce171715a88832c616e4769",
+      "size": 250838
+    },
+    {
+      "path": "Results/seed_42/BraTS19_50l/validation_metrics.jsonl",
+      "sha": "0b4cbdbbd4793cebb58ad29def1421fd1de6c53b",
+      "size": 263627
+    },
+    {
+      "path": "Results/seed_42/LA_16l/best_metrics.json",
+      "sha": "705492192f03c563f3f64f3a739b28a032f2fc8d",
+      "size": 3769
+    },
+    {
+      "path": "Results/seed_42/LA_16l/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "Results/seed_42/LA_16l/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "Results/seed_42/LA_16l/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "Results/seed_42/LA_16l/code/networks/vnet_ds.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "Results/seed_42/LA_16l/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "Results/seed_42/LA_16l/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "Results/seed_42/LA_16l/config.json",
+      "sha": "9335d9eefc30ea2c087dbb2597b61c2eecd7e0ba",
+      "size": 1097
+    },
+    {
+      "path": "Results/seed_42/LA_16l/data_split_manifest.json",
+      "sha": "055ff6c8d9459bd8b5aa533710a1ea04df813787",
+      "size": 5993
+    },
+    {
+      "path": "Results/seed_42/LA_16l/latest_validation.json",
+      "sha": "af6fd5ceb9da431de95ba7cd6d2fc7ef0f472ae9",
+      "size": 3785
+    },
+    {
+      "path": "Results/seed_42/LA_16l/log.txt",
+      "sha": "aecfc7518d0d011d8ca47e0293d12814fae47fa1",
+      "size": 178764
+    },
+    {
+      "path": "Results/seed_42/LA_16l/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "Results/seed_42/LA_16l/run_status.json",
+      "sha": "0c81d0f795b5d4353cf009c4c167056082166f1e",
+      "size": 238
+    },
+    {
+      "path": "Results/seed_42/LA_16l/test_metrics.json",
+      "sha": "07c029e8c87a6a3b72860cb826b252ab30996744",
+      "size": 3747
+    },
+    {
+      "path": "Results/seed_42/LA_16l/training_metrics.csv",
+      "sha": "df413813a25e836a4b158d2745aa3db5842f00b4",
+      "size": 249338
+    },
+    {
+      "path": "Results/seed_42/LA_16l/validation_metrics.jsonl",
+      "sha": "3dcbc8ec9e8a8090e65c358804413a04fe5ebcbf",
+      "size": 213871
+    },
+    {
+      "path": "Results/seed_42/LA_8l/best_metrics.json",
+      "sha": "a1dc4ff6f7b6514275bd3395edb25761312d2c98",
+      "size": 3822
+    },
+    {
+      "path": "Results/seed_42/LA_8l/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "Results/seed_42/LA_8l/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "Results/seed_42/LA_8l/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "Results/seed_42/LA_8l/code/networks/vnet_ds.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "Results/seed_42/LA_8l/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "Results/seed_42/LA_8l/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "Results/seed_42/LA_8l/config.json",
+      "sha": "476256c154b0b01d031d816cadac73916e74e504",
+      "size": 1095
+    },
+    {
+      "path": "Results/seed_42/LA_8l/data_split_manifest.json",
+      "sha": "04b4165d9d151d79b889200545fac677c1d84919",
+      "size": 5993
+    },
+    {
+      "path": "Results/seed_42/LA_8l/latest_validation.json",
+      "sha": "a543bf4708b9818d6d2ae2891af5abdb818c317f",
+      "size": 3806
+    },
+    {
+      "path": "Results/seed_42/LA_8l/log.txt",
+      "sha": "bab62de4014318b1311ecda5c10fb89dbeb6790e",
+      "size": 178775
+    },
+    {
+      "path": "Results/seed_42/LA_8l/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "Results/seed_42/LA_8l/run_status.json",
+      "sha": "31807c84761b201e37c65c23e5c9e48ddc8ada6f",
+      "size": 238
+    },
+    {
+      "path": "Results/seed_42/LA_8l/test_metrics.json",
+      "sha": "d655e3818f6641510aaf099493d085c5b87e608d",
+      "size": 3800
+    },
+    {
+      "path": "Results/seed_42/LA_8l/training_metrics.csv",
+      "sha": "cc2fa0a9ebbb6875412396e21271910b81688c05",
+      "size": 250410
+    },
+    {
+      "path": "Results/seed_42/LA_8l/validation_metrics.jsonl",
+      "sha": "7bed51846a42b78d625b9a4a3bc7428460b2eee5",
+      "size": 213918
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/best_metrics.json",
+      "sha": "272f1107da1e68dd81f9aae500a13921ba102135",
+      "size": 3551
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/code/networks/vnet_ds.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/config.json",
+      "sha": "58263b45d47d6838f88982caad8fefcaeb0f423d",
+      "size": 1113
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/data_split_manifest.json",
+      "sha": "04e7fefb2b236af8938be69d68422a6b623d306c",
+      "size": 3347
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/latest_validation.json",
+      "sha": "8a675090784fa212a545bfd4ac369be5ada62555",
+      "size": 3520
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/log.txt",
+      "sha": "85110b160f952aa9861da4af47f0a6001e8b6f98",
+      "size": 178806
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/run_status.json",
+      "sha": "ba550d235a6436d596e86e6da2ab5b55d6ecbfce",
+      "size": 244
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/test_metrics.json",
+      "sha": "28a8edb441096f83f65882dc9d458f3fce8e4e90",
+      "size": 3529
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/training_metrics.csv",
+      "sha": "0d75dd6358206765506aa6a7ec12af55745006b1",
+      "size": 250561
+    },
+    {
+      "path": "Results/seed_42/Pancreas_12l/validation_metrics.jsonl",
+      "sha": "1a7ba641b9dbcd8a6531d74cfd2757677c6388d7",
+      "size": 198002
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/best_metrics.json",
+      "sha": "723c075e0c732317dc90111befdd1c668f22e13e",
+      "size": 3548
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/code/networks/vnet_ds.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/config.json",
+      "sha": "c11960aac7c6205097e07e9384f0229c1d08db48",
+      "size": 1111
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/data_split_manifest.json",
+      "sha": "d58fbd90ad568240204b6a7533cd8689c4a15833",
+      "size": 3347
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/latest_validation.json",
+      "sha": "79c2e901437cb4aec6667f8820819735fd48d590",
+      "size": 3610
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/log.txt",
+      "sha": "4473dea98f8f1c23f4ac3bb5900209a44126b11a",
+      "size": 178813
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/run_status.json",
+      "sha": "0409c99fe9dad7ab449a5c3a324c68ad174d16c3",
+      "size": 244
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/test_metrics.json",
+      "sha": "84a03928c0c8de472e3b9c28e9fcb5505777da34",
+      "size": 3526
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/training_metrics.csv",
+      "sha": "0881bcb5546e3692c3cf27f16bcc7350a2ed018f",
+      "size": 251119
+    },
+    {
+      "path": "Results/seed_42/Pancreas_6l/validation_metrics.jsonl",
+      "sha": "46028d3648525bdad1d789a550f1c89a8c7a831f",
+      "size": 198651
+    },
+    {
+      "path": "analysis/stage1a_gradients/.gitignore",
+      "sha": "7cb27f874535a72ea4ac5ac590f0c9025940ba75",
+      "size": 264
+    },
+    {
+      "path": "analysis/stage1a_gradients/FINDINGS.md",
+      "sha": "dbfc4a051aaaaad8bd7e4ba700d0db7e0e7cb104",
+      "size": 7865
+    },
+    {
+      "path": "analysis/stage1a_gradients/README.md",
+      "sha": "cc902eeb5b1f6281bf037f68264696b07ef60b43",
+      "size": 9782
+    },
+    {
+      "path": "analysis/stage1a_gradients/SCRIPT_MANIFEST.json",
+      "sha": "a7115f2346c1e92a5836513b4d47e5606b3caf0a",
+      "size": 901
+    },
+    {
+      "path": "analysis/stage1a_gradients/SOURCES.json",
+      "sha": "3474064f8466a7020812f393249b6cb371745ab9",
+      "size": 1849
+    },
+    {
+      "path": "analysis/stage1a_gradients/TEST_RESULTS.json",
+      "sha": "a0e554dc67a56f43932a51f4c726424bbe31c944",
+      "size": 117
+    },
+    {
+      "path": "analysis/stage1a_gradients/VERIFICATION.md",
+      "sha": "a58c856cbfd512215ff7a717b621ccde2d384c57",
+      "size": 6780
+    },
+    {
+      "path": "analysis/stage1a_gradients/core.py",
+      "sha": "97157f3aa9acb52f03b7373f793ab53b0a2332a6",
+      "size": 11829
+    },
+    {
+      "path": "analysis/stage1a_gradients/run.py",
+      "sha": "856ad06a92164ac40f4a2129f006a5183fd5df7f",
+      "size": 16875
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/design.json",
+      "sha": "1f27c0adb4d2c7e10c770929c1b03312db87b61c",
+      "size": 1790
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/extraction_results.json",
+      "sha": "62d6aad8f59210450a43cb1f24f16f9e325a8a6e",
+      "size": 1820
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/parameter_mapping.json",
+      "sha": "e9bf79c6fe7858fca0dae11c2716ab22e26a56f9",
+      "size": 3985
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/protection_before.json",
+      "sha": "8f29e7b1bc9940e1b7ce6dcbe1611b02292472e0",
+      "size": 86303
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/RAW_GRADIENT_MANIFEST.json",
+      "sha": "7196a11f9f91e4ea1ed175045a1bc25dc607a87a",
+      "size": 2411
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/REPORT.md",
+      "sha": "c07968a5858d7a9e91ef2f7713ddc84abb6602d1",
+      "size": 8255
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/channel_profiles.csv",
+      "sha": "62b8dbe3823372120b6d398bed02b4323953215c",
+      "size": 123817
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/cross_scale_summary.csv",
+      "sha": "fe1733d466aa670229ced4bc72bb1addaea040ee",
+      "size": 6902
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/design.json",
+      "sha": "8561aa2cad2817cd23942e486b9729a25a3f552e",
+      "size": 1875
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/extraction_results.json",
+      "sha": "209e96b45bae01804c392a3980fc0f388aeaff7f",
+      "size": 618
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/gradient_reconstruction.json",
+      "sha": "35fcace7cf18b82afeb0df7ea76d21f0d91a1435",
+      "size": 127596
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/hdf5_access_log.json",
+      "sha": "0638c5e19dd7be726107510148f93a4d6da23cc1",
+      "size": 6531
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/losses.csv",
+      "sha": "8ad570fecde90bdabe6cb8a50399b319cd3c3749",
+      "size": 24028
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/norm_scaling.json",
+      "sha": "3a2bb3c5f9381d4a677404026fcfe80c73f0fae7",
+      "size": 1360
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/observations.json",
+      "sha": "99463bf57f9a18faa1e93819b2f2e403e9d76b21",
+      "size": 38174
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/output_verification.json",
+      "sha": "291aa2ff1faa0aca8705bb7f1db4b3a8c8605baa",
+      "size": 428
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/parameter_mapping.json",
+      "sha": "e9bf79c6fe7858fca0dae11c2716ab22e26a56f9",
+      "size": 3985
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/pca_clusters.json",
+      "sha": "e946f64503a68dbb962eb8dcd5cb9bbc6b657107",
+      "size": 26007
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_channel.csv",
+      "sha": "858e1a08b72bce64be47ace560ce43b93cf1e385",
+      "size": 936017
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_channel_multiscale.csv",
+      "sha": "92cf6b02ca1633861484af39749ec2149907ce06",
+      "size": 78748
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/protection_after.json",
+      "sha": "79e5346d9a11564973142eac83de8c3d0f737413",
+      "size": 75
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/protection_before.json",
+      "sha": "8f29e7b1bc9940e1b7ce6dcbe1611b02292472e0",
+      "size": 86303
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/scale_summary.csv",
+      "sha": "5463c105f132e3869e5fbc59ead375d54ebee050",
+      "size": 6255
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/summary_results.json",
+      "sha": "f4bca54c0324b1d516f10710bdffb9123cc29ba3",
+      "size": 305
+    },
+    {
+      "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/validity_matrices.json",
+      "sha": "e07306cb4be51effbfd91ad00deee1a1abea6691",
+      "size": 9301
+    },
+    {
+      "path": "analysis/stage1a_gradients/stats_tools.py",
+      "sha": "daae7f612832e495521486023609853c2cc0eb9b",
+      "size": 8897
+    },
+    {
+      "path": "analysis/stage1a_gradients/summarize.py",
+      "sha": "d86cd0ffcc75b60cf5f8b4723ce92f0d9c02df2e",
+      "size": 30402
+    },
+    {
+      "path": "analysis/stage1a_gradients/verify_outputs.py",
+      "sha": "237330d763dcd6f510934fedf509ee927ab7ed8b",
+      "size": 6266
+    },
+    {
+      "path": "analysis/stage1b_boundary/.gitignore",
+      "sha": "560977e7c23df7dc9c93e0ce031326b2b9449146",
+      "size": 66
+    },
+    {
+      "path": "analysis/stage1b_boundary/ARTIFACT_MANIFEST.json",
+      "sha": "01e769aae061836211c18f2a6dd16019aeb674ce",
+      "size": 41997
+    },
+    {
+      "path": "analysis/stage1b_boundary/CHANGES.md",
+      "sha": "2d60a442f77a05a282736c3cb1099e7b01e34264",
+      "size": 2363
+    },
+    {
+      "path": "analysis/stage1b_boundary/CORE_REGRESSION.json",
+      "sha": "d7dc4573b6fb7c01c984ecbe5f5188346b0b5ec9",
+      "size": 337
+    },
+    {
+      "path": "analysis/stage1b_boundary/DESIGN.md",
+      "sha": "75d61d448c545a246e34a60620af7231fc4e5658",
+      "size": 7864
+    },
+    {
+      "path": "analysis/stage1b_boundary/ENVIRONMENT.json",
+      "sha": "4301cdf6f34e8bbffe24c94a7757a4ad1fd18580",
+      "size": 495
+    },
+    {
+      "path": "analysis/stage1b_boundary/FINAL_STATUS.json",
+      "sha": "7fa028b756a3809be69527517db060366ccff802",
+      "size": 316
+    },
+    {
+      "path": "analysis/stage1b_boundary/FINDINGS.md",
+      "sha": "c8d8d67195292a3ed43ed86bc3e780a9b8612277",
+      "size": 9783
+    },
+    {
+      "path": "analysis/stage1b_boundary/PROTECTION_BEFORE.json",
+      "sha": "66ab8f3a8076d35f884305db1f2448ad5a9f5324",
+      "size": 112090
+    },
+    {
+      "path": "analysis/stage1b_boundary/README.md",
+      "sha": "055af07cd92cf31a42e2a596918282d04812f14f",
+      "size": 5693
+    },
+    {
+      "path": "analysis/stage1b_boundary/STAGE0_REGRESSION.json",
+      "sha": "b6d545917ab80949d14ec53bfbb84336a638beb6",
+      "size": 13024
+    },
+    {
+      "path": "analysis/stage1b_boundary/STAGE1A_REGRESSION.json",
+      "sha": "4c9aefe9c408f7476f66b18383781bd2d797256a",
+      "size": 83
+    },
+    {
+      "path": "analysis/stage1b_boundary/TEST_RESULTS.json",
+      "sha": "ca946d6354bfaa70885483269909831afa756bb9",
+      "size": 118
+    },
+    {
+      "path": "analysis/stage1b_boundary/VERIFICATION.md",
+      "sha": "7fda8dfca8d0de0d06a3c08f2ae3e83fcd669f99",
+      "size": 6489
+    },
+    {
+      "path": "analysis/stage1b_boundary/ablate.py",
+      "sha": "79148d521179d663d8e36b8c3c2cc89b4408cd2b",
+      "size": 11134
+    },
+    {
+      "path": "analysis/stage1b_boundary/analyze.py",
+      "sha": "5806f660e4b311c65a11aa88415ff7e77e434afb",
+      "size": 16394
+    },
+    {
+      "path": "analysis/stage1b_boundary/common.py",
+      "sha": "1ff494e135f0e04a3545d095a84592d8fa162510",
+      "size": 7083
+    },
+    {
+      "path": "analysis/stage1b_boundary/extract.py",
+      "sha": "42ff30ba14c4cd48a4684031adbad834d5fc1aef",
+      "size": 13077
+    },
+    {
+      "path": "analysis/stage1b_boundary/interventions.py",
+      "sha": "2c49f1f7feda34d7366bd391a54c78855e49c41b",
+      "size": 3304
+    },
+    {
+      "path": "analysis/stage1b_boundary/losses.py",
+      "sha": "fea8fb0bc9b185ec0fd7f349ac8279a7c6f6afbe",
+      "size": 8546
+    },
+    {
+      "path": "analysis/stage1b_boundary/report.py",
+      "sha": "dfe9b7746cd131e0038ba4a9dbcb3b8902d3261f",
+      "size": 16626
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/ablation_smoke/ablation_results.json",
+      "sha": "72b8cd77bd1d212fe282a940c320ac6fcd30f468",
+      "size": 713
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/ablation_smoke/calibration.json",
+      "sha": "df14f4f68a3937f41d3a9ad2e89c6b6ce1b31ca1",
+      "size": 861
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/ablation_smoke/groups.csv",
+      "sha": "cc27dcd62607e058fd16ee7e581b0aaf4f57f0cf",
+      "size": 2995
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/ablation_smoke/hdf5_access_log.json",
+      "sha": "233657c98c7aa7a64904a1b7bdcb515e90b08129",
+      "size": 409
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/ablation_smoke/singletons.csv",
+      "sha": "a166ed7589aa3ba337aa4c6c61a8f64b90e34b03",
+      "size": 2192
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/A_replay.json",
+      "sha": "fe51488c7066f6687ef680d6bfaa4f7768ef205c",
+      "size": 3
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/REPORT.md",
+      "sha": "d6f71a792f82ad7205adc5c6f170b6c6ed99c2f4",
+      "size": 36872
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/ablation_results.json",
+      "sha": "c9535b3539d91df02688d9072202510e3262f4b8",
+      "size": 718
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/calibration.json",
+      "sha": "4e08fab93832e503e4fb3589a14bdc900d3034b5",
+      "size": 34310
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/group_specificity.csv",
+      "sha": "7875a80075269291934a6f60d50da0e587fca72a",
+      "size": 60650
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/group_summary.csv",
+      "sha": "c29a02f859c423628aa1c1427914b38117a4d935",
+      "size": 153102
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/group_vs_A.csv",
+      "sha": "1a0b7fb74ba68c4d71f09113bdd9841129f975cd",
+      "size": 89553
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/group_vs_random.csv",
+      "sha": "09bc4af3972fddefcf3751044172e2accff0d7a2",
+      "size": 170821
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/groups.csv",
+      "sha": "f9d8e8571c0aef67981c92c453b6806365946b2b",
+      "size": 812244
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/hdf5_access_log.json",
+      "sha": "3eae4d7e40bc6feaa4dd2f7500a7ed358173f417",
+      "size": 1627
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/score_predictiveness.csv",
+      "sha": "10fc0542e8433fb7e7e6ebf4d5fc69daa993184d",
+      "size": 61453
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/singleton_case_stability.csv",
+      "sha": "9618df280ec6e586127e3eba47c767dc48dd62b7",
+      "size": 4946
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/singletons.csv",
+      "sha": "6fa59b97a7c7e1c73535c0ade58e0a98c790c9b4",
+      "size": 1578947
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ablations/summary_results.json",
+      "sha": "1aa34692262f6130afda5c5f3a8cb3c12491b9b4",
+      "size": 402
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/analysis_results.json",
+      "sha": "68840402dca2cf73f52533a3a4f0830313319dbc",
+      "size": 161
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/channel_multiscale.csv",
+      "sha": "fb555e0dac3c7eea81999a918af711e5ce3e3b33",
+      "size": 896967
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/channel_plan.json",
+      "sha": "0a01da68243086f6df359aa9ca98042ae0132493",
+      "size": 11776
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/cluster_exploration.json",
+      "sha": "47774f472709f44881a17abdf2646a6535b251c3",
+      "size": 28912
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/coverage_summary.csv",
+      "sha": "b1b400aa5c1bdae500e024e4d13f8e3d9c365a16",
+      "size": 6145
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/cross_scale_summary.csv",
+      "sha": "329930493dd28b17d863cdfc77e15f99b9dc4fc3",
+      "size": 29528
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/design.json",
+      "sha": "829397721243e3e8f7f04aab825a6635ed216863",
+      "size": 3506
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/extraction_results.json",
+      "sha": "2d19a597833ce058226dbb6018431ae0b7219316",
+      "size": 553
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/gradient_summary.json",
+      "sha": "e400ac49bdae391400cb87129910282fa5ba87c1",
+      "size": 369038
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/hdf5_access_log.json",
+      "sha": "0638c5e19dd7be726107510148f93a4d6da23cc1",
+      "size": 6531
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/loss_coverage.json",
+      "sha": "3bcec8a0d3823d8c217048a05fc00d378ae095c0",
+      "size": 1230631
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/loss_scaling.json",
+      "sha": "755cc13109acf457a1971646cec3b63a0bc262e0",
+      "size": 41249
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/method_scale_summary.csv",
+      "sha": "ec568caff01310ebb44c6331ffe2225690a1cd11",
+      "size": 76612
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/multiscale_summary.csv",
+      "sha": "0f766fe434c83674eeed752977e2edee33be15b2",
+      "size": 6650
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/paired_target_comparisons.csv",
+      "sha": "5a5f561e76209d3fd53fa1e29e05f300a5f69d19",
+      "size": 19440
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/parameter_mapping.json",
+      "sha": "e9bf79c6fe7858fca0dae11c2716ab22e26a56f9",
+      "size": 3985
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/protection_after.json",
+      "sha": "4cd942f3dae280d7a619324a22d9cda3c27ed872",
+      "size": 64
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/rank_stability.json",
+      "sha": "910e5f6cb936305844c512a91da5f8ba653459c4",
+      "size": 9157
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ranking_agreement.csv",
+      "sha": "87f298cd6d93a050894c8bbde0b981c1f7c46594",
+      "size": 1334
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/ranking_width_sensitivity.csv",
+      "sha": "985578f90032330c371b138980b2da03dc309053",
+      "size": 999
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/rankings.csv",
+      "sha": "bc5a6ff427e0316e58a3121f1b87f50444fcbd95",
+      "size": 123943
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/report_results.json",
+      "sha": "08a42994505ccd8a9418852862043392cb0a1a3e",
+      "size": 105
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/supplement_results.json",
+      "sha": "3cbdd61bc12c715fbbe816c9dd71e32abfc4c991",
+      "size": 85
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/la10_paired/verification_results.json",
+      "sha": "457a178d495a31b1856889a771a09216a4bd5f71",
+      "size": 2731
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke/design.json",
+      "sha": "aa0e7ff571191637b08d0bedc743e24adbc75592",
+      "size": 3505
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke/extraction_results.json",
+      "sha": "d57e47ea789dea908b05cc02f1951e57673e78cb",
+      "size": 696
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke/parameter_mapping.json",
+      "sha": "e9bf79c6fe7858fca0dae11c2716ab22e26a56f9",
+      "size": 3985
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/A_replay.json",
+      "sha": "76ffa800934dae96a1e38a37397a1912e9112d7e",
+      "size": 5703
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/design.json",
+      "sha": "aa0e7ff571191637b08d0bedc743e24adbc75592",
+      "size": 3505
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/extraction_results.json",
+      "sha": "5cb04f7146907b92ba8880784785f0016b610ecf",
+      "size": 549
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/hdf5_access_log.json",
+      "sha": "72c6a3be286883513d5501b861f64ff4bd5331d3",
+      "size": 614
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/loss_coverage.json",
+      "sha": "b15f2aed5479d0a2ed1df1cec7849dbcd559b320",
+      "size": 59700
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/parameter_mapping.json",
+      "sha": "e9bf79c6fe7858fca0dae11c2716ab22e26a56f9",
+      "size": 3985
+    },
+    {
+      "path": "analysis/stage1b_boundary/runs/smoke_checked/protection_after.json",
+      "sha": "4cd942f3dae280d7a619324a22d9cda3c27ed872",
+      "size": 64
+    },
+    {
+      "path": "analysis/stage1b_boundary/summarize_ablations.py",
+      "sha": "681c14c695325e7881e8452598380242fba2e97b",
+      "size": 9370
+    },
+    {
+      "path": "analysis/stage1b_boundary/supplement.py",
+      "sha": "7ed9068c4651fba6b555ef81f9c8ef987d08cb5d",
+      "size": 2839
+    },
+    {
+      "path": "analysis/stage1b_boundary/verify.py",
+      "sha": "2da0b8329551c7c12d5fdcedb36247434ddb4a61",
+      "size": 9278
+    },
+    {
+      "path": "analysis/stage_features/AUDIT.md",
+      "sha": "376d825d5c24ee3f4169d552f05e43d30629f84d",
+      "size": 9833
+    },
+    {
+      "path": "analysis/stage_features/BASELINE_MANIFEST.json",
+      "sha": "8b55aaad5930058e70d31c29420f219f564a312e",
+      "size": 647117
+    },
+    {
+      "path": "analysis/stage_features/CPU_RESULTS.json",
+      "sha": "8e7df037ff4fbf2b8f97f67fe77e40eb5930a0b8",
+      "size": 13024
+    },
+    {
+      "path": "analysis/stage_features/EXPERIMENT_CONFIGS.json",
+      "sha": "1b846819d5b03cb865a732a9d0741a1e16a21ee4",
+      "size": 72593
+    },
+    {
+      "path": "analysis/stage_features/GPU_ATTEMPTS.json",
+      "sha": "8e0a24bc74f00b41313429a4ea009e77d143d2b3",
+      "size": 918
+    },
+    {
+      "path": "analysis/stage_features/GPU_RESULTS.json",
+      "sha": "473408b8a250da7a7878f2caf759afcbd80af90e",
+      "size": 31559
+    },
+    {
+      "path": "analysis/stage_features/INTEGRITY_RESULTS.json",
+      "sha": "31b043c4f92ad86271cfb4730d0b8db1c0c17fd7",
+      "size": 2409
+    },
+    {
+      "path": "analysis/stage_features/README.md",
+      "sha": "a6fd4418659b4a16342e3b22d56945330ef3c4f4",
+      "size": 6538
+    },
+    {
+      "path": "analysis/stage_features/VERIFICATION.md",
+      "sha": "0fe9602c8ec7b35c39a897a5472a85a041b64ef8",
+      "size": 9793
+    },
+    {
+      "path": "analysis/stage_features/reference/upstream_vnet.py",
+      "sha": "f59fc9074f2ecca689b1ef19489d95ba3f245f09",
+      "size": 14961
+    },
+    {
+      "path": "analysis/stage_features/reference/vnet_ds_baseline.py",
+      "sha": "fab6115c762c03a8ad6ade7e4fea281f964fec31",
+      "size": 6939
+    },
+    {
+      "path": "code/boundary/__init__.py",
+      "sha": "89376a2c0ecc737b967835a327e0368a09109472",
+      "size": 249
+    },
+    {
+      "path": "code/boundary/features.py",
+      "sha": "b5ac34536d60517a33dd7c8df8659061d5f37a26",
+      "size": 2700
+    },
+    {
+      "path": "code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "code/networks/vnet_ds.py",
+      "sha": "3e9436d020a39f55879ff7d71cc0a2cba6b2932c",
+      "size": 7747
+    },
+    {
+      "path": "code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "launch_logs/20261020_190042/BraTS19.log",
+      "sha": "2bc4ca370c9e6c9217e47c12e88b85b44b48e333",
+      "size": 178792
+    },
+    {
+      "path": "launch_logs/20261020_190042/LA.log",
+      "sha": "bab62de4014318b1311ecda5c10fb89dbeb6790e",
+      "size": 178775
+    },
+    {
+      "path": "launch_logs/20261020_190042/Pancreas.log",
+      "sha": "4473dea98f8f1c23f4ac3bb5900209a44126b11a",
+      "size": 178813
+    },
+    {
+      "path": "launch_logs/20261020_190042/launch_manifest.json",
+      "sha": "21160672b8f3b0a1c13250a82bc0e7b0f25a152e",
+      "size": 2814
+    },
+    {
+      "path": "launch_logs/20261020_220502/BraTS19.log",
+      "sha": "e4088a0191818b19f85fcfa25a70d91b960767b4",
+      "size": 178796
+    },
+    {
+      "path": "launch_logs/20261020_220502/LA.log",
+      "sha": "aecfc7518d0d011d8ca47e0293d12814fae47fa1",
+      "size": 178764
+    },
+    {
+      "path": "launch_logs/20261020_220502/Pancreas.log",
+      "sha": "85110b160f952aa9861da4af47f0a6001e8b6f98",
+      "size": 178806
+    },
+    {
+      "path": "launch_logs/20261020_220502/launch_manifest.json",
+      "sha": "9584596e92f6ae743f1303938e5a6d261ec52eb0",
+      "size": 2844
+    },
+    {
+      "path": "launch_manifest.json",
+      "sha": "21160672b8f3b0a1c13250a82bc0e7b0f25a152e",
+      "size": 2814
+    },
+    {
+      "path": "launch_manifest_20pct.json",
+      "sha": "9584596e92f6ae743f1303938e5a6d261ec52eb0",
+      "size": 2844
+    },
+    {
+      "path": "preserved_manifest_20261021.json",
+      "sha": "b03603bc333c04b2f40f4a02e11c8fe6b583c5a1",
+      "size": 6067
+    },
+    {
+      "path": "provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "requirements.txt",
+      "sha": "de6edbc5b94deae71c7eb6c8f896da992db41d74",
+      "size": 41
+    },
+    {
+      "path": "scripts/launch_three.py",
+      "sha": "24fd06241904ed749ee5778ec4730156dad43f60",
+      "size": 4039
+    },
+    {
+      "path": "summary/results.csv",
+      "sha": "d8395ede215b6748da1c97cf1c29558abaab701e",
+      "size": 2726
+    },
+    {
+      "path": "summary/results.json",
+      "sha": "1d87af011e2c6d282ad6c94c1ab6cd143e760520",
+      "size": 5592
+    },
+    {
+      "path": "summary/results.md",
+      "sha": "5bf146c91e4ca2126a9e763c9869ae7af9d86f89",
+      "size": 1008
+    },
+    {
+      "path": "tests/test_stage1a_diagnostics.py",
+      "sha": "22d62138f7e2b71a9930492761d44bb532e639fc",
+      "size": 10264
+    },
+    {
+      "path": "tests/test_stage1b_boundary.py",
+      "sha": "c1ae1a4fe4b3f431d1f325bd2dea2264b55cd525",
+      "size": 9662
+    },
+    {
+      "path": "tests/test_stage_features.py",
+      "sha": "44b25fd7ebe5597f52a4b3fe8ec515fc44794480",
+      "size": 25422
+    },
+    {
+      "path": "tests/verify_core.py",
+      "sha": "9bffbb9111bd434363c81e3170fecd48d7811e4c",
+      "size": 4329
+    },
+    {
+      "path": "tests/verify_stage0_integrity.py",
+      "sha": "1d1663badb4c0bb953be2e2fe7ad65a77f928713",
+      "size": 5450
+    },
+    {
+      "path": "verification_report.json",
+      "sha": "2ad0b393324e2ded5f32191b06a3e6fdc11323ce",
+      "size": 3390
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/code/networks/vnet_ds.py",
+      "sha": "e45bd6a53bdefdede4ec00d94f3822c7a58e7797",
+      "size": 6963
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/config.json",
+      "sha": "8f415184a043b21f8a99ea132d1eb695d3d736bf",
+      "size": 1082
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/data_split_manifest.json",
+      "sha": "0fadfe212b35997b971e433bf42bd52636436234",
+      "size": 18086
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/log.txt",
+      "sha": "54c97fef13662714188646d2d2e63fec8f225e9b",
+      "size": 1252
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/run_status.json",
+      "sha": "d75e3b54bf5aae3cddad0ec0bbe576e86155dd04",
+      "size": 222
+    },
+    {
+      "path": "verification_runs/BraTS19_full_patch/training_metrics.csv",
+      "sha": "c46121051bbfad2ba6f0d9458fda23cfdef308da",
+      "size": 444
+    },
+    {
+      "path": "verification_runs/LA_full_patch/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "verification_runs/LA_full_patch/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "verification_runs/LA_full_patch/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "verification_runs/LA_full_patch/code/networks/vnet_ds.py",
+      "sha": "e45bd6a53bdefdede4ec00d94f3822c7a58e7797",
+      "size": 6963
+    },
+    {
+      "path": "verification_runs/LA_full_patch/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "verification_runs/LA_full_patch/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "verification_runs/LA_full_patch/config.json",
+      "sha": "69fc95ae58320bd0e030ce44c822f1eee92898ff",
+      "size": 1062
+    },
+    {
+      "path": "verification_runs/LA_full_patch/data_split_manifest.json",
+      "sha": "04b4165d9d151d79b889200545fac677c1d84919",
+      "size": 5993
+    },
+    {
+      "path": "verification_runs/LA_full_patch/log.txt",
+      "sha": "ccd50b01aef795896f2d6c8c9666b6b7ff34e016",
+      "size": 2416
+    },
+    {
+      "path": "verification_runs/LA_full_patch/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "verification_runs/LA_full_patch/run_status.json",
+      "sha": "6f508ba85e6f979186f1ac719151d233fa96aabc",
+      "size": 216
+    },
+    {
+      "path": "verification_runs/LA_full_patch/training_metrics.csv",
+      "sha": "9e90505fa94a7382a0c984573497e5262972f7dc",
+      "size": 607
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/code/data.py",
+      "sha": "c2da93f8c634a66bd6e51a6a3cdb2ba8df2ceee9",
+      "size": 5375
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/code/evaluate.py",
+      "sha": "8bc95918d8da0288b8600bbe2791d6733526e00d",
+      "size": 2902
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/code/networks/__init__.py",
+      "sha": "565973b758a992fdb41c8b2946f06a39cec4e7fb",
+      "size": 28
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/code/networks/vnet_ds.py",
+      "sha": "e45bd6a53bdefdede4ec00d94f3822c7a58e7797",
+      "size": 6963
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/code/objectives.py",
+      "sha": "093d3688b99eb29605e460bb760e15b913c921cc",
+      "size": 1744
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/code/train.py",
+      "sha": "bb7078395ecf81e370568826a3f939daedbf364b",
+      "size": 16049
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/config.json",
+      "sha": "f18312eaeb3a5d502c9c1a052a5c604b70439aaf",
+      "size": 1078
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/data_split_manifest.json",
+      "sha": "d58fbd90ad568240204b6a7533cd8689c4a15833",
+      "size": 3347
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/log.txt",
+      "sha": "e69cba6ebae179578d1631e585fcf9e28fce6bba",
+      "size": 2342
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/provenance.json",
+      "sha": "6879428a4c71fa2ee74f46eecbe525e23280a20d",
+      "size": 333
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/run_status.json",
+      "sha": "777b94596ef5a3ef1757f6a66c2c2a0096a3dc6d",
+      "size": 222
+    },
+    {
+      "path": "verification_runs/Pancreas_full_patch/training_metrics.csv",
+      "sha": "022575d1c4e287f414e896de675a5daa8adaaf04",
+      "size": 441
+    }
+  ]
+}

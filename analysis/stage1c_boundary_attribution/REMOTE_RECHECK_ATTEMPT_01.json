@@ -1,0 +1,7 @@
+{
+  "status": "UNRESOLVED_RESPONSE",
+  "repository": "TraxMars/MT_DS_LossNorm",
+  "remote_ref": "main",
+  "locked_stage1b_head": "5f6303a4ffde996a8200c294a47d35062f54e8b6",
+  "explanation": "First optional completion recheck returned no parsable SHA; the earlier CHANGED label reflected parsing, not evidence of a remote content change."
+}

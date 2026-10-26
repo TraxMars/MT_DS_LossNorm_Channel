@@ -1,0 +1,1570 @@
+{
+  "files": [
+    {
+      "path": "D0_integrity/FINDINGS.md",
+      "bytes": 3907,
+      "sha256": "fe9ab79deaeedc2d93152eb1b5d68952bdf1cd7918e065f3709941f5d89b3201"
+    },
+    {
+      "path": "D0_integrity/code/audit.py",
+      "bytes": 5657,
+      "sha256": "01425a2c6479e43c419f9bb63d83cdb70d46e5b09b191838a7ba5fbd38078a67"
+    },
+    {
+      "path": "D0_integrity/code/supplement.py",
+      "bytes": 2489,
+      "sha256": "b0342b20a68c8e0a6fceddc7435a6f2bd9f664408554af5f7ae3a427e18385fb"
+    },
+    {
+      "path": "D0_integrity/results/round1/history_copy_comparison.json",
+      "bytes": 73707,
+      "sha256": "65484e71616989745a74fef02a98d79a7d010a89ba926d38b5c2837815c22e18"
+    },
+    {
+      "path": "D0_integrity/results/round1/integrity.json",
+      "bytes": 79693,
+      "sha256": "73eae4e9e8a0220b6cf9a7a2a549ac78358df58944c8a1a5739fa23c1f01a6e0"
+    },
+    {
+      "path": "D0_integrity/results/round1/protection_after.json",
+      "bytes": 106,
+      "sha256": "624b00b730756ca4ba0fea3415a2cee4ba8d0fb3a7803db8e92ce115b80c4195"
+    },
+    {
+      "path": "D0_integrity/results/round1/protection_before.json",
+      "bytes": 747159,
+      "sha256": "56f8f00b2f5f3fcc49e51481833df8e4ffce808f73a353e16a4d25f9b51dd215"
+    },
+    {
+      "path": "D0_integrity/results/round1/vnet_ds.py.diff",
+      "bytes": 1529,
+      "sha256": "61b5daa926ff3080e510bd922cb0b8ede6125a08a9c4c83424167f94c947f58b"
+    },
+    {
+      "path": "D0_integrity/results/round1_after_D1/concurrency_review.json",
+      "bytes": 14114,
+      "sha256": "f529a2e8aeec322d2f2ff9c7d1084a857250c3f5732639150f2a2221c3b76daf"
+    },
+    {
+      "path": "D0_integrity/results/round1_after_D1/protection_after.json",
+      "bytes": 13690,
+      "sha256": "2a3b9c4b9026f7d39e5a16b6ec277e31fdafcaf9dcd650a047193033b9977737"
+    },
+    {
+      "path": "D0_integrity/results/round1_supplement/failure.json",
+      "bytes": 277,
+      "sha256": "0237f4371f2bb653996de77fbcaa77970f8e0c2984387027c850d928f36ae114"
+    },
+    {
+      "path": "D0_integrity/results/round1_supplement_checked/source_sha256.json",
+      "bytes": 266,
+      "sha256": "3c52899b760d4fdf98c4d24aab0f652e5d5acd0864b88aa97348a93f21099094"
+    },
+    {
+      "path": "D0_integrity/results/round1_supplement_checked/supplement.json",
+      "bytes": 49881,
+      "sha256": "079a37da0c44a658a89f49081e8b460f618bdd82054f631ba2cae168543d12e1"
+    },
+    {
+      "path": "D0_integrity/tests/feature_regression.json",
+      "bytes": 13018,
+      "sha256": "1fc011b77fb5328edb5258a0e19d5f889cf01c7674c85c2b038e1bc553dc6b08"
+    },
+    {
+      "path": "D0_integrity/tests/feature_regression.log",
+      "bytes": 683,
+      "sha256": "cada51d576b5d1121965c10772dc2d57ef3cf8870521efe15109680591a532f8"
+    },
+    {
+      "path": "D0_integrity/tests/test_integrity.py",
+      "bytes": 1244,
+      "sha256": "dfc11ff4f1fc75d00172894d2252fdd04fa489878a2e5db13af7444f72ec5bbe"
+    },
+    {
+      "path": "D0_integrity/tests/unit_tests.log",
+      "bytes": 178,
+      "sha256": "269655cabbee1c9ad8500f3b7ee9577c11d7e6281333f61c3c7171694bf78d8c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/CROSS_DATASET_REPORT.md",
+      "bytes": 4986,
+      "sha256": "860e4ef117ab4def3e095583ed561e9e6ca0748b29704bee7fa9580637e198df"
+    },
+    {
+      "path": "D1_gradient_diagnosis/FINDINGS.md",
+      "bytes": 1050,
+      "sha256": "23a46f0ddc6ff2e4fbfcd2e70aed33b152afb39e1b97c3f8eb8e5a8206ba7df8"
+    },
+    {
+      "path": "D1_gradient_diagnosis/NUMERICAL_CALIBRATION.json",
+      "bytes": 5718,
+      "sha256": "8d598caf8fe783ac4ce0b9f2eb662ad16113fa14d03ff5d0788c44ab78bdf393"
+    },
+    {
+      "path": "D1_gradient_diagnosis/NUMERICAL_CALIBRATION.md",
+      "bytes": 1694,
+      "sha256": "4b6a8de278c5cd46bcec47ae60c07ea9dba33275f3a536f155d79778834c2f8d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/NUMERICAL_EDGE_CASES.json",
+      "bytes": 803,
+      "sha256": "e692690c725d28bc770d4ea0fbcfa325151b31f214fe1db3b2b1bbdb93d7a1ff"
+    },
+    {
+      "path": "D1_gradient_diagnosis/NUMERICAL_EDGE_CASES.md",
+      "bytes": 1067,
+      "sha256": "1c8382de8aaf3500fea5f8bc7de59603e9357de3974cb04f96684844ebb87338"
+    },
+    {
+      "path": "D1_gradient_diagnosis/VERIFICATION.md",
+      "bytes": 1648,
+      "sha256": "20285f5b6edb37ee4017e1ed668b2e0ade12d8ba14d050f40c3856227b622a36"
+    },
+    {
+      "path": "D1_gradient_diagnosis/code/calibrate.py",
+      "bytes": 3464,
+      "sha256": "29861c787f4ea68f51534bc40e5f5ae53b4c144d46abc401156fcc40eb15d6f0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/code/diagnostic.py",
+      "bytes": 7338,
+      "sha256": "c9503539475ffd12eda0fa4e1056331dea4cdd563d3e70204b9f5378612c69c0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/code/report.py",
+      "bytes": 16620,
+      "sha256": "b3f2ede751687f7c1af7c03d816a1ac23e5fba6ffccee71d4fe00377820ad63a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/code/run.py",
+      "bytes": 9260,
+      "sha256": "574fe7fadf3a5032229522a714a3b8f8959d8e4903faeae02fa9bbdcb604d682"
+    },
+    {
+      "path": "D1_gradient_diagnosis/code/summarize.py",
+      "bytes": 17287,
+      "sha256": "342b3b3aa469476bd33566fe31e8c053390e1609b1ebd61dbe282d9989f72f2f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/code/verify.py",
+      "bytes": 5794,
+      "sha256": "c3368897542bfd99b26a4c101e7e598e335b6c97b4c6ff7ec98d83efbe5cf82f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/calibration_fp32/calibration.json",
+      "bytes": 1013,
+      "sha256": "d40eb73570af8f5c05a9512a556d36c9e338be4fdfe1dc6356cddffef299e424"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/calibration_fp64/calibration.json",
+      "bytes": 992,
+      "sha256": "a79f608c746d89b02c6072244257aed2fd6c19ed2c306b509dcda1b915af2ff8"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/calibration_pancreas_fp32/calibration.json",
+      "bytes": 1036,
+      "sha256": "2ff7221e9087974a6e4af34fb832a20b4a28aa09d246560ad86da38f6a067ee9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/calibration_pancreas_fp64/calibration.json",
+      "bytes": 1022,
+      "sha256": "23b8134635bdf7917b74ba1b27dbf596488a19bb65d0fb5e9a5713da18b49e0e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/D0_gate.json",
+      "bytes": 244,
+      "sha256": "5685e00b230bea41ec1c542461c15dc92244669faa5ba7d5b4cb89928fec888f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/design.json",
+      "bytes": 2836,
+      "sha256": "4450ce552588b35cb43ac80b217ee84b47b4e26683aed2a2f42b67eccc8c4a20"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/mini_batch_design.json",
+      "bytes": 489,
+      "sha256": "064c3c7f3eace6bcdf5c33ff469981d4ff9d765f9af18ce4da0a907afd719624"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/observations.json",
+      "bytes": 220222,
+      "sha256": "62820063d9eb1d63d11f88671a634fbdb6b9abd9be89d363f84d3c1971049f3e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_000.npz",
+      "bytes": 1880558,
+      "sha256": "5fcda96022b1312c0b80b8409f52ce9d71f7079aa543e39c713cf01c3131654e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_001.npz",
+      "bytes": 1880558,
+      "sha256": "d25e62f1d8a9badb5cb5f40bb5fb3ee82c206270cc571f650b6d0ba8df0da502"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_002.npz",
+      "bytes": 1880558,
+      "sha256": "c9e87aa313c3fe8b5cc78190fba7ac46bf4b2b72f12b28c8a645ab29aca95044"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_003.npz",
+      "bytes": 1880558,
+      "sha256": "2788feef9f92cacf19542db6e9a791b0a209c2bac4a7e359e87f67b02cc25fde"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_004.npz",
+      "bytes": 1880558,
+      "sha256": "4100c9cc194780090ea8be13b4ee77c48e0093089a52a09a91aa35b6d3de495b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_005.npz",
+      "bytes": 1880558,
+      "sha256": "5d9c1a627fd0123f29f4d94767db94a87549d22d543854cf2318418a2770d59c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_006.npz",
+      "bytes": 1880558,
+      "sha256": "a5b5394bea08fb7e72e910a903fb02f0278c18ecd1d5948838386b2e1e72cbd9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_007.npz",
+      "bytes": 1880558,
+      "sha256": "ef054b14465eabeb08e8b6c1f45fb7f6115b05d4af5f2693faaa54becebbbd4b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_008.npz",
+      "bytes": 1880558,
+      "sha256": "054f63d81fc80301385c3a74d7091435b9014758a9c5aecb0d612746b95132f9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_009.npz",
+      "bytes": 1880558,
+      "sha256": "c4a72b405642432b4cadfbe400a87aad8be6c6516313862daf76a4543db7e035"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_010.npz",
+      "bytes": 1880558,
+      "sha256": "34beacff5d91b0e1dcb2ca8e8ba5c568095845072a6c544fead0e55359df523a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_011.npz",
+      "bytes": 1880558,
+      "sha256": "004d3c40f4eb9afb7f82a4c7d542f2357632c0125c5d6b8cafffafe874e5c167"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_012.npz",
+      "bytes": 1880558,
+      "sha256": "9560aa2e9530767609d1c66dafc0c82a070e5a7978003ae8bcd2a87ad37ea967"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_013.npz",
+      "bytes": 1880558,
+      "sha256": "61c664fee7fc4cba2e534ca2a9c1a7c21ef750bf25f770688eda61fb8160bfcd"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_014.npz",
+      "bytes": 1880558,
+      "sha256": "71d903c400ce1a648e6e80b9291795dde1c952a0c118aeb36180c5319c02e5ce"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_015.npz",
+      "bytes": 1880558,
+      "sha256": "15a48fba0d4f330d99b9b48c2c43988273fa489c1caf9bca1715651defff022d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_016.npz",
+      "bytes": 1880558,
+      "sha256": "c044a27880b5ec045d934ab3f9cd905859e11652a09babae15f13a8a8258d69c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_017.npz",
+      "bytes": 1880558,
+      "sha256": "2fce7e8b403cf3922b2dcdf2136b259f38ac4e2396cc0ee72b30b0f965ab7395"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_018.npz",
+      "bytes": 1880558,
+      "sha256": "8900c2268a4729eea5dda06633a48455b0bba5f7063901bac8cafd320702a5a7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_019.npz",
+      "bytes": 1880558,
+      "sha256": "855de21e3e4c9bc3791e46038eb678250fe7b074074f4b93c281c0753bf43f12"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_020.npz",
+      "bytes": 1880558,
+      "sha256": "736557f3d62668c89eb0db4a3988533e0940cf531c57246597fad97172ed2728"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_021.npz",
+      "bytes": 1880558,
+      "sha256": "3e4b969ebc1229d2191e04e8d6f6556b55f75bc3e3100bf99ddc98b7765cfe90"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_022.npz",
+      "bytes": 1880558,
+      "sha256": "90e375ddbdc9d62eadbf037bfd2986a038e36a6e794ffd6aa2ce4dbbb6c0e99f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_023.npz",
+      "bytes": 1880558,
+      "sha256": "97df442c503f955bb486f227a39e9e38b7d3967fce8e307f40038bc9928c0bfa"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_024.npz",
+      "bytes": 1880558,
+      "sha256": "f3b67702852414bfbe823f7ef7f07283d6aede700fd0b56a018a998034a1dab4"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_025.npz",
+      "bytes": 1880558,
+      "sha256": "429b0df74ce8a18037b88850b2d4cf7a5e5a53c3f941dade9710c60f4f266577"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_026.npz",
+      "bytes": 1880558,
+      "sha256": "625b06d950edde796d1896021652a3bb633d13cabe4d75c889f25008c16978b5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_027.npz",
+      "bytes": 1880558,
+      "sha256": "13172516d90de132a652ad9d24f3397a8e3d62e52935626b562a7aec0e554763"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_028.npz",
+      "bytes": 1880558,
+      "sha256": "f1d3d6e4fae5e6c7e2581781585b7965a70648771cb6544550c516cacfb939cf"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_029.npz",
+      "bytes": 1880558,
+      "sha256": "2969041a6c918872fdbd515f00101f78e39e80d44b8e0851f610a71b5a852bd6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_030.npz",
+      "bytes": 1880558,
+      "sha256": "0ec761f274b8275e63fb54acc832421b133bb4cf0158a0f09d6301c481d81895"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_031.npz",
+      "bytes": 1880558,
+      "sha256": "94ddf880b459a2d04df9f38be92eabd272b578e25ad0ded3458403720f1d6a46"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_032.npz",
+      "bytes": 1880558,
+      "sha256": "f51432632c66e11ce3884ff6489380855ccc5f793519c8168b4777c40cde306e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_033.npz",
+      "bytes": 1880558,
+      "sha256": "2869628e5b63f571874aa2ea5dba18f173ca42aacf82063c3ec0d87261048196"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_034.npz",
+      "bytes": 1880558,
+      "sha256": "307d218882f98e6e569696f486ba741dc318c84842fdbe158846e2aa678ce4b5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_035.npz",
+      "bytes": 1880558,
+      "sha256": "bc055029a2420c038345f64469ed5ca7f8bb8f96011348faa374e7d0642f08ba"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_036.npz",
+      "bytes": 1880558,
+      "sha256": "3d068765a25db4114db19eb7c5d2717fd56f4dee7419045e2520e66ef3730f15"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_037.npz",
+      "bytes": 1880558,
+      "sha256": "8c4ac767800b44dee883ec83dc95f5e229a9050b75bd164fe409381e362defa6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_038.npz",
+      "bytes": 1880558,
+      "sha256": "02cc063b3a17abaef1c1e24ae853a9bb4d938f3cebea59c22a8e050ba55c5410"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_039.npz",
+      "bytes": 1880558,
+      "sha256": "f831b054ee9cadc445728a1c6a109772f105a73a1505fc6cd7fbdcbe48906abd"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_040.npz",
+      "bytes": 1880558,
+      "sha256": "91855ba6f39a67e235c25f488541965fde3577a396abfbf36d71de5128cd3d70"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_041.npz",
+      "bytes": 1880558,
+      "sha256": "2218e42497120c1d3d18d56cc523c5243aac4d2fa2305d5c33454c33cc3fffa1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_042.npz",
+      "bytes": 1880558,
+      "sha256": "0ee8416420df37dcc2507c4eb86705c781f0a1ad066fcb2aea5a08e91fcdec4a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_043.npz",
+      "bytes": 1880558,
+      "sha256": "4448f492f10c28a56d68c6eeef369b519007eda40363a487ca104da38624a09c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_044.npz",
+      "bytes": 1880558,
+      "sha256": "bfb84111169c83ad7205679af24fd3d16d300906004a1848d890116c0c991e48"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_045.npz",
+      "bytes": 1880558,
+      "sha256": "92085e4f38dfda2ab528350fcf5a04ad010d9803b55216e6c2f4805a3ca0594a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_046.npz",
+      "bytes": 1880558,
+      "sha256": "ca42cf7cacd4d7997191df9eb51a319232ccfd5062dc4c9111cd9006a8e8d00b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_047.npz",
+      "bytes": 1880558,
+      "sha256": "546006013ff2a4b6f383ead0161fc60f4687ccc0eba248a8e334f28e44f64e94"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_048.npz",
+      "bytes": 1880558,
+      "sha256": "bfb673a10876a96c0a66cc33c91b84b6985ef0e614f2a67cc0739f242c631c99"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_049.npz",
+      "bytes": 1880558,
+      "sha256": "c0ec26c8f609453efc331da31151f6468820d9761b5a9b6e37bc0b65214fe609"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_050.npz",
+      "bytes": 1880558,
+      "sha256": "b1a88b1a977b91dcb8b33636279b149102b490b74ce9c0ee58ffb88e35c7a501"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_051.npz",
+      "bytes": 1880558,
+      "sha256": "c2dd4e8ff97ddb06bc10873520f25950890f6dec4b0cf737da200626c4a116ad"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_052.npz",
+      "bytes": 1880558,
+      "sha256": "92af9e7d1ab5eb240df17c82f970e76fd58111679168f94594e2d5b5d9868a15"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_053.npz",
+      "bytes": 1880558,
+      "sha256": "42aa787837ba92d9798a3489536d909ce90076612b9d0241a7b521506e40c83a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_054.npz",
+      "bytes": 1880558,
+      "sha256": "f627f4d1a0d007d564cba27a26b4ff8aa4f1e9076e5d2d396d854cbc25c27caf"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_055.npz",
+      "bytes": 1880558,
+      "sha256": "aa53d0b693c3f455701f8fd5b2d32d41b3f29c92d1d0e11887ed74ccc22af139"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_056.npz",
+      "bytes": 1880558,
+      "sha256": "4d0b1e048b01f43704183fc2d8978939f08ca704c3e890d5116836d7a772f7ec"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_057.npz",
+      "bytes": 1880558,
+      "sha256": "b503031bb3da688104936773c4513157d72918c5c46cc2b5559fe79eb9fe7517"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_058.npz",
+      "bytes": 1880558,
+      "sha256": "45c989f622412996aa93530ef18ff2a950ea4c82471e69becabdc5aecca214c1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_059.npz",
+      "bytes": 1880558,
+      "sha256": "d8de84c369ecf7a50a51e3dce9f23580c759f24985cd4bb073d25e519c9bca24"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_060.npz",
+      "bytes": 1880558,
+      "sha256": "b1222f404d1b4c7a0f82820291e66d2e606927313c4f26bbf894541c96cf5d80"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_061.npz",
+      "bytes": 1880558,
+      "sha256": "c9326f20ad50c5669551623a97a2800d0d3e56b6de5c65306375e887b47c2a4f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/LA/raw/observation_062.npz",
+      "bytes": 1880558,
+      "sha256": "51ee4a0d29dd07bc03b01fe81e971748e4568141b8c65d06cbc9d7b8476397c7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/failure.json",
+      "bytes": 1323,
+      "sha256": "ef7ec9d3e4a7fc4567d66a8d8278f36cd285e2b7fb32518f469c4ff493378931"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round1/source_manifest.json",
+      "bytes": 954,
+      "sha256": "af42f9ace5b0b0f5e76d9291848d9dbe5c24a076153fd5447224bfde65a5a67e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/D0_gate.json",
+      "bytes": 244,
+      "sha256": "5685e00b230bea41ec1c542461c15dc92244669faa5ba7d5b4cb89928fec888f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/FINDINGS.md",
+      "bytes": 5533,
+      "sha256": "f6a60a6e7da1989e2597a8fa9c21ac63b0899ac62617aa11161ed613b701ca13"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/case_crop_stability.csv",
+      "bytes": 580,
+      "sha256": "538609c21eff9ad456028334e52b59308311c09b5647a5ec9385cc8def6525c0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/cross_head_relations.csv",
+      "bytes": 1944254,
+      "sha256": "bb68da7d2ff93d2f650f6d2c399b8d0d3f637f30d32f324b5d41833aa1179294"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/cross_head_summary.csv",
+      "bytes": 515,
+      "sha256": "b2a700ed0a266973165355441c49380d12ddf4183da566487956ce4551f12393"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/data_file_stats.json",
+      "bytes": 3603,
+      "sha256": "08c289614869b4c33be2df751de0e9ec6573083ff8a140e13fdfdee7abbfb07b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/design.json",
+      "bytes": 2990,
+      "sha256": "f659effed95b8542dc9f7af47a27c0424008b9e0ff6cdb5cb804298dc441e04c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/execution.json",
+      "bytes": 340,
+      "sha256": "06ed4e403bae73f57be412a6b6b3fe670d2829698b42e01c0718e15104899759"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/hdf5_access_log.json",
+      "bytes": 28945,
+      "sha256": "42054ad4de0e3fcb8c597c66eedb7651542ef344e29381296094ba3607db4fb1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/historical_gradient_replay.csv",
+      "bytes": 18220,
+      "sha256": "2f5b4f1325ca8ecdd8a625945c286eb837706c6cd932120459426889273f1a7b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/lu_case_pairs.csv",
+      "bytes": 7518186,
+      "sha256": "81686cecf8f6fe6ffbd94f649407d0c7df3b1a9bf424f77cac9f037ac7b6cde3"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/mini_batch_design.json",
+      "bytes": 489,
+      "sha256": "064c3c7f3eace6bcdf5c33ff469981d4ff9d765f9af18ce4da0a907afd719624"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/mini_channel_stability.csv",
+      "bytes": 91220,
+      "sha256": "f36f611786bacdbeb2dbd6fbbda0bdb5cb863983d34018e805c64779ed8be5bc"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/mini_relations.csv",
+      "bytes": 1142978,
+      "sha256": "c22618410e1f2155f241899ef3393e4aeaf6a448e74bfd11cb784614eec8db59"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/mini_summary.csv",
+      "bytes": 2081,
+      "sha256": "7c8f5cef1ffeda68c24f308aeff0547b230ccf88a56f92b91032407abf8e93b0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/mode_comparison.csv",
+      "bytes": 345218,
+      "sha256": "db781375b45a63f9b7e68d4d5e498928bc92b7e2744c3b47e8cc9048dca4e4e0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/multiscale_cancellation.csv",
+      "bytes": 587675,
+      "sha256": "c3213faa1adcddf76af449de73dac4c461c4a6c0b46aade60eebb3f1fd21a200"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/observation_norms.csv",
+      "bytes": 3060336,
+      "sha256": "8360fcc38453daaad12cd82c70380ee5f231512406d448989fde27710476780e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/observations.json",
+      "bytes": 258971,
+      "sha256": "9103c24feb2acf5bfa5ea9759f92501f2790f51ba9da043766f65c02431e1f40"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/per_channel.csv",
+      "bytes": 127244,
+      "sha256": "edc4faf4dbc9f5446f274d3883e3d06bc6ed4824e0ad294efec9f970a172b885"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_000.npz",
+      "bytes": 1880558,
+      "sha256": "5fcda96022b1312c0b80b8409f52ce9d71f7079aa543e39c713cf01c3131654e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_001.npz",
+      "bytes": 1880558,
+      "sha256": "d25e62f1d8a9badb5cb5f40bb5fb3ee82c206270cc571f650b6d0ba8df0da502"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_002.npz",
+      "bytes": 1880558,
+      "sha256": "c9e87aa313c3fe8b5cc78190fba7ac46bf4b2b72f12b28c8a645ab29aca95044"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_003.npz",
+      "bytes": 1880558,
+      "sha256": "2788feef9f92cacf19542db6e9a791b0a209c2bac4a7e359e87f67b02cc25fde"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_004.npz",
+      "bytes": 1880558,
+      "sha256": "4100c9cc194780090ea8be13b4ee77c48e0093089a52a09a91aa35b6d3de495b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_005.npz",
+      "bytes": 1880558,
+      "sha256": "5d9c1a627fd0123f29f4d94767db94a87549d22d543854cf2318418a2770d59c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_006.npz",
+      "bytes": 1880558,
+      "sha256": "a5b5394bea08fb7e72e910a903fb02f0278c18ecd1d5948838386b2e1e72cbd9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_007.npz",
+      "bytes": 1880558,
+      "sha256": "ef054b14465eabeb08e8b6c1f45fb7f6115b05d4af5f2693faaa54becebbbd4b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_008.npz",
+      "bytes": 1880558,
+      "sha256": "054f63d81fc80301385c3a74d7091435b9014758a9c5aecb0d612746b95132f9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_009.npz",
+      "bytes": 1880558,
+      "sha256": "c4a72b405642432b4cadfbe400a87aad8be6c6516313862daf76a4543db7e035"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_010.npz",
+      "bytes": 1880558,
+      "sha256": "34beacff5d91b0e1dcb2ca8e8ba5c568095845072a6c544fead0e55359df523a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_011.npz",
+      "bytes": 1880558,
+      "sha256": "004d3c40f4eb9afb7f82a4c7d542f2357632c0125c5d6b8cafffafe874e5c167"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_012.npz",
+      "bytes": 1880558,
+      "sha256": "9560aa2e9530767609d1c66dafc0c82a070e5a7978003ae8bcd2a87ad37ea967"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_013.npz",
+      "bytes": 1880558,
+      "sha256": "61c664fee7fc4cba2e534ca2a9c1a7c21ef750bf25f770688eda61fb8160bfcd"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_014.npz",
+      "bytes": 1880558,
+      "sha256": "71d903c400ce1a648e6e80b9291795dde1c952a0c118aeb36180c5319c02e5ce"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_015.npz",
+      "bytes": 1880558,
+      "sha256": "15a48fba0d4f330d99b9b48c2c43988273fa489c1caf9bca1715651defff022d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_016.npz",
+      "bytes": 1880558,
+      "sha256": "c044a27880b5ec045d934ab3f9cd905859e11652a09babae15f13a8a8258d69c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_017.npz",
+      "bytes": 1880558,
+      "sha256": "2fce7e8b403cf3922b2dcdf2136b259f38ac4e2396cc0ee72b30b0f965ab7395"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_018.npz",
+      "bytes": 1880558,
+      "sha256": "8900c2268a4729eea5dda06633a48455b0bba5f7063901bac8cafd320702a5a7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_019.npz",
+      "bytes": 1880558,
+      "sha256": "855de21e3e4c9bc3791e46038eb678250fe7b074074f4b93c281c0753bf43f12"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_020.npz",
+      "bytes": 1880558,
+      "sha256": "736557f3d62668c89eb0db4a3988533e0940cf531c57246597fad97172ed2728"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_021.npz",
+      "bytes": 1880558,
+      "sha256": "3e4b969ebc1229d2191e04e8d6f6556b55f75bc3e3100bf99ddc98b7765cfe90"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_022.npz",
+      "bytes": 1880558,
+      "sha256": "90e375ddbdc9d62eadbf037bfd2986a038e36a6e794ffd6aa2ce4dbbb6c0e99f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_023.npz",
+      "bytes": 1880558,
+      "sha256": "97df442c503f955bb486f227a39e9e38b7d3967fce8e307f40038bc9928c0bfa"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_024.npz",
+      "bytes": 1880558,
+      "sha256": "f3b67702852414bfbe823f7ef7f07283d6aede700fd0b56a018a998034a1dab4"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_025.npz",
+      "bytes": 1880558,
+      "sha256": "429b0df74ce8a18037b88850b2d4cf7a5e5a53c3f941dade9710c60f4f266577"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_026.npz",
+      "bytes": 1880558,
+      "sha256": "625b06d950edde796d1896021652a3bb633d13cabe4d75c889f25008c16978b5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_027.npz",
+      "bytes": 1880558,
+      "sha256": "13172516d90de132a652ad9d24f3397a8e3d62e52935626b562a7aec0e554763"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_028.npz",
+      "bytes": 1880558,
+      "sha256": "f1d3d6e4fae5e6c7e2581781585b7965a70648771cb6544550c516cacfb939cf"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_029.npz",
+      "bytes": 1880558,
+      "sha256": "2969041a6c918872fdbd515f00101f78e39e80d44b8e0851f610a71b5a852bd6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_030.npz",
+      "bytes": 1880558,
+      "sha256": "0ec761f274b8275e63fb54acc832421b133bb4cf0158a0f09d6301c481d81895"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_031.npz",
+      "bytes": 1880558,
+      "sha256": "94ddf880b459a2d04df9f38be92eabd272b578e25ad0ded3458403720f1d6a46"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_032.npz",
+      "bytes": 1880558,
+      "sha256": "f51432632c66e11ce3884ff6489380855ccc5f793519c8168b4777c40cde306e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_033.npz",
+      "bytes": 1880558,
+      "sha256": "2869628e5b63f571874aa2ea5dba18f173ca42aacf82063c3ec0d87261048196"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_034.npz",
+      "bytes": 1880558,
+      "sha256": "307d218882f98e6e569696f486ba741dc318c84842fdbe158846e2aa678ce4b5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_035.npz",
+      "bytes": 1880558,
+      "sha256": "bc055029a2420c038345f64469ed5ca7f8bb8f96011348faa374e7d0642f08ba"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_036.npz",
+      "bytes": 1880558,
+      "sha256": "3d068765a25db4114db19eb7c5d2717fd56f4dee7419045e2520e66ef3730f15"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_037.npz",
+      "bytes": 1880558,
+      "sha256": "8c4ac767800b44dee883ec83dc95f5e229a9050b75bd164fe409381e362defa6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_038.npz",
+      "bytes": 1880558,
+      "sha256": "02cc063b3a17abaef1c1e24ae853a9bb4d938f3cebea59c22a8e050ba55c5410"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_039.npz",
+      "bytes": 1880558,
+      "sha256": "f831b054ee9cadc445728a1c6a109772f105a73a1505fc6cd7fbdcbe48906abd"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_040.npz",
+      "bytes": 1880558,
+      "sha256": "91855ba6f39a67e235c25f488541965fde3577a396abfbf36d71de5128cd3d70"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_041.npz",
+      "bytes": 1880558,
+      "sha256": "2218e42497120c1d3d18d56cc523c5243aac4d2fa2305d5c33454c33cc3fffa1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_042.npz",
+      "bytes": 1880558,
+      "sha256": "0ee8416420df37dcc2507c4eb86705c781f0a1ad066fcb2aea5a08e91fcdec4a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_043.npz",
+      "bytes": 1880558,
+      "sha256": "4448f492f10c28a56d68c6eeef369b519007eda40363a487ca104da38624a09c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_044.npz",
+      "bytes": 1880558,
+      "sha256": "bfb84111169c83ad7205679af24fd3d16d300906004a1848d890116c0c991e48"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_045.npz",
+      "bytes": 1880558,
+      "sha256": "92085e4f38dfda2ab528350fcf5a04ad010d9803b55216e6c2f4805a3ca0594a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_046.npz",
+      "bytes": 1880558,
+      "sha256": "ca42cf7cacd4d7997191df9eb51a319232ccfd5062dc4c9111cd9006a8e8d00b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_047.npz",
+      "bytes": 1880558,
+      "sha256": "546006013ff2a4b6f383ead0161fc60f4687ccc0eba248a8e334f28e44f64e94"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_048.npz",
+      "bytes": 1880558,
+      "sha256": "bfb673a10876a96c0a66cc33c91b84b6985ef0e614f2a67cc0739f242c631c99"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_049.npz",
+      "bytes": 1880558,
+      "sha256": "c0ec26c8f609453efc331da31151f6468820d9761b5a9b6e37bc0b65214fe609"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_050.npz",
+      "bytes": 1880558,
+      "sha256": "b1a88b1a977b91dcb8b33636279b149102b490b74ce9c0ee58ffb88e35c7a501"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_051.npz",
+      "bytes": 1880558,
+      "sha256": "c2dd4e8ff97ddb06bc10873520f25950890f6dec4b0cf737da200626c4a116ad"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_052.npz",
+      "bytes": 1880558,
+      "sha256": "92af9e7d1ab5eb240df17c82f970e76fd58111679168f94594e2d5b5d9868a15"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_053.npz",
+      "bytes": 1880558,
+      "sha256": "42aa787837ba92d9798a3489536d909ce90076612b9d0241a7b521506e40c83a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_054.npz",
+      "bytes": 1880558,
+      "sha256": "f627f4d1a0d007d564cba27a26b4ff8aa4f1e9076e5d2d396d854cbc25c27caf"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_055.npz",
+      "bytes": 1880558,
+      "sha256": "aa53d0b693c3f455701f8fd5b2d32d41b3f29c92d1d0e11887ed74ccc22af139"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_056.npz",
+      "bytes": 1880558,
+      "sha256": "4d0b1e048b01f43704183fc2d8978939f08ca704c3e890d5116836d7a772f7ec"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_057.npz",
+      "bytes": 1880558,
+      "sha256": "b503031bb3da688104936773c4513157d72918c5c46cc2b5559fe79eb9fe7517"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_058.npz",
+      "bytes": 1880558,
+      "sha256": "45c989f622412996aa93530ef18ff2a950ea4c82471e69becabdc5aecca214c1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_059.npz",
+      "bytes": 1880558,
+      "sha256": "d8de84c369ecf7a50a51e3dce9f23580c759f24985cd4bb073d25e519c9bca24"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_060.npz",
+      "bytes": 1880558,
+      "sha256": "b1222f404d1b4c7a0f82820291e66d2e606927313c4f26bbf894541c96cf5d80"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_061.npz",
+      "bytes": 1880558,
+      "sha256": "c9326f20ad50c5669551623a97a2800d0d3e56b6de5c65306375e887b47c2a4f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_062.npz",
+      "bytes": 3760622,
+      "sha256": "05aa0026abb1c1bc556db54a61a1426b0696506b22ddfb0ae7b6ffdeeb8f6dce"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_063.npz",
+      "bytes": 3760622,
+      "sha256": "b565567c129390754b080886377e7a726106059a76f3a81687f27a7255f5771d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_064.npz",
+      "bytes": 1880558,
+      "sha256": "d3fcaa7ab40c9028daab4af7cb349b834b3962a56526fa2b602ed2f04be9b351"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_065.npz",
+      "bytes": 1880558,
+      "sha256": "9bf6be353f50ea853c537894e5967db1e79ab7da313dc10cdfc8804154509d87"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_066.npz",
+      "bytes": 1880558,
+      "sha256": "2e8d1f62cd5731bac9b7a9d6a9490d5972da0785a5c0716540b207e1d9cb98a2"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_067.npz",
+      "bytes": 1880558,
+      "sha256": "4ac14958d749ac6fe83b4f9c815cf8018fc7d4115ac9db617081afda1963f208"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_068.npz",
+      "bytes": 1880558,
+      "sha256": "3efbc2f8de309f6e1eac1ca6e281337405303da806afb9cc487746ee64371e6d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_069.npz",
+      "bytes": 1880558,
+      "sha256": "c3ace05c2077d0f1b1173f8e41acef67daf4345a7ef27e12f57ec41666cd478d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_070.npz",
+      "bytes": 3760622,
+      "sha256": "f1690ede892e4955432e98038c080e39aecf2f0a450d31bde742650332bc8ff1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/raw/observation_071.npz",
+      "bytes": 3760622,
+      "sha256": "34477bfa3477d8de276fb9dfae18b58afd00a13e6fb305f028156e435f07fa59"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/restoration_checks.json",
+      "bytes": 89224,
+      "sha256": "ac167486ca2833322d3128055247af9871042e7d0dbfd6322cd53efe8377c04b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/scale_summary.csv",
+      "bytes": 940,
+      "sha256": "e54f31c523945969e3b4f48485606d0864f948b7a6adc794977941f28e903a7d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/LA/summary.json",
+      "bytes": 18075,
+      "sha256": "2df57037e0524ceff92ba45a64cd09ec31736a310385a7a2683163408d32f256"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/FINDINGS.md",
+      "bytes": 4896,
+      "sha256": "f7d7515fe03c001a292c864b1b7a18eebeebe8dd8a599e640541d6c59e7b758a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/case_crop_stability.csv",
+      "bytes": 613,
+      "sha256": "aafd16d7c19e3c9587799da28628364c81820822623995fe855e8cc77cdab940"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/cross_head_relations.csv",
+      "bytes": 1846278,
+      "sha256": "09fa11042c9cce1880d8084a992f1e3558843c660fde17f7c11852b2ba3ffbb1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/cross_head_summary.csv",
+      "bytes": 570,
+      "sha256": "2e2b1f4322ce5c5058ce3d390ff92d9e104c5ab40c95bf7d5580582b84e07698"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/data_file_stats.json",
+      "bytes": 2862,
+      "sha256": "9f4fd63fddd42a9847f809dd5066e465aced4fe5a59bc95fff0f5224b4391041"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/design.json",
+      "bytes": 2708,
+      "sha256": "074faf3bdc227eab9a9cea7bc883325ad6573d7f775f44271e1133e18baa527d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/execution.json",
+      "bytes": 340,
+      "sha256": "a80e776912473c46c4601ead8495b7bc44589b96214a8318a958cf4dfc4bb8c1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/hdf5_access_log.json",
+      "bytes": 23033,
+      "sha256": "f6d66663e9a512815f082e2829ab160be73d362dbd8cee22f721f487760ca584"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/lu_case_pairs.csv",
+      "bytes": 4503949,
+      "sha256": "0d607b37704b5344993b49182bf7eef06ff983412e050014980e31cd54a4ff22"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/mini_batch_design.json",
+      "bytes": 357,
+      "sha256": "4f0cdc1dec59734bf26efe23335c9ba0ff4411745caa0322ee7e032e5420ecfb"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/mini_channel_stability.csv",
+      "bytes": 92353,
+      "sha256": "c345534b592f3db0b20550cbb5b5f1103ae04932e4e4db8a23aef5c972bfd206"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/mini_relations.csv",
+      "bytes": 1149686,
+      "sha256": "90d57076a400edf711d61baaab17a1c2def2adf26ba85f629c8eee7124fdc482"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/mini_summary.csv",
+      "bytes": 2039,
+      "sha256": "713c89c37f9b50dfd535e9a1bd35c34de06a9df0504874350758f6ec1141f827"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/mode_comparison.csv",
+      "bytes": 347940,
+      "sha256": "3968cd1b1618a9aa2254144ece54e1e3549a7a51fffd6acb851abe0a651eff41"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/multiscale_cancellation.csv",
+      "bytes": 555659,
+      "sha256": "d73384397518812e842fc1a14fd6956b8e4a13f59da7c21c9dc6b188d75a435e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/observation_norms.csv",
+      "bytes": 2906852,
+      "sha256": "2ee22b650e25f52d196fd222e2a88381208c47ba21cd51b14fe6bb417e8938a0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/observations.json",
+      "bytes": 242721,
+      "sha256": "f20d3fd5dafc3db4015a5429fa64fd13a3c051def68f9317b1d3fe23643e2b62"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/per_channel.csv",
+      "bytes": 130943,
+      "sha256": "5c8661ad0b66983b06f3db028b895e30b2ecf047aae0994471bc130bce25d7b7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_000.npz",
+      "bytes": 1880558,
+      "sha256": "9825904a488a676a5340e45f50f221432c0eab49371ee8d51dee372ff075a47f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_001.npz",
+      "bytes": 1880558,
+      "sha256": "41f90c9fedeee479f7836a11f1cac2374af74cfd0892aa329568a24e2ead3594"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_002.npz",
+      "bytes": 1880558,
+      "sha256": "1082da65f5d81e924e9c1559bd2598d34e1cfad93e3d193c43af44129489699d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_003.npz",
+      "bytes": 1880558,
+      "sha256": "493a7ffa7cc422fe1ce7ee290d32e7edb0c8ef209831122a7a8327fc548badb5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_004.npz",
+      "bytes": 1880558,
+      "sha256": "554e2f27067d15983198807dc22b4790a58b271cd0bf7be05be34fe7ed8be06a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_005.npz",
+      "bytes": 1880558,
+      "sha256": "e5713b3abfd9c2342626d60d04ab774bcd25b398529d4d86ee074bc97316dd6a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_006.npz",
+      "bytes": 1880558,
+      "sha256": "1a385c735d7a74ea6c1a3c0951560d3e92ca65fda464bc366d8ca3e03d4e2a07"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_007.npz",
+      "bytes": 1880558,
+      "sha256": "b1651487a8ac10ccdf415338c1eace1992b61d9b3d550b246fb5aa730933ba60"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_008.npz",
+      "bytes": 1880558,
+      "sha256": "2b014b30cb0bcb3e2b9e58b1e7015e3a19e7da9d26492b5d4083391bedd7829d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_009.npz",
+      "bytes": 1880558,
+      "sha256": "a5ffd2c50e7ace10e8f770bd489955cc8fe9d59bec41bc09c6a23f04100348b4"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_010.npz",
+      "bytes": 1880558,
+      "sha256": "3d107d30acf771fdfa28fa9bb39daf15cbfec417a8f7a6338ac5aef5e3f5e70d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_011.npz",
+      "bytes": 1880558,
+      "sha256": "9220eea44cb2e8244b967359760ec9ee2fbb97f712720f599a9e6f6e5d0454d1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_012.npz",
+      "bytes": 1880558,
+      "sha256": "20721b28dc34106c715af70663ca1772b3fd0d5cecd0fd2045d0efe145f40d63"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_013.npz",
+      "bytes": 1880558,
+      "sha256": "e3f4899e0fcc0cbead41be6a158360c3caecc9b73a7070ddc5aacdd031f57b3a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_014.npz",
+      "bytes": 1880558,
+      "sha256": "1b18328524a95f95bcfa524b3ce8215562a567a45270b5aeface01395b943977"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_015.npz",
+      "bytes": 1880558,
+      "sha256": "a39e72e20087ac3cd63e1fc3938d06c3f71fb5ec764886ab3247a7ef4cae1bcc"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_016.npz",
+      "bytes": 1880558,
+      "sha256": "3c7fe9c590070b3568c8ad6bcbd4b3d5c6e59754eff740c65384862a7c71eb4b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_017.npz",
+      "bytes": 1880558,
+      "sha256": "2d9e36c4b6c6cec75a57ac3488263d37752e2548bf9893cac119f21c03ddcb60"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_018.npz",
+      "bytes": 1880558,
+      "sha256": "3421c3c059e0e35035f296f50546adca6b590ab93d6f6fecdc46d07eeccd3930"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_019.npz",
+      "bytes": 1880558,
+      "sha256": "4652c8ffabd0f6a90f65e00ddae251126fec172b6b3ba454e9cf3c1014d2b1cb"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_020.npz",
+      "bytes": 1880558,
+      "sha256": "70d5a080f8fd1b240e3fd8ca14004fd9a8693a9b6f9d43d6b74788d846f7188d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_021.npz",
+      "bytes": 1880558,
+      "sha256": "77fac983d3aaf234fb90cd2b40ba57d6b1410adc7abb67d61fa0cab03e89ee63"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_022.npz",
+      "bytes": 1880558,
+      "sha256": "f57b40dfbb74f6eca59baabff56ac9e7863f2a48e616ae34e80debca42701d3f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_023.npz",
+      "bytes": 1880558,
+      "sha256": "0996579f4739c19ace28dd2d75cf45f1d441f58fabf48eac9cef7f64d8c688c5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_024.npz",
+      "bytes": 1880558,
+      "sha256": "c73fbdb4c879da5aa6d06366afd352c4bba13f37efb4d9ebe5774aecc4ec4c5b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_025.npz",
+      "bytes": 1880558,
+      "sha256": "0ac413c9c02049a187e6e5fcf4c38ea44ddba19aa05a7b74a99b4b2c97a5ffbc"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_026.npz",
+      "bytes": 1880558,
+      "sha256": "83ed9b5978c8ffbfabea832cf66664b14852e77332ebe46f6ee92fb9678627d1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_027.npz",
+      "bytes": 1880558,
+      "sha256": "f0322e261c50739abfb8b0a7e9879bf689af16cabc5a61e293efd784152fbb8f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_028.npz",
+      "bytes": 1880558,
+      "sha256": "a101f2a7c73faadcb7ba8baf101dedb7a613ea8cf5031ca56f12f02d5ef5ffe0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_029.npz",
+      "bytes": 1880558,
+      "sha256": "f33a9255e439b328aa8fbd82e3a7f008ec74a603ece4119c32214e0fad40a4e7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_030.npz",
+      "bytes": 1880558,
+      "sha256": "f73815f357eb4a3bb173ead6b76d701be05edd55a3b0f477c3d0ae484670a044"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_031.npz",
+      "bytes": 1880558,
+      "sha256": "d3ab177537f01dff0b4eaee13ea16574a107ad73c3cf98f361fcf49029e2771f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_032.npz",
+      "bytes": 1880558,
+      "sha256": "8865c5f71f3619147dd997c12dd9abadfd101cf8de6f218e4e3647b5f17b2b92"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_033.npz",
+      "bytes": 1880558,
+      "sha256": "05a7828aa4dfea48f80a8b20bafce678dc3f86cbbe42d489fe53196a854320fd"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_034.npz",
+      "bytes": 1880558,
+      "sha256": "88e4bcabc1e757f2010eb6513fec0cd08016dc85f15a310428b012b197fd7d55"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_035.npz",
+      "bytes": 1880558,
+      "sha256": "839ebcf4957ab600181ee090f07a2b6bcc8fa46b0826ab8b6e2037d3f505c326"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_036.npz",
+      "bytes": 1880558,
+      "sha256": "60d6f79b2697aa52ec2ea0a2212f42e758f17c6f22eca28fbfc405bd8b992125"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_037.npz",
+      "bytes": 1880558,
+      "sha256": "1e31dfb48ccd8c69dfa36b6ea3e6b47e79ec8e88872529582a4eddd300d6a374"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_038.npz",
+      "bytes": 1880558,
+      "sha256": "f62da3fa95a7bac22873ef8bc7d62131938dd802964154f78ff5c760668bf348"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_039.npz",
+      "bytes": 1880558,
+      "sha256": "b0391cadb4081a2f67421bf0b913b6a7a866662edc511d46ecfde0551940c3e9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_040.npz",
+      "bytes": 1880558,
+      "sha256": "9efe335e78c5aaabe1474579de435b86b9db64e589cf694c078ce3054926772a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_041.npz",
+      "bytes": 1880558,
+      "sha256": "567d7f0a99e307fdba1dcbae3cdac3d31b7de6eb180cc475d5a049a0a54122f3"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_042.npz",
+      "bytes": 1880558,
+      "sha256": "11f676f3b339c63bcd30cb614b0b1b03d79508fe81c35c786931ef97e7c18b78"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_043.npz",
+      "bytes": 1880558,
+      "sha256": "5c18fa8c341ee07f9ce21e790653ddaec3d4fc16f4066c87f05314bc242e9de5"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_044.npz",
+      "bytes": 1880558,
+      "sha256": "9c9861dad7d8a666765673f0c262588e7c8ec792420bec9fbfcc7d29e52d4e55"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_045.npz",
+      "bytes": 1880558,
+      "sha256": "f07c747b981c91c0b9f108fb87dfc4fe0ebd340b7b20c47657905ddc39848d65"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_046.npz",
+      "bytes": 1880558,
+      "sha256": "3afbaef580b2c42c966c179a53e627cdbf2d14c17f15625a55463e88b6819ea9"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_047.npz",
+      "bytes": 1880558,
+      "sha256": "96739984ef7ac496c313c7e79a037c0a93bb099222e59f4560b1db66cfb13293"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_048.npz",
+      "bytes": 1880558,
+      "sha256": "54d77f9a8c394c976cd0ee65bda6b5fdd4e5a00d069d8c7cc1becc3582ff2198"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_049.npz",
+      "bytes": 1880558,
+      "sha256": "625a60f874bbe0018975bcff257d2955f65647040dd47302b8dcf33737956e2b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_050.npz",
+      "bytes": 1880558,
+      "sha256": "573c7c036920f58609cc76959659cb0e6bf4fafc1852670e5174855eba7e95eb"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_051.npz",
+      "bytes": 1880558,
+      "sha256": "17da3685736179120a34113986a07157e2c3e5f6f21c5a551cdeb82752f8df7e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_052.npz",
+      "bytes": 1880558,
+      "sha256": "b2b7f8bdb260fb2a041b9ab647fc34e4abc32e286232ce14027f06e4e3e69875"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_053.npz",
+      "bytes": 1880558,
+      "sha256": "6b50cb8ba6c9b23193f387710cb3c77d753246fbf5f551e5943620048997edf0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_054.npz",
+      "bytes": 1880558,
+      "sha256": "1817565e91261a93d65699bf72cae2f1311ac18697c206e0ce07801ea7ad490f"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_055.npz",
+      "bytes": 1880558,
+      "sha256": "456cbc97ec62fd06ac73364cbcca8b179e49f11ea168e654a8cc5d4e8147dfe0"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_056.npz",
+      "bytes": 1880558,
+      "sha256": "ecf9d415f3a65164e1abd0a429d54c5c910b5d467a46e052ecb1b87ba198c5a2"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_057.npz",
+      "bytes": 1880558,
+      "sha256": "d7a17ec0b49395d9ba0fb907c51ec210b03dedf06ac3b224909862641f188ff6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_058.npz",
+      "bytes": 3760622,
+      "sha256": "8a5d85543d494d3f7b257651ac24cd2cf920b30be67e562025eed40c172bfd67"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_059.npz",
+      "bytes": 3760622,
+      "sha256": "e096f50b4b3e44c23bde474b727df302f55941b03278f121586cd44ed7d53cde"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_060.npz",
+      "bytes": 3760622,
+      "sha256": "31a916fe61937f8322a4e11d5883b95cc54858e301b2dad4f26d2b837ea0290a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_061.npz",
+      "bytes": 3760622,
+      "sha256": "aa6208123060b88e08a3f5d0dc7f198e337f38f4d301ef87ec12ea21376068db"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_062.npz",
+      "bytes": 1880558,
+      "sha256": "501c122893326e1dd697a81cbb2affae469e37cbefae1906388d20971c1e4bee"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_063.npz",
+      "bytes": 1880558,
+      "sha256": "8ff4dce2d38453fa4836becaff2b4b07f95f3918710c50c51a8fa3be5ecb93b1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_064.npz",
+      "bytes": 3760622,
+      "sha256": "d67eeb014bb0d979734ca797b97f08aeeacbae31351678a795d933db408eb31a"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_065.npz",
+      "bytes": 3760622,
+      "sha256": "b6494c6c90d7ed705cf482c6b946c15b415987d7e1a76c1f1a4a3e5fe00d9467"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_066.npz",
+      "bytes": 1880558,
+      "sha256": "c5a148e3d1808ea87fe344770463935c7491df0c11d1013ca627ac655f7e1710"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/raw/observation_067.npz",
+      "bytes": 1880558,
+      "sha256": "52c42ba922ad673528477c66930efd105104bd99f4465533b3ade9c5e8d9a713"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/restoration_checks.json",
+      "bytes": 92855,
+      "sha256": "e7fc0b1c598d2bc7039da8558e08603b43928cf2513ebd28a6b64bb965bb27ed"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/scale_summary.csv",
+      "bytes": 992,
+      "sha256": "5d67496141dd438f9143b3a2ea43e04ad82ec18286121f79d941920330c240a6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/Pancreas/summary.json",
+      "bytes": 15087,
+      "sha256": "8c034a874787833f029ea518616343e6de42c744066f0a4496e7c9a428f1ace7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/comparison.json",
+      "bytes": 35509,
+      "sha256": "8eeaf947747d762c3d19992882a54d75504a6aa8e5418a400d06168b4a3df38e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/execution.json",
+      "bytes": 871,
+      "sha256": "63d01953265625f7578754cfb3cdd22ab705694755c67d3a3332079fb4f71a60"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/figures/gradient_conflict.pdf",
+      "bytes": 23509,
+      "sha256": "824099e4b650cd85ca55f6c8e637afa314fedce9f0c8a885b2721be91590e2bf"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/figures/gradient_conflict.png",
+      "bytes": 281325,
+      "sha256": "30fba37588fa3fbaa1d33e6cd952f571abbdc828a248f5105042cad086e93107"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/report_source.json",
+      "bytes": 218,
+      "sha256": "8ab670cb3ee07e62a8a1a4416501564b5b4e66df138254c0140fdc0f47efe113"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/source_manifest.json",
+      "bytes": 1374,
+      "sha256": "cb512a7726445835d0f4c3391f2efa8b72899bdca0ccd8a4fb24805615bd2c75"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/summary_source.json",
+      "bytes": 221,
+      "sha256": "72e1ef04dfd713f4297dd6e3a0821618ef84b49623e3024de68d5832a3c2766b"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/verification.json",
+      "bytes": 843,
+      "sha256": "4b548849d47af447738f647f1052452d3fde9b17ca2f46f28454e8c5017f09b3"
+    },
+    {
+      "path": "D1_gradient_diagnosis/results/round2_checked/verification_source.json",
+      "bytes": 218,
+      "sha256": "5113854cddf1f8eed1586cef890ededbd963b14c021f6bd20956414d9bba7bb7"
+    },
+    {
+      "path": "D1_gradient_diagnosis/run_round1.log",
+      "bytes": 3856,
+      "sha256": "e9ae00065538921355577dedd98f4e1b032a5cf97d6fae0a71a5f8584520f095"
+    },
+    {
+      "path": "D1_gradient_diagnosis/run_round2_checked.log",
+      "bytes": 5040,
+      "sha256": "cccd037a55dcfc71bd3c43dac6079c2875e4f4565998f5cf1f7faec5694666e6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/summary_round2_checked.log",
+      "bytes": 27,
+      "sha256": "1d9e8d9799e1f8d96190b1187a274a77b7450890fb688d92428bdfdaa73d12a1"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/stage1a_regression.log",
+      "bytes": 1180,
+      "sha256": "6769fdd16ed71859d0abaff0ba5ff2f9e27db23edd556f4112b37bbb3a71f34d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/statistics_tests.log",
+      "bytes": 1067,
+      "sha256": "8b61d71c2470344804e4813545fa22eed8406da4e680390396eb2094333d3158"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/statistics_tests_checked.log",
+      "bytes": 514,
+      "sha256": "cac515d8f6bcef44c1144cb29a52486a40f5a3ad2010723920c024926fb9d980"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/statistics_tests_final.log",
+      "bytes": 420,
+      "sha256": "4a97d3895d0efa6f0e813268ad8b0244c7aae09f987402298eef5c6172b77f0d"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/statistics_tests_final_checked.log",
+      "bytes": 514,
+      "sha256": "c31c15593bdbeaaf3b41294307970498df23d596770dde5ddeb0f3888df40e6e"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/statistics_tests_release.log",
+      "bytes": 514,
+      "sha256": "29159e1dd6b8851504e48c6a7629b19b1be48fcd749d7139319fd6ed0dfce115"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/test_diagnostics.py",
+      "bytes": 7101,
+      "sha256": "c393476f98b0e6805fb4c533339d991b47731809db0cd239d058bd92211387c6"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/test_statistics.py",
+      "bytes": 3932,
+      "sha256": "92038887545fc65f46d2efbc341d42549718fefd060e67b9ccd0f75d110d8852"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/unit_tests.log",
+      "bytes": 916,
+      "sha256": "67dcf6b5b87199c5d8bf62fde4429352f65f9ff95eccf0637e598518950fef8c"
+    },
+    {
+      "path": "D1_gradient_diagnosis/tests/unit_tests_checked.log",
+      "bytes": 1021,
+      "sha256": "06623c206989f2ab7fc3d95b6e40a980efe9ef229d99a97a4e0c2704b24f46a0"
+    },
+    {
+      "path": "FINAL_STATUS.json",
+      "bytes": 625,
+      "sha256": "1deb351b6b7e264fbe1da45deb11500048f1fa5d529b7bb8ed0312b8e75844ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6294,
+      "sha256": "c654058e6ecbf7d87c82c0dbe2f64f9a0ab17c701eddfbd73d78897f62730179"
+    },
+    {
+      "path": "TEST_RESULTS.json",
+      "bytes": 376,
+      "sha256": "4ec31370f909afb155865914a55aae4d8ef4a3eb61b03c85d16af7f236895f1c"
+    },
+    {
+      "path": "common.py",
+      "bytes": 2355,
+      "sha256": "06cb9c961554adcce37777db14ed0f5ac4d0a7aaf09a9804ee48e0baf783888c"
+    }
+  ],
+  "total_files": 313
+}

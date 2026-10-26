@@ -1,0 +1,4 @@
+{
+  "status": "FAIL",
+  "traceback": "Traceback (most recent call last):\n  File \"/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1b_boundary/extract.py\", line 171, in main\n    try:print(json.dumps(clean(run(args,output)),indent=2))\n  File \"/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1b_boundary/extract.py\", line 71, in run\n    image,label,crops=load_case_and_crops(domain,case,design,current,access)\n  File \"/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1b_boundary/common.py\", line 131, in load_case_and_crops\n    assert meta == obs[\"crop\"], \"A/B crop mismatch\"\nAssertionError: A/B crop mismatch\n"
+}

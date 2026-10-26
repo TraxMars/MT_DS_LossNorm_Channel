@@ -1,0 +1,50 @@
+[
+  {
+    "role": "labeled",
+    "case": "0RZDK210BSMWAA6467LU",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "0RZDK210BSMWAA6467LU",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "1GU15S0GJ6PFNARO469W",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1GU15S0GJ6PFNARO469W/mri_norm2.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "1GU15S0GJ6PFNARO469W",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1GU15S0GJ6PFNARO469W/mri_norm2.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/23X6SY44VT9KFHR7S7OC/mri_norm2.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/23X6SY44VT9KFHR7S7OC/mri_norm2.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "38CWS74285MFGZZXR09Z",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/38CWS74285MFGZZXR09Z/mri_norm2.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "38CWS74285MFGZZXR09Z",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/38CWS74285MFGZZXR09Z/mri_norm2.h5",
+    "key": "label"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "domain": "L",
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 25204,
+      "selected_pairs": 2048,
+      "unique_plus": 1941,
+      "unique_minus": 1970,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "L",
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 25577,
+      "selected_pairs": 2048,
+      "unique_plus": 1947,
+      "unique_minus": 1981,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "L",
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 24705,
+      "selected_pairs": 2048,
+      "unique_plus": 1955,
+      "unique_minus": 1970,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "L",
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 27847,
+      "selected_pairs": 2048,
+      "unique_plus": 1967,
+      "unique_minus": 1971,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "U",
+    "case": "3C2QTUNI0852XV7ZH4Q1",
+    "index": 0,
+    "repeat": 0,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 14919,
+      "selected_pairs": 2048,
+      "unique_plus": 1890,
+      "unique_minus": 1931,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1,
+      "candidate_after_gap_filter": 14919,
+      "probability_span": 0.9999999999647824,
+      "positive_probability_quantiles": [
+        0.5001367032493861,
+        0.9148678669659014,
+        0.9998370150510764
+      ],
+      "negative_probability_quantiles": [
+        7.580355198493244e-10,
+        0.011730632623678867,
+        0.49992164969508407
+      ],
+      "probability_gap_quantiles": [
+        0.010227567445571017,
+        0.8440315712769777,
+        0.9979473393545059
+      ],
+      "reliability_status": "not_assessed_in_C0",
+      "coordinate_alignment": "same_native_crop_no_transform",
+      "teacher_stop_gradient": true
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "U",
+    "case": "3C2QTUNI0852XV7ZH4Q1",
+    "index": 1,
+    "repeat": 1,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 15263,
+      "selected_pairs": 2048,
+      "unique_plus": 1900,
+      "unique_minus": 1951,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1,
+      "candidate_after_gap_filter": 15263,
+      "probability_span": 0.9999999999892724,
+      "positive_probability_quantiles": [
+        0.5001792013568442,
+        0.914932320156116,
+        0.9999374683824569
+      ],
+      "negative_probability_quantiles": [
+        2.894638314992367e-10,
+        0.013639478050676265,
+        0.49880209794357144
+      ],
+      "probability_gap_quantiles": [
+        0.04197831005325997,
+        0.8333750887349496,
+        0.9992972258270615
+      ],
+      "reliability_status": "not_assessed_in_C0",
+      "coordinate_alignment": "same_native_crop_no_transform",
+      "teacher_stop_gradient": true
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "U",
+    "case": "57SGAJMLCTCH92QUA0EE",
+    "index": 4,
+    "repeat": 0,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 24622,
+      "selected_pairs": 2048,
+      "unique_plus": 1953,
+      "unique_minus": 1968,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1,
+      "candidate_after_gap_filter": 24622,
+      "probability_span": 0.999999999999222,
+      "positive_probability_quantiles": [
+        0.5003139376227778,
+        0.9214056881018498,
+        0.9999759601846523
+      ],
+      "negative_probability_quantiles": [
+        1.869795244907029e-09,
+        0.012006066521356067,
+        0.4994323852116413
+      ],
+      "probability_gap_quantiles": [
+        0.018574922537459848,
+        0.8578830907263557,
+        0.9996611939914916
+      ],
+      "reliability_status": "not_assessed_in_C0",
+      "coordinate_alignment": "same_native_crop_no_transform",
+      "teacher_stop_gradient": true
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  },
+  {
+    "domain": "U",
+    "case": "57SGAJMLCTCH92QUA0EE",
+    "index": 5,
+    "repeat": 1,
+    "status": "valid",
+    "shape": [
+      112,
+      112,
+      80
+    ],
+    "stats": {
+      "candidate_faces": 14640,
+      "selected_pairs": 2048,
+      "unique_plus": 1898,
+      "unique_minus": 1912,
+      "border": 4,
+      "units": "native_voxel",
+      "per_pair_foreground": 1,
+      "per_pair_background": 1,
+      "candidate_after_gap_filter": 14640,
+      "probability_span": 0.9999999999980818,
+      "positive_probability_quantiles": [
+        0.5008752933143972,
+        0.9271411663626796,
+        0.9999989740879216
+      ],
+      "negative_probability_quantiles": [
+        1.452646429674893e-10,
+        0.006166809316233181,
+        0.4999602437020186
+      ],
+      "probability_gap_quantiles": [
+        0.016987080663332488,
+        0.8808177761639859,
+        0.9999494332904673
+      ],
+      "reliability_status": "not_assessed_in_C0",
+      "coordinate_alignment": "same_native_crop_no_transform",
+      "teacher_stop_gradient": true
+    },
+    "pair_endpoint_mask_fraction": 1.0
+  }
+]

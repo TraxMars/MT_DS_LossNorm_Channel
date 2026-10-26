@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_WITH_CONCURRENT_ADDITIONS_NOTICE",
+  "datasets": [
+    "LA 10%",
+    "Pancreas 10%"
+  ],
+  "formal_observations": 140,
+  "tests_passed": 34,
+  "gradient_verification": "PASS",
+  "historical_existing_files_unchanged": 3063,
+  "external_Boundary_C15_additions": 99,
+  "optimizer_steps": 0,
+  "U_GT_reads": 0,
+  "POS_training": false,
+  "channel_exchange": false,
+  "primary_run": "analysis/channel_interaction/D1_gradient_diagnosis/results/round2_checked",
+  "reports": [
+    "D0_integrity/FINDINGS.md",
+    "D1_gradient_diagnosis/FINDINGS.md",
+    "D1_gradient_diagnosis/CROSS_DATASET_REPORT.md"
+  ]
+}

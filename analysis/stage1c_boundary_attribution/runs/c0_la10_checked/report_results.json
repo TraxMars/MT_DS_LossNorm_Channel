@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "figures": 3,
+  "formats": [
+    "PNG",
+    "PDF"
+  ],
+  "deliverables": [
+    "DESIGN.md",
+    "TEST_REPORT.md",
+    "SMOKE_REPORT.md"
+  ]
+}

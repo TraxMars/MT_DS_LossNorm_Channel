@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "total_tests": 34,
+  "test_logs": {
+    "D0_integrity/tests/unit_tests.log": 1,
+    "D0_integrity/tests/feature_regression.log": 7,
+    "D1_gradient_diagnosis/tests/unit_tests_checked.log": 11,
+    "D1_gradient_diagnosis/tests/stage1a_regression.log": 10,
+    "D1_gradient_diagnosis/tests/statistics_tests_release.log": 5
+  },
+  "syntax_checked": 12
+}

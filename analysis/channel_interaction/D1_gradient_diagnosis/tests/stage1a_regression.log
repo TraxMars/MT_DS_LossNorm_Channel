@@ -1,0 +1,15 @@
+test_autograd_reachability_shapes_existing_grad_slots_and_state (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_case_pair_cosines_negative_sign_invalid_masks_and_bootstrap (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_discovered_parameter_names_axes_and_reachability (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_four_scale_losses_and_original_aggregate_lossnorm (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_profile_simplex_rank_constraint_is_explicit (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_rank_one_can_describe_conflicting_heads_not_cooperation (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_signed_cosine_invalid_zero_tiny_and_nonfinite (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_single_reachable_head_has_no_interpretable_profile_pca (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_transpose_convolution_output_channel_vectorization (test_stage1a_diagnostics.DiagnosticTests) ... ok
+test_unlabeled_loader_forbids_label_and_crops_ignore_label_values (test_stage1a_diagnostics.DiagnosticTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.491s
+
+OK

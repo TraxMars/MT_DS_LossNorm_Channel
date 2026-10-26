@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "baseline_source_results_diff_empty": true,
+  "unit_tests": 31,
+  "core_pass": true,
+  "historical_files": 500,
+  "gradient_crops": 48,
+  "paired_objective_scale_records": 1088,
+  "singleton_records": 7296,
+  "group_records": 1920,
+  "formal_training": false,
+  "next_phase_started": false
+}

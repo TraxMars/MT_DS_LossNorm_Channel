@@ -1,0 +1,90 @@
+[
+  {
+    "domain": "L",
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.9029334187507629,
+    "C0_fp64_same_formula": 0.9029334254646613,
+    "difference": 6.713898326182743e-09
+  },
+  {
+    "domain": "L",
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.9307596683502197,
+    "C0_fp64_same_formula": 0.9307597342236835,
+    "difference": 6.587346379482995e-08
+  },
+  {
+    "domain": "L",
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.8562840223312378,
+    "C0_fp64_same_formula": 0.8562840656999757,
+    "difference": 4.336873793420182e-08
+  },
+  {
+    "domain": "L",
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.773993968963623,
+    "C0_fp64_same_formula": 0.773993910773304,
+    "difference": -5.819031900777816e-08
+  },
+  {
+    "domain": "U",
+    "case": "3C2QTUNI0852XV7ZH4Q1",
+    "index": 0,
+    "repeat": 0,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.0141761414706707,
+    "C0_fp64_same_formula": 0.014176141370637321,
+    "difference": -1.0003337914954447e-10
+  },
+  {
+    "domain": "U",
+    "case": "3C2QTUNI0852XV7ZH4Q1",
+    "index": 1,
+    "repeat": 1,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.014513794332742691,
+    "C0_fp64_same_formula": 0.014513794319420369,
+    "difference": -1.332232241191278e-11
+  },
+  {
+    "domain": "U",
+    "case": "57SGAJMLCTCH92QUA0EE",
+    "index": 4,
+    "repeat": 0,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.01381099782884121,
+    "C0_fp64_same_formula": 0.013810997531884561,
+    "difference": -2.969566485072628e-10
+  },
+  {
+    "domain": "U",
+    "case": "57SGAJMLCTCH92QUA0EE",
+    "index": 5,
+    "repeat": 1,
+    "A_four_losses_replayed": true,
+    "B_four_losses_replayed": true,
+    "B_fp32": 0.015146329998970032,
+    "C0_fp64_same_formula": 0.015146330262347053,
+    "difference": 2.633770215809683e-10
+  }
+]

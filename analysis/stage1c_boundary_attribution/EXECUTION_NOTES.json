@@ -1,0 +1,25 @@
+{
+  "attempts": [
+    {
+      "name": "initial CPU tests",
+      "result": "2 fixture failures; preserved TEST_ATTEMPT_01.json",
+      "reason": "Common logit shift leaves softmax unchanged; random inactive ReLU channel cannot prove final-path response"
+    },
+    {
+      "name": "corrected CPU fixtures",
+      "result": "20 tests PASS; TEST_ATTEMPT_02.json"
+    },
+    {
+      "name": "runs/c0_la10_fixed",
+      "result": "Structural checks and local fidelity PASS",
+      "limitation": "Initial hook logged formula perturbation L2; final run measures actual before-minus-after tensor L2 and roundoff separately"
+    },
+    {
+      "name": "initial verify CLI",
+      "result": "Artifact checks PASS and JSON written, CLI exit1",
+      "reason": "Printing a numpy bool with standard json.dumps; output printing changed to existing clean serializer"
+    }
+  ],
+  "experimental_parameters_unchanged": true,
+  "final_run": "runs/c0_la10_checked"
+}

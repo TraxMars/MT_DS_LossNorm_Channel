@@ -1,0 +1,12 @@
+{
+  "design_sha256": "39a221225c78e81dadabf9ff9efe00289110a79e7885f4817a1a7837c211f10b",
+  "sources": {
+    "nodes.py": "5ddf0ec46e2bb7b58732d1976c7e1795ef13ac6feacbe8cdff2e458fde076144",
+    "objectives_c0.py": "4b9b1d17a48db11e80e3d5ff13df97e310b7f8e73548809663c544c2d8d5e935",
+    "pairs.py": "068934ab6c08084d405114f63f30c9399ed0001d8f1ddd602e5c3239ab1f785a",
+    "regressions.py": "d09a444a5c70da252a5c0d2cdc8f57b39d61ab9c459d017626ada583373049c3",
+    "smoke.py": "0ec62b6ea3dece5760e7362a8aa25bdac94da7593316d5e33e2ad5ea2ddc8755",
+    "support.py": "427b85a8373bb4c1861cacd583a9f57339dee8caee90f8b3ebbb8952fad2682f"
+  },
+  "tests_sha256": "9a82669c2cc596255510d2eac06332172f6308404a7c59653af9dff3d7167471"
+}

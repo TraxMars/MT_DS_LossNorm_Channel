@@ -1,0 +1,25 @@
+{
+  "phase": "smoke",
+  "base_commit": "ae073c55f9b362714a444bd83c6acbb886cba2d3",
+  "sources": {
+    "test_all.py": "7369f64553055ff4ec6ac75ac81d0bc22b3643dcedbd14bd0dd814dbb9c4fef4",
+    "control_pairs.py": "d23b8e6fdf623d2366b031168afd51bf44b7022760bb7704b52e45d4a8d3cea4",
+    "targets.py": "52626e5b1369f89e6d9d9f8336ec412f088d5424206ebd5252c591af34b5e250",
+    "bridge.py": "05aca1233b0441a23c5abec5c543a9b551fa7e7559f41ac6d5da97aad9f3314e",
+    "runner.py": "7b3f2be42f2c7b9533069ec529194f169b91f7bb7173170a16a22aeedbddfa7a",
+    "measures.py": "ff9066b832de88a0e38115dc281c24ef85bcf9d401c428041265f44c997c064c"
+  },
+  "design_sha256": "647e9e4763b6e33f42cfda52f0994d190aa29680a56dd9c51197a09f80e4cf9c",
+  "frozen_plan_sha256_before_probe": null,
+  "cases": [
+    "06SR5RBREL16DQ6M8LWS",
+    "1D7CUD1955YZPGK8XHJX"
+  ],
+  "device": "cuda:0",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "torch": "2.9.1+cu126",
+  "numpy": "1.26.4",
+  "TF32": false,
+  "mode": "eval",
+  "checkpoint_sha256": "85489c52c0905aebde65eacf5cea215aac51ee825ed3e5a845da86fe7f23e168"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "role": "labeled",
+    "case": "0RZDK210BSMWAA6467LU",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "0RZDK210BSMWAA6467LU",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5",
+    "key": "label"
+  }
+]

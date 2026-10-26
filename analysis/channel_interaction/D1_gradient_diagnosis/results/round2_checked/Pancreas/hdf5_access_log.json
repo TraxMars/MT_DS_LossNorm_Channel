@@ -1,0 +1,806 @@
+[
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0070",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0070",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0076",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0076",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0072",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0072",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0010",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0010",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0022",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0022_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0022",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0022_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0068",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0068_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0068",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0068_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0035",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0035_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0035",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0035_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0012",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0012_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0012",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0012_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0056",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0056_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0056",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0056_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0030",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0030_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0030",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0030_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0002",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0002_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0002",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0002_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0045",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0045_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0045",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0045_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0066",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0066_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0066",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0066_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0028",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0028_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0028",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0028_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0070",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0076",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0070",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0076",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0072",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0010",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0072",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0010",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0070",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0076",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0062",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0031",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0070",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0076",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0072",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0010",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0020",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0017",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0072",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0010",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0057",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "image0018",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0032",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+    "key": "image"
+  },
+  {
+    "role": "unlabeled",
+    "case": "image0079",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+    "key": "image"
+  }
+]

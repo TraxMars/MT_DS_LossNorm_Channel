@@ -1,0 +1,769 @@
+{
+  "groups": [
+    {
+      "stage": "E3",
+      "method": "A",
+      "kind": "ranked",
+      "channels": [
+        10,
+        51
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "A",
+      "kind": "cluster",
+      "channels": [
+        15,
+        38
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "B1",
+      "kind": "ranked",
+      "channels": [
+        10,
+        51
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "B1",
+      "kind": "cluster",
+      "channels": [
+        10,
+        51
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "B2",
+      "kind": "ranked",
+      "channels": [
+        15,
+        51
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "B2",
+      "kind": "cluster",
+      "channels": [
+        15,
+        9
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "B3",
+      "kind": "ranked",
+      "channels": [
+        51,
+        15
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "B3",
+      "kind": "cluster",
+      "channels": [
+        15,
+        9
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_0",
+      "kind": "random",
+      "channels": [
+        29,
+        55
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_1",
+      "kind": "random",
+      "channels": [
+        17,
+        33
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_2",
+      "kind": "random",
+      "channels": [
+        44,
+        52
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_3",
+      "kind": "random",
+      "channels": [
+        20,
+        29
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_4",
+      "kind": "random",
+      "channels": [
+        20,
+        63
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_5",
+      "kind": "random",
+      "channels": [
+        50,
+        56
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_6",
+      "kind": "random",
+      "channels": [
+        6,
+        28
+      ]
+    },
+    {
+      "stage": "E3",
+      "method": "random_7",
+      "kind": "random",
+      "channels": [
+        56,
+        57
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "A",
+      "kind": "ranked",
+      "channels": [
+        76,
+        49
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "A",
+      "kind": "cluster",
+      "channels": [
+        41,
+        19
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "B1",
+      "kind": "ranked",
+      "channels": [
+        76,
+        49
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "B1",
+      "kind": "cluster",
+      "channels": [
+        49,
+        82
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "B2",
+      "kind": "ranked",
+      "channels": [
+        76,
+        50
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "B2",
+      "kind": "cluster",
+      "channels": [
+        50,
+        20
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "B3",
+      "kind": "ranked",
+      "channels": [
+        76,
+        41
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "B3",
+      "kind": "cluster",
+      "channels": [
+        41,
+        40
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_0",
+      "kind": "random",
+      "channels": [
+        45,
+        121
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_1",
+      "kind": "random",
+      "channels": [
+        24,
+        125
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_2",
+      "kind": "random",
+      "channels": [
+        30,
+        105
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_3",
+      "kind": "random",
+      "channels": [
+        7,
+        80
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_4",
+      "kind": "random",
+      "channels": [
+        27,
+        86
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_5",
+      "kind": "random",
+      "channels": [
+        7,
+        56
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_6",
+      "kind": "random",
+      "channels": [
+        25,
+        28
+      ]
+    },
+    {
+      "stage": "E4",
+      "method": "random_7",
+      "kind": "random",
+      "channels": [
+        2,
+        70
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "A",
+      "kind": "ranked",
+      "channels": [
+        51,
+        43
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "A",
+      "kind": "cluster",
+      "channels": [
+        51,
+        43
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "B1",
+      "kind": "ranked",
+      "channels": [
+        15,
+        51
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "B1",
+      "kind": "cluster",
+      "channels": [
+        51,
+        43
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "B2",
+      "kind": "ranked",
+      "channels": [
+        59,
+        11
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "B2",
+      "kind": "cluster",
+      "channels": [
+        11,
+        42
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "B3",
+      "kind": "ranked",
+      "channels": [
+        59,
+        26
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "B3",
+      "kind": "cluster",
+      "channels": [
+        59,
+        48
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_0",
+      "kind": "random",
+      "channels": [
+        12,
+        45
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_1",
+      "kind": "random",
+      "channels": [
+        5,
+        32
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_2",
+      "kind": "random",
+      "channels": [
+        17,
+        29
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_3",
+      "kind": "random",
+      "channels": [
+        28,
+        60
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_4",
+      "kind": "random",
+      "channels": [
+        9,
+        25
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_5",
+      "kind": "random",
+      "channels": [
+        10,
+        30
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_6",
+      "kind": "random",
+      "channels": [
+        15,
+        38
+      ]
+    },
+    {
+      "stage": "D3",
+      "method": "random_7",
+      "kind": "random",
+      "channels": [
+        5,
+        26
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "A",
+      "kind": "ranked",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "A",
+      "kind": "cluster",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "B1",
+      "kind": "ranked",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "B1",
+      "kind": "cluster",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "B2",
+      "kind": "ranked",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "B2",
+      "kind": "cluster",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "B3",
+      "kind": "ranked",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "B3",
+      "kind": "cluster",
+      "channels": [
+        12,
+        20
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_0",
+      "kind": "random",
+      "channels": [
+        0,
+        8
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_1",
+      "kind": "random",
+      "channels": [
+        14,
+        24
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_2",
+      "kind": "random",
+      "channels": [
+        6,
+        22
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_3",
+      "kind": "random",
+      "channels": [
+        3,
+        14
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_4",
+      "kind": "random",
+      "channels": [
+        19,
+        24
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_5",
+      "kind": "random",
+      "channels": [
+        13,
+        28
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_6",
+      "kind": "random",
+      "channels": [
+        20,
+        24
+      ]
+    },
+    {
+      "stage": "D2",
+      "method": "random_7",
+      "kind": "random",
+      "channels": [
+        2,
+        19
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "A",
+      "kind": "ranked",
+      "channels": [
+        7,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "A",
+      "kind": "cluster",
+      "channels": [
+        7,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "B1",
+      "kind": "ranked",
+      "channels": [
+        7,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "B1",
+      "kind": "cluster",
+      "channels": [
+        5,
+        1
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "B2",
+      "kind": "ranked",
+      "channels": [
+        15,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "B2",
+      "kind": "cluster",
+      "channels": [
+        15,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "B3",
+      "kind": "ranked",
+      "channels": [
+        15,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "B3",
+      "kind": "cluster",
+      "channels": [
+        15,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_0",
+      "kind": "random",
+      "channels": [
+        1,
+        2
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_1",
+      "kind": "random",
+      "channels": [
+        3,
+        14
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_2",
+      "kind": "random",
+      "channels": [
+        1,
+        10
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_3",
+      "kind": "random",
+      "channels": [
+        4,
+        5
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_4",
+      "kind": "random",
+      "channels": [
+        9,
+        15
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_5",
+      "kind": "random",
+      "channels": [
+        9,
+        13
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_6",
+      "kind": "random",
+      "channels": [
+        7,
+        10
+      ]
+    },
+    {
+      "stage": "D1",
+      "method": "random_7",
+      "kind": "random",
+      "channels": [
+        1,
+        9
+      ]
+    }
+  ],
+  "K": 2,
+  "stages": [
+    "E3",
+    "E4",
+    "D3",
+    "D2",
+    "D1"
+  ],
+  "discovery": {
+    "discovery_L": [
+      "06SR5RBREL16DQ6M8LWS",
+      "1D7CUD1955YZPGK8XHJX",
+      "1MHBF3G6DCPWHSKG7XCP",
+      "2XL5HSFSE93RMOJDRGR4"
+    ],
+    "probe_L": [
+      "0RZDK210BSMWAA6467LU",
+      "1GU15S0GJ6PFNARO469W",
+      "23X6SY44VT9KFHR7S7OC",
+      "38CWS74285MFGZZXR09Z"
+    ],
+    "discovery_U": [
+      "3C2QTUNI0852XV7ZH4Q1",
+      "57SGAJMLCTCH92QUA0EE",
+      "8GYK8A9MBRC9TV0FVSRA",
+      "BXJWOUYP2J3EN4U92517",
+      "CBIJFVZ5L9BS0LKWE8YL",
+      "FGM5NIWN3URY4HF4WNUW",
+      "OIRDLE32TXZX942FVZMM",
+      "RSZY41MT2FGDKHWWL5L2"
+    ],
+    "probe_U": [
+      "3DA0T2V6JJ2NLUAV6FWM",
+      "5QFK2PMHNX7UALK52NNA",
+      "8ZG2TRZ81MAWHZPN9KKG",
+      "BZUFJX66T0W6ZPVTL9DU",
+      "EJ5V7SPR4961JWD6SS8V",
+      "JEC6HJ7SQJXBKVREX03F",
+      "R8ER97O9UUN77C02VE2J",
+      "TDDI6L3Y0L9VVFP9MNFS"
+    ]
+  },
+  "ranking": "final-head raw parameter gradients; CHAP signed cosine x relative U norm",
+  "no_test_selection": true,
+  "primary_width": 2
+}

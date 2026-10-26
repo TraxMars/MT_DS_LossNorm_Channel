@@ -1,0 +1,5 @@
+{
+  "status": "FAILED_CHECK_IMPLEMENTATION",
+  "reason": "Direct Python equality compared checkpoint patch_size tuple with JSON list. JSON-normalized configs are identical; no source data or weights differ.",
+  "superseded_by": "../round1_supplement_checked/supplement.json"
+}

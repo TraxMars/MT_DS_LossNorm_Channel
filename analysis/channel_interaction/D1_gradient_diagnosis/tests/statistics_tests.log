@@ -1,0 +1,17 @@
+test_before_average_normalization_can_change_direction (__main__.StatisticsTests) ... FAIL
+test_cancellation_and_broadcast (__main__.StatisticsTests) ... ok
+test_case_bootstrap_keeps_two_domains (__main__.StatisticsTests) ... ok
+test_zero_channels_never_enter_pairwise_conflict_denominator (__main__.StatisticsTests) ... ok
+
+======================================================================
+FAIL: test_before_average_normalization_can_change_direction (__main__.StatisticsTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/channel_interaction/D1_gradient_diagnosis/tests/test_statistics.py", line 30, in test_before_average_normalization_can_change_direction
+    self.assertLess(np.dot(observations.mean(axis=0),(observations*weights[:,None]).mean(axis=0)),0)
+AssertionError: 0.04999999999999982 not less than 0
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.046s
+
+FAILED (failures=1)

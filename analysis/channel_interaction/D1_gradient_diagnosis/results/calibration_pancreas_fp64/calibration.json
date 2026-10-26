@@ -1,0 +1,30 @@
+{
+  "dataset": "Pancreas",
+  "dtype": "torch.float64",
+  "checks": {
+    "lossnorm_denominator": 0.00029946841648176455,
+    "normalized_scale_factor": 250.44377260587328,
+    "normalized_scalar": 0.3,
+    "gradient_reconstruction": [
+      {
+        "stage": "E3",
+        "raw_max_abs_error": 2.414043899674756e-20,
+        "raw_relative_l2_error": 1.3581114645135383e-15,
+        "normalized_relative_l2_error": 1.3615752064768237e-15,
+        "normalized_max_abs_error": 2.439454888092385e-17,
+        "raw_reconstructed_norm": 0.0007263110149516638,
+        "lossnorm_reconstructed_norm": 0.7276002826787821
+      },
+      {
+        "stage": "D1",
+        "raw_max_abs_error": 0.0,
+        "raw_relative_l2_error": 0.0,
+        "normalized_relative_l2_error": 1.7270054511079225e-14,
+        "normalized_max_abs_error": 4.200199216208844e-16,
+        "raw_reconstructed_norm": 0.000306590946571015,
+        "lossnorm_reconstructed_norm": 0.3071351732242029
+      }
+    ]
+  },
+  "elapsed_seconds": 96.13460653903894
+}

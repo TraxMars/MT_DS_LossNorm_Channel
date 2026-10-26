@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "phase": "C0",
+  "fidelity_cells": 120,
+  "valid_delta_rows": 1440,
+  "invalid_delta_rows": 0,
+  "actual_directions": {
+    "negative": 926,
+    "positive": 499,
+    "indeterminate": 15
+  },
+  "indeterminate_fraction": 0.010416666666666666,
+  "main_gates": [
+    {
+      "domain": "L",
+      "objective": "transition_m1",
+      "status": "PASS",
+      "eligible_cells": 50,
+      "small_dose_sign_accuracy": 1.0
+    },
+    {
+      "domain": "U",
+      "objective": "u_transition",
+      "status": "PASS",
+      "eligible_cells": 56,
+      "small_dose_sign_accuracy": 1.0
+    }
+  ],
+  "interpretation": "Local Taylor/implementation fidelity only; does not establish boundary specificity, reliable channels, or training benefit."
+}

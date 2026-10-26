@@ -1,0 +1,3 @@
+runs/**/raw/
+runs/**/observation_norms.csv
+runs/**/expanded_*.csv

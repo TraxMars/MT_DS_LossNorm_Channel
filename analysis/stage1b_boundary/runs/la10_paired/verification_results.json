@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "checks": {
+    "checkpoint_and_cases_match_A": true,
+    "parameter_mapping_exact_A": true,
+    "1088_unique_objective_scale_records": true,
+    "native_class_region_mass_conserved": true,
+    "valid_terms_have_effective_coverage": true,
+    "controls_exact_native_voxel_and_class_counts": true,
+    "raw_parameter_gradient_shapes_correct": true,
+    "reachable_valid_gradients_finite": true,
+    "unreachable_or_invalid_nan_not_fake_zero": true,
+    "612_method_stage_head_cells": true,
+    "matrix_graph_NA_matches_real_reachability": true,
+    "independently_recomputed_LU_cells_match": true,
+    "extraction_results.json_pass": true,
+    "extraction_results.json_no_updates": true,
+    "ablation_results.json_pass": true,
+    "ablation_results.json_no_updates": true,
+    "U_image_only": true,
+    "joint_K_exactly2": true,
+    "group_l2_matched": true,
+    "component_l2_conserved": true,
+    "singleton_l2_matched": true,
+    "alpha_cap_respected": true,
+    "probe_disjoint_from_discovery": true,
+    "only_probe_cases_ablated": true,
+    "each_detailed_stage_has_final_prediction_effect": true,
+    "historical_files_sha256_unchanged": true,
+    "unit_tests_pass": true,
+    "stage0_stage1a_core_regressions_pass": true
+  },
+  "protection": {
+    "status": "PASS",
+    "checked_files": 500,
+    "changed": []
+  },
+  "gradient_observation_statuses": {
+    "valid": 752699,
+    "unreachable": 47872,
+    "exact_zero": 7,
+    "below_threshold": 190
+  },
+  "finite_raw_gradient_elements": 2906840064,
+  "paired_cosine_independent_spotchecks": [
+    {
+      "stage": "E3",
+      "boundary_vs_seg_same_observation_median": 0.9749673632997444
+    },
+    {
+      "stage": "D1",
+      "boundary_vs_seg_same_observation_median": 0.9991624756365443
+    }
+  ],
+  "independently_recomputed_LU_cells": [
+    {
+      "stage": "E3",
+      "method": "A",
+      "saved": 0.17464790158825294,
+      "independent": 0.174647901588253,
+      "match": true
+    },
+    {
+      "stage": "E3",
+      "method": "B3_w2",
+      "saved": 0.27036353833053384,
+      "independent": 0.27036353833053384,
+      "match": true
+    },
+    {
+      "stage": "D1",
+      "method": "A",
+      "saved": 0.45449455597451716,
+      "independent": 0.4544945559745172,
+      "match": true
+    },
+    {
+      "stage": "D1",
+      "method": "B3_w2",
+      "saved": 0.9375353411454443,
+      "independent": 0.9375353411454446,
+      "match": true
+    }
+  ],
+  "limitations": [
+    "HDF5 size/mtime checked by extraction; contents not hashed/read for protection.",
+    "U ground truth is never opened; no U boundary accuracy claim.",
+    "No feature-map gradients generated: all saved gradient vectors are convolution parameter coordinates."
+  ]
+}

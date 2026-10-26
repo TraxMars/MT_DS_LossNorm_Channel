@@ -1,0 +1,10 @@
+{
+  "torch": "2.9.1+cu126",
+  "numpy": "1.26.4",
+  "device": "cuda:1",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "TF32": false,
+  "mode": "eval",
+  "network_precision": "FP32",
+  "loss_precision": "FP64"
+}

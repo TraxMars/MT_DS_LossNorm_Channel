@@ -1,0 +1,102 @@
+{
+  "dataset": "LA",
+  "checkpoint": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/Results/seed_42/LA_8l/last_checkpoint.pth",
+  "checkpoint_sha256": "85489c52c0905aebde65eacf5cea215aac51ee825ed3e5a845da86fe7f23e168",
+  "iteration": 15000,
+  "labeled_ids": [
+    "06SR5RBREL16DQ6M8LWS",
+    "0RZDK210BSMWAA6467LU",
+    "1D7CUD1955YZPGK8XHJX",
+    "1GU15S0GJ6PFNARO469W",
+    "1MHBF3G6DCPWHSKG7XCP",
+    "23X6SY44VT9KFHR7S7OC",
+    "2XL5HSFSE93RMOJDRGR4",
+    "38CWS74285MFGZZXR09Z"
+  ],
+  "unlabeled_ids": [
+    "3C2QTUNI0852XV7ZH4Q1",
+    "3DA0T2V6JJ2NLUAV6FWM",
+    "57SGAJMLCTCH92QUA0EE",
+    "5QFK2PMHNX7UALK52NNA",
+    "8GYK8A9MBRC9TV0FVSRA",
+    "8ZG2TRZ81MAWHZPN9KKG",
+    "BXJWOUYP2J3EN4U92517",
+    "BZUFJX66T0W6ZPVTL9DU",
+    "CBIJFVZ5L9BS0LKWE8YL",
+    "EJ5V7SPR4961JWD6SS8V",
+    "FGM5NIWN3URY4HF4WNUW",
+    "JEC6HJ7SQJXBKVREX03F",
+    "OIRDLE32TXZX942FVZMM",
+    "R8ER97O9UUN77C02VE2J",
+    "RSZY41MT2FGDKHWWL5L2",
+    "TDDI6L3Y0L9VVFP9MNFS"
+  ],
+  "unlabeled_population": 72,
+  "patch": [
+    112,
+    112,
+    80
+  ],
+  "seed": 142,
+  "repeats": 2,
+  "eval_batch_size": 1,
+  "train_batch": "2L+2U",
+  "mini_batches": 3,
+  "mini_repeats": 2,
+  "train_dropout_seeds": "10000 + 100*batch + repeat",
+  "order": "all eval single-case; matched eval mini; train mini; deterministic train replay",
+  "root": "/aita_data/home/aita_duanxuelong/Dataset/LA",
+  "device": "cpu",
+  "torch": "2.9.1+cu126",
+  "dtype": "float32",
+  "TF32": false,
+  "augmentation": "same Stage1A uniform image-shape-only crops, no rotations",
+  "model_mapping": {
+    "E3": {
+      "stage": "E3",
+      "parameter": "block_three.conv.6.weight",
+      "module_type": "Conv3d",
+      "weight_shape": [
+        64,
+        64,
+        3,
+        3,
+        3
+      ],
+      "output_channel_axis": 0,
+      "channels": 64,
+      "values_per_channel": 1728,
+      "reachable_scales": [
+        "D4",
+        "D3",
+        "D2",
+        "D1"
+      ],
+      "relationship": "Last Conv3d in encoder block; followed by BN/ReLU and optional E5 dropout"
+    },
+    "D1": {
+      "stage": "D1",
+      "parameter": "block_nine.conv.0.weight",
+      "module_type": "Conv3d",
+      "weight_shape": [
+        16,
+        16,
+        3,
+        3,
+        3
+      ],
+      "output_channel_axis": 0,
+      "channels": 16,
+      "values_per_channel": 432,
+      "reachable_scales": [
+        "D1"
+      ],
+      "relationship": "Final feature-producing convolution before BN/ReLU/dropout and out_conv"
+    }
+  },
+  "precision_policy": "FP32 first; on original Stage1A reconstruction failure restore and replay entire L/U unit in FP64; original thresholds unchanged",
+  "lossnorm": "weight*g_head/(4*max(mean_four_head_loss,1e-8)); L weight=1, U weight=.3",
+  "validity": "max(1e-12,1e-6 * maximum channel norm), computed separately per side/observation/head",
+  "statistics": "all L x U case pairs; separate L/U case bootstrap 200 draws; mini descriptive only",
+  "no_channel_correspondence_across_datasets": true
+}

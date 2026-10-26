@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 69.47119375900365,
+  "stage_scale_cells": 36,
+  "structurally_reachable_cells": 30,
+  "per_channel_rows": 2944,
+  "bootstrap_case_draws": 200,
+  "profile_clustering_bootstrap_draws": 100,
+  "causal_claims": false,
+  "feature_map_coordinate_comparisons": false
+}

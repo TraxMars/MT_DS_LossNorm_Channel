@@ -1,0 +1,12 @@
+test_all_six_original_best_checkpoints_strict (__main__.StageFeaturesTests) ... ok
+test_baseline_and_schema (__main__.StageFeaturesTests) ... ok
+test_default_and_upstream_outputs_train_eval (__main__.StageFeaturesTests) ... ok
+test_helpers_reject_bad_inputs_and_preserve_tensor (__main__.StageFeaturesTests) ... ok
+test_loss_and_parameter_gradients_train_eval_warmup (__main__.StageFeaturesTests) ... ok
+test_nine_stages_identity_shapes_no_recompute_and_gradients (__main__.StageFeaturesTests) ... ok
+test_teacher_bn_dropout_ema_and_normalization (__main__.StageFeaturesTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 15.454s
+
+OK

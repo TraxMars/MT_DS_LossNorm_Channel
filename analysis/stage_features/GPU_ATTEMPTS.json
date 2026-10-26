@@ -1,0 +1,18 @@
+{
+  "initial_attempts": [
+    {
+      "status": "FAILED_TEST_CONFIGURATION",
+      "setting": "torch.use_deterministic_algorithms(True)",
+      "error": "nll_loss2d_forward_out_cuda_template does not have a deterministic implementation",
+      "action": "Use the original train.py CuDNN settings: deterministic=True, benchmark=False; leave global strict deterministic algorithms disabled. No production code changed."
+    },
+    {
+      "status": "FAILED_ZERO_TOLERANCE_LOSS_COMPARISON",
+      "expected_scalar": 0.01240178756415844,
+      "actual_scalar": 0.012401788495481014,
+      "absolute_difference": 9.313225746154785e-10,
+      "relative_difference": 7.509583354798226e-8,
+      "action": "Add repeated unchanged-Baseline control. Retain exact checks for predictions, raw gradients, RNG and BN; report explicit float32 tolerance only for native CUDA loss scalars and LossNorm-combined gradients."
+    }
+  ]
+}

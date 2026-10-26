@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "saved_norm_rows": 141312,
+  "norm_statuses": {
+    "valid": 132839,
+    "unreachable": 8448,
+    "below_threshold": 25
+  },
+  "case_pair_rows": 354304,
+  "independently_recomputed_signed_cosines": 24,
+  "correctly_suppressed_tiny_observation_cosines": 75,
+  "maximum_loss_formula_absolute_error": 3.259629011154175e-09,
+  "protected_file_hashes_rechecked": 398,
+  "elapsed_seconds": 7.715918017085642
+}

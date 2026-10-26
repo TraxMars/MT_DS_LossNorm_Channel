@@ -1,0 +1,20 @@
+[
+  {
+    "role": "labeled",
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/06SR5RBREL16DQ6M8LWS/mri_norm2.h5",
+    "key": "image"
+  },
+  {
+    "role": "labeled",
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/06SR5RBREL16DQ6M8LWS/mri_norm2.h5",
+    "key": "label"
+  },
+  {
+    "role": "unlabeled",
+    "case": "3C2QTUNI0852XV7ZH4Q1",
+    "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/3C2QTUNI0852XV7ZH4Q1/mri_norm2.h5",
+    "key": "image"
+  }
+]

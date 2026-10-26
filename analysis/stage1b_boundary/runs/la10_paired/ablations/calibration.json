@@ -1,0 +1,1442 @@
+[
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 0,
+    "stage": "E3",
+    "delta_single": 0.5614897251129151,
+    "delta_pair": 0.7940663843878255,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 223984,
+        "available_background": 779536,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11112209834120294
+      },
+      "I": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 184802,
+        "available_background": 737816,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 0,
+    "stage": "E4",
+    "delta_single": 0.21390216350555422,
+    "delta_pair": 0.3025033406505021,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 223984,
+        "available_background": 779536,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11112209834120294
+      },
+      "I": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 184802,
+        "available_background": 737816,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 0,
+    "stage": "D3",
+    "delta_single": 0.806340789794922,
+    "delta_pair": 1.1403380808226116,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 223984,
+        "available_background": 779536,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11112209834120294
+      },
+      "I": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 184802,
+        "available_background": 737816,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 0,
+    "stage": "D2",
+    "delta_single": 3.4637081146240236,
+    "delta_pair": 4.898422991803037,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 223984,
+        "available_background": 779536,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11112209834120294
+      },
+      "I": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 184802,
+        "available_background": 737816,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 0,
+    "stage": "D1",
+    "delta_single": 18.840135192871095,
+    "delta_pair": 26.643974706700952,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 223984,
+        "available_background": 779536,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11112209834120294
+      },
+      "I": {
+        "native_inner": 39182,
+        "native_outer": 41720,
+        "available_foreground": 184802,
+        "available_background": 737816,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 1,
+    "stage": "E3",
+    "delta_single": 0.5065113067626953,
+    "delta_pair": 0.716315159519123,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 193375,
+        "available_background": 810145,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10599889303606148
+      },
+      "I": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 159518,
+        "available_background": 773539,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 1,
+    "stage": "E4",
+    "delta_single": 0.18752406835556032,
+    "delta_pair": 0.26519908073981274,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 193375,
+        "available_background": 810145,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10599889303606148
+      },
+      "I": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 159518,
+        "available_background": 773539,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 1,
+    "stage": "D3",
+    "delta_single": 0.7408091545104981,
+    "delta_pair": 1.0476623534388922,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 193375,
+        "available_background": 810145,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10599889303606148
+      },
+      "I": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 159518,
+        "available_background": 773539,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 1,
+    "stage": "D2",
+    "delta_single": 3.3133918762207033,
+    "delta_pair": 4.6858437288081545,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 193375,
+        "available_background": 810145,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10599889303606148
+      },
+      "I": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 159518,
+        "available_background": 773539,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "0RZDK210BSMWAA6467LU",
+    "repeat": 1,
+    "stage": "D1",
+    "delta_single": 18.660525512695312,
+    "delta_pair": 26.389968261062865,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 193375,
+        "available_background": 810145,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10599889303606148
+      },
+      "I": {
+        "native_inner": 33857,
+        "native_outer": 36606,
+        "available_foreground": 159518,
+        "available_background": 773539,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 0,
+    "stage": "E3",
+    "delta_single": 0.44021301269531254,
+    "delta_pair": 0.6225552128868305,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 107460,
+        "available_background": 896060,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11191944189618758
+      },
+      "I": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 85261,
+        "available_background": 871386,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 0,
+    "stage": "E4",
+    "delta_single": 0.15768760442733765,
+    "delta_pair": 0.22300394879926463,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 107460,
+        "available_background": 896060,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11191944189618758
+      },
+      "I": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 85261,
+        "available_background": 871386,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 0,
+    "stage": "D3",
+    "delta_single": 0.5949274063110351,
+    "delta_pair": 0.8413544066325148,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 107460,
+        "available_background": 896060,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11191944189618758
+      },
+      "I": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 85261,
+        "available_background": 871386,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 0,
+    "stage": "D2",
+    "delta_single": 2.7052974700927734,
+    "delta_pair": 3.825868372458823,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 107460,
+        "available_background": 896060,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11191944189618758
+      },
+      "I": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 85261,
+        "available_background": 871386,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 0,
+    "stage": "D1",
+    "delta_single": 17.264022827148438,
+    "delta_pair": 24.415015223272025,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 107460,
+        "available_background": 896060,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11191944189618758
+      },
+      "I": {
+        "native_inner": 22199,
+        "native_outer": 24674,
+        "available_foreground": 85261,
+        "available_background": 871386,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 1,
+    "stage": "E3",
+    "delta_single": 0.4730404376983643,
+    "delta_pair": 0.668980202543932,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 120139,
+        "available_background": 883381,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11696579372297185
+      },
+      "I": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 94662,
+        "available_background": 854979,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 1,
+    "stage": "E4",
+    "delta_single": 0.1646134853363037,
+    "delta_pair": 0.23279862351210534,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 120139,
+        "available_background": 883381,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11696579372297185
+      },
+      "I": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 94662,
+        "available_background": 854979,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 1,
+    "stage": "D3",
+    "delta_single": 0.6613862037658692,
+    "delta_pair": 0.9353413393321477,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 120139,
+        "available_background": 883381,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11696579372297185
+      },
+      "I": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 94662,
+        "available_background": 854979,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 1,
+    "stage": "D2",
+    "delta_single": 2.943216323852539,
+    "delta_pair": 4.162336442190145,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 120139,
+        "available_background": 883381,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11696579372297185
+      },
+      "I": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 94662,
+        "available_background": 854979,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "1GU15S0GJ6PFNARO469W",
+    "repeat": 1,
+    "stage": "D1",
+    "delta_single": 17.784072875976562,
+    "delta_pair": 25.15047705543755,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 120139,
+        "available_background": 883381,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11696579372297185
+      },
+      "I": {
+        "native_inner": 25477,
+        "native_outer": 28402,
+        "available_foreground": 94662,
+        "available_background": 854979,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 0,
+    "stage": "E3",
+    "delta_single": 0.3670945167541504,
+    "delta_pair": 0.5191500442665169,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 109768,
+        "available_background": 893752,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11003173786241208
+      },
+      "I": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 87658,
+        "available_background": 869230,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 0,
+    "stage": "E4",
+    "delta_single": 0.12706044912338257,
+    "delta_pair": 0.17969061039150427,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 109768,
+        "available_background": 893752,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11003173786241208
+      },
+      "I": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 87658,
+        "available_background": 869230,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 0,
+    "stage": "D3",
+    "delta_single": 0.5275021553039551,
+    "delta_pair": 0.746000702211892,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 109768,
+        "available_background": 893752,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11003173786241208
+      },
+      "I": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 87658,
+        "available_background": 869230,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 0,
+    "stage": "D2",
+    "delta_single": 2.601847267150879,
+    "delta_pair": 3.679567692428147,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 109768,
+        "available_background": 893752,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11003173786241208
+      },
+      "I": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 87658,
+        "available_background": 869230,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 0,
+    "stage": "D1",
+    "delta_single": 12.951464843750001,
+    "delta_pair": 18.31613723462959,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 109768,
+        "available_background": 893752,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11003173786241208
+      },
+      "I": {
+        "native_inner": 22110,
+        "native_outer": 24522,
+        "available_foreground": 87658,
+        "available_background": 869230,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 1,
+    "stage": "E3",
+    "delta_single": 0.4591578483581543,
+    "delta_pair": 0.6493472564181508,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 179689,
+        "available_background": 823831,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10855410531346137
+      },
+      "I": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 147653,
+        "available_background": 788905,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 1,
+    "stage": "E4",
+    "delta_single": 0.15395482778549197,
+    "delta_pair": 0.21772500544705697,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 179689,
+        "available_background": 823831,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10855410531346137
+      },
+      "I": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 147653,
+        "available_background": 788905,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 1,
+    "stage": "D3",
+    "delta_single": 0.6902202129364015,
+    "delta_pair": 0.9761187861587046,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 179689,
+        "available_background": 823831,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10855410531346137
+      },
+      "I": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 147653,
+        "available_background": 788905,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 1,
+    "stage": "D2",
+    "delta_single": 3.232206726074219,
+    "delta_pair": 4.571030588407701,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 179689,
+        "available_background": 823831,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10855410531346137
+      },
+      "I": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 147653,
+        "available_background": 788905,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "23X6SY44VT9KFHR7S7OC",
+    "repeat": 1,
+    "stage": "D1",
+    "delta_single": 16.288673400878906,
+    "delta_pair": 23.035662836588838,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 179689,
+        "available_background": 823831,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.10855410531346137
+      },
+      "I": {
+        "native_inner": 32036,
+        "native_outer": 34926,
+        "available_foreground": 147653,
+        "available_background": 788905,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 0,
+    "stage": "E3",
+    "delta_single": 0.4946638584136963,
+    "delta_pair": 0.6995603373844538,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 147370,
+        "available_background": 856150,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11815369973828219
+      },
+      "I": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 117342,
+        "available_background": 823133,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 0,
+    "stage": "E4",
+    "delta_single": 0.22706587314605714,
+    "delta_pair": 0.3211196373552428,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 147370,
+        "available_background": 856150,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11815369973828219
+      },
+      "I": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 117342,
+        "available_background": 823133,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 0,
+    "stage": "D3",
+    "delta_single": 0.728384256362915,
+    "delta_pair": 1.0300908939674758,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 147370,
+        "available_background": 856150,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11815369973828219
+      },
+      "I": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 117342,
+        "available_background": 823133,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 0,
+    "stage": "D2",
+    "delta_single": 3.5569332122802737,
+    "delta_pair": 5.030263189262063,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 147370,
+        "available_background": 856150,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11815369973828219
+      },
+      "I": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 117342,
+        "available_background": 823133,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 0,
+    "stage": "D1",
+    "delta_single": 16.07172393798828,
+    "delta_pair": 22.728849963819357,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 147370,
+        "available_background": 856150,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.11815369973828219
+      },
+      "I": {
+        "native_inner": 30028,
+        "native_outer": 33017,
+        "available_foreground": 117342,
+        "available_background": 823133,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 1,
+    "stage": "E3",
+    "delta_single": 0.5661753177642822,
+    "delta_pair": 0.8006928130631447,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 161557,
+        "available_background": 841963,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.12002445996103471
+      },
+      "I": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 128194,
+        "available_background": 805007,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 1,
+    "stage": "E4",
+    "delta_single": 0.22181241512298586,
+    "delta_pair": 0.31369012576965766,
+    "channels": 128,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 161557,
+        "available_background": 841963,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.12002445996103471
+      },
+      "I": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 128194,
+        "available_background": 805007,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 1,
+    "stage": "D3",
+    "delta_single": 0.7844690322875977,
+    "delta_pair": 1.1094067447228182,
+    "channels": 64,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 161557,
+        "available_background": 841963,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.12002445996103471
+      },
+      "I": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 128194,
+        "available_background": 805007,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 1,
+    "stage": "D2",
+    "delta_single": 3.526715850830078,
+    "delta_pair": 4.987529386880066,
+    "channels": 32,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 161557,
+        "available_background": 841963,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.12002445996103471
+      },
+      "I": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 128194,
+        "available_background": 805007,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  },
+  {
+    "case": "38CWS74285MFGZZXR09Z",
+    "repeat": 1,
+    "stage": "D1",
+    "delta_single": 16.339414978027346,
+    "delta_pair": 23.10742226316836,
+    "channels": 16,
+    "regions": [
+      "B",
+      "R",
+      "I"
+    ],
+    "label_control_info": {
+      "B": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "status": "valid"
+      },
+      "R": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 161557,
+        "available_background": 841963,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.12002445996103471
+      },
+      "I": {
+        "native_inner": 33363,
+        "native_outer": 36956,
+        "available_foreground": 128194,
+        "available_background": 805007,
+        "status": "valid",
+        "boundary_overlap_fraction": 0.0
+      }
+    }
+  }
+]

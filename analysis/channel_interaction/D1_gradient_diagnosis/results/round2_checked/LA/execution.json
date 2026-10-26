@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "observations": 72,
+  "unlabeled_gt_reads": 0,
+  "optimizer_instances": 0,
+  "optimizer_steps": 0,
+  "parameter_updates": 0,
+  "checkpoint_writes": 0,
+  "train_replay_max_abs": {
+    "E3": 0.0,
+    "D1": 0.0
+  },
+  "fp64_fallback_units": 2,
+  "state_restoration_checks": 61,
+  "elapsed_seconds": 656.7123756599613
+}

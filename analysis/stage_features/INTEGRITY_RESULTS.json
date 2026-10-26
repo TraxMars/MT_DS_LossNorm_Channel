@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "checked_files": 3019,
+  "original_file_count": 3020,
+  "changed_allowed_files": [
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/networks/vnet_ds.py"
+  ],
+  "main_commit": "28ae37d1564c53f46b65c92263898a44b0308cc0",
+  "mismatches": [],
+  "runs": {
+    "BraTS19_25l": {
+      "split_counts": {
+        "train": 250,
+        "val": 25,
+        "test": 60
+      },
+      "splits_disjoint": true,
+      "labeled_prefix_matches": true,
+      "saved_source_matches_initial_main": true,
+      "warmup_weights": {
+        "1": 0.0,
+        "2000": 0.0,
+        "2010": 0.3
+      },
+      "state": "completed"
+    },
+    "BraTS19_50l": {
+      "split_counts": {
+        "train": 250,
+        "val": 25,
+        "test": 60
+      },
+      "splits_disjoint": true,
+      "labeled_prefix_matches": true,
+      "saved_source_matches_initial_main": true,
+      "warmup_weights": {
+        "1": 0.0,
+        "2000": 0.0,
+        "2010": 0.3
+      },
+      "state": "completed"
+    },
+    "LA_16l": {
+      "split_counts": {
+        "train": 80,
+        "test": 20
+      },
+      "splits_disjoint": true,
+      "labeled_prefix_matches": true,
+      "saved_source_matches_initial_main": true,
+      "warmup_weights": {
+        "1": 0.0,
+        "2000": 0.0,
+        "2010": 0.3
+      },
+      "state": "completed"
+    },
+    "LA_8l": {
+      "split_counts": {
+        "train": 80,
+        "test": 20
+      },
+      "splits_disjoint": true,
+      "labeled_prefix_matches": true,
+      "saved_source_matches_initial_main": true,
+      "warmup_weights": {
+        "1": 0.0,
+        "2000": 0.0,
+        "2010": 0.3
+      },
+      "state": "completed"
+    },
+    "Pancreas_12l": {
+      "split_counts": {
+        "train": 62,
+        "test": 20
+      },
+      "splits_disjoint": true,
+      "labeled_prefix_matches": true,
+      "saved_source_matches_initial_main": true,
+      "warmup_weights": {
+        "1": 0.0,
+        "2000": 0.0,
+        "2010": 0.3
+      },
+      "state": "completed"
+    },
+    "Pancreas_6l": {
+      "split_counts": {
+        "train": 62,
+        "test": 20
+      },
+      "splits_disjoint": true,
+      "labeled_prefix_matches": true,
+      "saved_source_matches_initial_main": true,
+      "warmup_weights": {
+        "1": 0.0,
+        "2000": 0.0,
+        "2010": 0.3
+      },
+      "state": "completed"
+    }
+  },
+  "elapsed_seconds": 14.406574937980622
+}

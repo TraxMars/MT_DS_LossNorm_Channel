@@ -1,0 +1,100 @@
+{
+  "dataset": "Pancreas",
+  "checkpoint": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/Results/seed_42/Pancreas_6l/last_checkpoint.pth",
+  "checkpoint_sha256": "55e7b3c4837bc993daa0acd6c23e9a56a3461d08b2be1219c003f3c6376b7835",
+  "iteration": 15000,
+  "labeled_ids": [
+    "image0057",
+    "image0018",
+    "image0062",
+    "image0031",
+    "image0020",
+    "image0017"
+  ],
+  "unlabeled_ids": [
+    "image0032",
+    "image0079",
+    "image0070",
+    "image0076",
+    "image0072",
+    "image0010",
+    "image0022",
+    "image0068",
+    "image0035",
+    "image0012",
+    "image0056",
+    "image0030",
+    "image0002",
+    "image0045",
+    "image0066",
+    "image0028"
+  ],
+  "unlabeled_population": 56,
+  "patch": [
+    96,
+    96,
+    96
+  ],
+  "seed": 142,
+  "repeats": 2,
+  "eval_batch_size": 1,
+  "train_batch": "2L+2U",
+  "mini_batches": 3,
+  "mini_repeats": 2,
+  "train_dropout_seeds": "10000 + 100*batch + repeat",
+  "order": "all eval single-case; matched eval mini; train mini; deterministic train replay",
+  "root": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas",
+  "device": "cpu",
+  "torch": "2.9.1+cu126",
+  "dtype": "float32",
+  "TF32": false,
+  "augmentation": "same Stage1A uniform image-shape-only crops, no rotations",
+  "model_mapping": {
+    "E3": {
+      "stage": "E3",
+      "parameter": "block_three.conv.6.weight",
+      "module_type": "Conv3d",
+      "weight_shape": [
+        64,
+        64,
+        3,
+        3,
+        3
+      ],
+      "output_channel_axis": 0,
+      "channels": 64,
+      "values_per_channel": 1728,
+      "reachable_scales": [
+        "D4",
+        "D3",
+        "D2",
+        "D1"
+      ],
+      "relationship": "Last Conv3d in encoder block; followed by BN/ReLU and optional E5 dropout"
+    },
+    "D1": {
+      "stage": "D1",
+      "parameter": "block_nine.conv.0.weight",
+      "module_type": "Conv3d",
+      "weight_shape": [
+        16,
+        16,
+        3,
+        3,
+        3
+      ],
+      "output_channel_axis": 0,
+      "channels": 16,
+      "values_per_channel": 432,
+      "reachable_scales": [
+        "D1"
+      ],
+      "relationship": "Final feature-producing convolution before BN/ReLU/dropout and out_conv"
+    }
+  },
+  "precision_policy": "FP32 first; on original Stage1A reconstruction failure restore and replay entire L/U unit in FP64; original thresholds unchanged",
+  "lossnorm": "weight*g_head/(4*max(mean_four_head_loss,1e-8)); L weight=1, U weight=.3",
+  "validity": "max(1e-12,1e-6 * maximum channel norm), computed separately per side/observation/head",
+  "statistics": "all L x U case pairs; separate L/U case bootstrap 200 draws; mini descriptive only",
+  "no_channel_correspondence_across_datasets": true
+}

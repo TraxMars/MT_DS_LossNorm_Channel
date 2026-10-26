@@ -1,0 +1,30 @@
+[
+  {
+    "dataset": "Pancreas",
+    "index": 25,
+    "case": "image0022",
+    "role": "U",
+    "repeat": 1,
+    "max_raw_channel_norm": 1.308054362358745e-13,
+    "raw_below_threshold_channels": 16,
+    "stage": "D1",
+    "raw_max_abs_error": 0.0,
+    "raw_relative_l2_error": 0.0,
+    "normalized_relative_l2_error": 0.0002161173790410055,
+    "normalized_max_abs_error": 1.9197976541818207e-12
+  },
+  {
+    "dataset": "Pancreas",
+    "index": 34,
+    "case": "image0030",
+    "role": "U",
+    "repeat": 0,
+    "max_raw_channel_norm": 2.5365357048354046e-14,
+    "raw_below_threshold_channels": 16,
+    "stage": "D1",
+    "raw_max_abs_error": 0.0,
+    "raw_relative_l2_error": 0.0,
+    "normalized_relative_l2_error": 0.000692642032433573,
+    "normalized_max_abs_error": 3.2360780721774063e-12
+  }
+]

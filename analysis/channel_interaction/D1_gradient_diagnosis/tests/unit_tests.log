@@ -1,0 +1,15 @@
+test_U_loader_does_not_access_missing_or_trap_label (__main__.DiagnosticsTests) ... ok
+test_c0_identity_without_boundary_imports (__main__.DiagnosticsTests) ... ok
+test_datasets_lock_patches_and_splits (__main__.DiagnosticsTests) ... ok
+test_invalid_cosines_stay_undefined_and_scaling_preserves_sign (__main__.DiagnosticsTests) ... ok
+test_no_optimizer_or_intervention_entry (__main__.DiagnosticsTests) ... ok
+test_output_confinement_and_nonfinite_serialization (__main__.DiagnosticsTests) ... ok
+test_real_losses_parameter_reconstruction_eval_and_train (__main__.DiagnosticsTests) ... ok
+test_restore_even_when_forward_raises (__main__.DiagnosticsTests) ... ok
+test_train_dropout_replay_is_exact (__main__.DiagnosticsTests) ... ok
+test_train_restore_bn_rng_modes_and_existing_grad (__main__.DiagnosticsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.011s
+
+OK

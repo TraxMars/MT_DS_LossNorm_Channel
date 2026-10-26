@@ -1,0 +1,489 @@
+{
+  "status": "PASS",
+  "tests_run": 7,
+  "failures": [],
+  "errors": [],
+  "skipped": [],
+  "torch": "2.9.1+cu126",
+  "observations": {
+    "best_checkpoints": [
+      {
+        "run": "BraTS19_25l",
+        "path": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/best_model.pth",
+        "strict": true,
+        "state_entries": 211,
+        "predictions_exact": true
+      },
+      {
+        "run": "BraTS19_50l",
+        "path": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/best_model.pth",
+        "strict": true,
+        "state_entries": 211,
+        "predictions_exact": true
+      },
+      {
+        "run": "LA_16l",
+        "path": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/best_model.pth",
+        "strict": true,
+        "state_entries": 211,
+        "predictions_exact": true
+      },
+      {
+        "run": "LA_8l",
+        "path": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/best_model.pth",
+        "strict": true,
+        "state_entries": 211,
+        "predictions_exact": true
+      },
+      {
+        "run": "Pancreas_12l",
+        "path": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/best_model.pth",
+        "strict": true,
+        "state_entries": 211,
+        "predictions_exact": true
+      },
+      {
+        "run": "Pancreas_6l",
+        "path": "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/best_model.pth",
+        "strict": true,
+        "state_entries": 211,
+        "predictions_exact": true
+      }
+    ],
+    "schema": {
+      "state_entries": 211,
+      "parameter_tensors": 124,
+      "parameter_count": 9449320,
+      "baseline_sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "pipeline_True_0.0": {
+      "losses": [
+        0.6685265302658081,
+        0.784988284111023,
+        0.552064836025238,
+        0.010572133585810661,
+        1.0
+      ],
+      "equality": "exact atol=rtol=0",
+      "raw_supervised_gradient": true,
+      "raw_consistency_gradient": true,
+      "normalized_combined_gradient": true
+    },
+    "pipeline_True_0.3": {
+      "losses": [
+        0.6685265302658081,
+        0.784988284111023,
+        0.552064836025238,
+        0.010572133585810661,
+        1.2999999523162842
+      ],
+      "equality": "exact atol=rtol=0",
+      "raw_supervised_gradient": true,
+      "raw_consistency_gradient": true,
+      "normalized_combined_gradient": true
+    },
+    "pipeline_False_0.0": {
+      "losses": [
+        0.5946542620658875,
+        0.6981813907623291,
+        0.4911271631717682,
+        0.0005610936204902828,
+        1.0
+      ],
+      "equality": "exact atol=rtol=0",
+      "raw_supervised_gradient": true,
+      "raw_consistency_gradient": true,
+      "normalized_combined_gradient": true
+    },
+    "pipeline_False_0.3": {
+      "losses": [
+        0.5946542620658875,
+        0.6981813907623291,
+        0.4911271631717682,
+        0.0005610936204902828,
+        1.2999999523162842
+      ],
+      "equality": "exact atol=rtol=0",
+      "raw_supervised_gradient": true,
+      "raw_consistency_gradient": true,
+      "normalized_combined_gradient": true
+    },
+    "stages_train": {
+      "encoder": {
+        "E1": {
+          "stage": "E1",
+          "group": "encoder",
+          "channels": 16,
+          "spatial_shape": [
+            32,
+            32,
+            32
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_one",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E2": {
+          "stage": "E2",
+          "group": "encoder",
+          "channels": 32,
+          "spatial_shape": [
+            16,
+            16,
+            16
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_two",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E3": {
+          "stage": "E3",
+          "group": "encoder",
+          "channels": 64,
+          "spatial_shape": [
+            8,
+            8,
+            8
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_three",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E4": {
+          "stage": "E4",
+          "group": "encoder",
+          "channels": 128,
+          "spatial_shape": [
+            4,
+            4,
+            4
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_four",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E5": {
+          "stage": "E5",
+          "group": "encoder",
+          "channels": 256,
+          "spatial_shape": [
+            2,
+            2,
+            2
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_five -> optional dropout",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        }
+      },
+      "decoder": {
+        "D4": {
+          "stage": "D4",
+          "group": "decoder",
+          "channels": 128,
+          "spatial_shape": [
+            4,
+            4,
+            4
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_five_up + E4 -> out_conv_4 input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "D3": {
+          "stage": "D3",
+          "group": "decoder",
+          "channels": 64,
+          "spatial_shape": [
+            8,
+            8,
+            8
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_six -> block_six_up + E3 -> out_conv_3 input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "D2": {
+          "stage": "D2",
+          "group": "decoder",
+          "channels": 32,
+          "spatial_shape": [
+            16,
+            16,
+            16
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_seven -> block_seven_up + E2 -> out_conv_2 input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "D1": {
+          "stage": "D1",
+          "group": "decoder",
+          "channels": 16,
+          "spatial_shape": [
+            32,
+            32,
+            32
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_nine -> optional dropout -> out_conv input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        }
+      }
+    },
+    "leaf_module_calls_per_forward": {
+      "block_one.conv.0": 1,
+      "block_one.conv.1": 1,
+      "block_one.conv.2": 1,
+      "block_one_dw.conv.0": 1,
+      "block_one_dw.conv.1": 1,
+      "block_one_dw.conv.2": 1,
+      "block_two.conv.0": 1,
+      "block_two.conv.1": 1,
+      "block_two.conv.2": 1,
+      "block_two.conv.3": 1,
+      "block_two.conv.4": 1,
+      "block_two.conv.5": 1,
+      "block_two_dw.conv.0": 1,
+      "block_two_dw.conv.1": 1,
+      "block_two_dw.conv.2": 1,
+      "block_three.conv.0": 1,
+      "block_three.conv.1": 1,
+      "block_three.conv.2": 1,
+      "block_three.conv.3": 1,
+      "block_three.conv.4": 1,
+      "block_three.conv.5": 1,
+      "block_three.conv.6": 1,
+      "block_three.conv.7": 1,
+      "block_three.conv.8": 1,
+      "block_three_dw.conv.0": 1,
+      "block_three_dw.conv.1": 1,
+      "block_three_dw.conv.2": 1,
+      "block_four.conv.0": 1,
+      "block_four.conv.1": 1,
+      "block_four.conv.2": 1,
+      "block_four.conv.3": 1,
+      "block_four.conv.4": 1,
+      "block_four.conv.5": 1,
+      "block_four.conv.6": 1,
+      "block_four.conv.7": 1,
+      "block_four.conv.8": 1,
+      "block_four_dw.conv.0": 1,
+      "block_four_dw.conv.1": 1,
+      "block_four_dw.conv.2": 1,
+      "block_five.conv.0": 1,
+      "block_five.conv.1": 1,
+      "block_five.conv.2": 1,
+      "block_five.conv.3": 1,
+      "block_five.conv.4": 1,
+      "block_five.conv.5": 1,
+      "block_five.conv.6": 1,
+      "block_five.conv.7": 1,
+      "block_five.conv.8": 1,
+      "dropout": 2,
+      "block_five_up.conv.0": 1,
+      "block_five_up.conv.1": 1,
+      "block_five_up.conv.2": 1,
+      "out_conv_4": 1,
+      "block_six.conv.0": 1,
+      "block_six.conv.1": 1,
+      "block_six.conv.2": 1,
+      "block_six.conv.3": 1,
+      "block_six.conv.4": 1,
+      "block_six.conv.5": 1,
+      "block_six.conv.6": 1,
+      "block_six.conv.7": 1,
+      "block_six.conv.8": 1,
+      "block_six_up.conv.0": 1,
+      "block_six_up.conv.1": 1,
+      "block_six_up.conv.2": 1,
+      "out_conv_3": 1,
+      "block_seven.conv.0": 1,
+      "block_seven.conv.1": 1,
+      "block_seven.conv.2": 1,
+      "block_seven.conv.3": 1,
+      "block_seven.conv.4": 1,
+      "block_seven.conv.5": 1,
+      "block_seven.conv.6": 1,
+      "block_seven.conv.7": 1,
+      "block_seven.conv.8": 1,
+      "block_seven_up.conv.0": 1,
+      "block_seven_up.conv.1": 1,
+      "block_seven_up.conv.2": 1,
+      "out_conv_2": 1,
+      "block_eight.conv.0": 1,
+      "block_eight.conv.1": 1,
+      "block_eight.conv.2": 1,
+      "block_eight.conv.3": 1,
+      "block_eight.conv.4": 1,
+      "block_eight.conv.5": 1,
+      "block_eight_up.conv.0": 1,
+      "block_eight_up.conv.1": 1,
+      "block_eight_up.conv.2": 1,
+      "block_nine.conv.0": 1,
+      "block_nine.conv.1": 1,
+      "block_nine.conv.2": 1,
+      "out_conv": 1
+    },
+    "stages_eval": {
+      "encoder": {
+        "E1": {
+          "stage": "E1",
+          "group": "encoder",
+          "channels": 16,
+          "spatial_shape": [
+            32,
+            32,
+            32
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_one",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E2": {
+          "stage": "E2",
+          "group": "encoder",
+          "channels": 32,
+          "spatial_shape": [
+            16,
+            16,
+            16
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_two",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E3": {
+          "stage": "E3",
+          "group": "encoder",
+          "channels": 64,
+          "spatial_shape": [
+            8,
+            8,
+            8
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_three",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E4": {
+          "stage": "E4",
+          "group": "encoder",
+          "channels": 128,
+          "spatial_shape": [
+            4,
+            4,
+            4
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_four",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "E5": {
+          "stage": "E5",
+          "group": "encoder",
+          "channels": 256,
+          "spatial_shape": [
+            2,
+            2,
+            2
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_five -> optional dropout",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        }
+      },
+      "decoder": {
+        "D4": {
+          "stage": "D4",
+          "group": "decoder",
+          "channels": 128,
+          "spatial_shape": [
+            4,
+            4,
+            4
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_five_up + E4 -> out_conv_4 input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "D3": {
+          "stage": "D3",
+          "group": "decoder",
+          "channels": 64,
+          "spatial_shape": [
+            8,
+            8,
+            8
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_six -> block_six_up + E3 -> out_conv_3 input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "D2": {
+          "stage": "D2",
+          "group": "decoder",
+          "channels": 32,
+          "spatial_shape": [
+            16,
+            16,
+            16
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_seven -> block_seven_up + E2 -> out_conv_2 input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        },
+        "D1": {
+          "stage": "D1",
+          "group": "decoder",
+          "channels": 16,
+          "spatial_shape": [
+            32,
+            32,
+            32
+          ],
+          "batch_size": 2,
+          "requires_grad": true,
+          "source": "block_nine -> optional dropout -> out_conv input",
+          "dtype": "torch.float32",
+          "device": "cpu"
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 11.616551115876064
+}

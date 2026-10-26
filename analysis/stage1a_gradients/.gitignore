@@ -1,0 +1,6 @@
+# Full kernel-gradient tensors and expanded per-observation/case-pair tables
+# remain local artifacts. Compact summaries and reports are versioned.
+runs/**/raw/
+runs/**/per_observation_channels.csv
+runs/**/lu_case_pairs.csv
+runs/**/per_observation_cross_scale.csv

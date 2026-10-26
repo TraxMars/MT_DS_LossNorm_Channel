@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "smoke": false,
+  "checks": {
+    "student_unchanged": true,
+    "teacher_unchanged": true,
+    "no_parameter_grads": true,
+    "cpu_rng_unchanged": true,
+    "cuda_rng_unchanged": true,
+    "eval": true,
+    "only_labeled_probe_cases": true,
+    "no_discovery_overlap": true,
+    "no_unlabeled_access": true,
+    "hooks_removed": true,
+    "batch_baseline_stable": true
+  },
+  "labeled_cases": 4,
+  "crops": 8,
+  "singleton_rows": 7296,
+  "group_rows": 1920,
+  "batch_vs_single_max_logit_error": 0.0,
+  "elapsed_seconds": 272.9753223969601,
+  "peak_mib": 1761.482421875,
+  "target": "Final D1 logits/predictions; no auxiliary-head outcomes",
+  "optimizer_steps": 0,
+  "checkpoint_writes": 0
+}

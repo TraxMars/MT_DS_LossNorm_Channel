@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "phase": "smoke",
+  "cases": 2,
+  "crops": 4,
+  "invariants": {
+    "student_state_unchanged": true,
+    "teacher_state_unchanged": true,
+    "teacher_frozen": true,
+    "no_grad_slots": true,
+    "both_eval": true,
+    "torch_rng_unchanged": true,
+    "cuda_rng_unchanged": true,
+    "numpy_rng_unchanged": true,
+    "python_rng_unchanged": true,
+    "no_leftover_hooks": true,
+    "L_only_access": true,
+    "data_stats_unchanged": true,
+    "frozen_plan_unchanged": true
+  },
+  "interventions": 360,
+  "elapsed_seconds": 159.07020345586352,
+  "peak_allocated_mib": 4101.169921875,
+  "optimizer_steps": 0,
+  "checkpoint_writes": 0,
+  "C2_C3_executed": false
+}

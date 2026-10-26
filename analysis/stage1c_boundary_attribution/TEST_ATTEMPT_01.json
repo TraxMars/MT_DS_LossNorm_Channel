@@ -1,0 +1,16 @@
+{
+  "status": "FAIL",
+  "tests_run": 20,
+  "failures": [
+    [
+      "test_decoder_auxiliary_gradient_is_not_downstream_intervention (__main__.C0Tests)",
+      "Traceback (most recent call last):\n  File \"/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/tests/test_stage1c_c0.py\", line 147, in test_decoder_auxiliary_gradient_is_not_downstream_intervention\n    self.assertGreater(float((changed[-1]-out[-1]).detach().abs().max()),0)\nAssertionError: 0.0 not greater than 0\n"
+    ],
+    [
+      "test_teacher_stop_gradient_and_degenerate_prediction (__main__.C0Tests)",
+      "Traceback (most recent call last):\n  File \"/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/tests/test_stage1c_c0.py\", line 99, in test_teacher_stop_gradient_and_degenerate_prediction\n    self.assertGreater(float(g.norm()),0);self.assertIsNone(gt)\nAssertionError: 0.0 not greater than 0\n"
+    ]
+  ],
+  "errors": [],
+  "elapsed_seconds": 0.926056002965197
+}

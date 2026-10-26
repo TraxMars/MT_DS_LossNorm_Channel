@@ -1,0 +1,1131 @@
+{
+  "status": "PASS",
+  "device": "cuda:4",
+  "device_name": "NVIDIA A100-SXM4-40GB",
+  "torch": "2.9.1+cu126",
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "global_strict_determinism": false,
+  "datasets": {
+    "LA": {
+      "batch_shape": [
+        4,
+        1,
+        112,
+        112,
+        80
+      ],
+      "case_ids": [
+        "06SR5RBREL16DQ6M8LWS",
+        "0RZDK210BSMWAA6467LU",
+        "3C2QTUNI0852XV7ZH4Q1",
+        "3DA0T2V6JJ2NLUAV6FWM"
+      ],
+      "labeled_ids": [
+        "06SR5RBREL16DQ6M8LWS",
+        "0RZDK210BSMWAA6467LU"
+      ],
+      "modes": {
+        "train": {
+          "losses": [
+            0.01781947910785675,
+            0.01240178756415844,
+            0.023237168788909912,
+            0.0010114540345966816,
+            1.2999999523162842
+          ],
+          "comparisons": {
+            "baseline_repeat": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "default": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": false,
+                "max_abs_difference": 9.313225746154785e-10,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  9.313225746154785e-10,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "features": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": false,
+                "max_abs_difference": 9.313225746154785e-10,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  9.313225746154785e-10,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            }
+          }
+        },
+        "eval": {
+          "losses": [
+            0.01606578566133976,
+            0.011994277127087116,
+            0.020137295126914978,
+            0.0011278641177341342,
+            1.2999999523162842
+          ],
+          "comparisons": {
+            "baseline_repeat": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "default": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "features": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            }
+          }
+        }
+      },
+      "stages": {
+        "encoder": {
+          "E1": {
+            "stage": "E1",
+            "group": "encoder",
+            "channels": 16,
+            "spatial_shape": [
+              112,
+              112,
+              80
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_one",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E2": {
+            "stage": "E2",
+            "group": "encoder",
+            "channels": 32,
+            "spatial_shape": [
+              56,
+              56,
+              40
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_two",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E3": {
+            "stage": "E3",
+            "group": "encoder",
+            "channels": 64,
+            "spatial_shape": [
+              28,
+              28,
+              20
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_three",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E4": {
+            "stage": "E4",
+            "group": "encoder",
+            "channels": 128,
+            "spatial_shape": [
+              14,
+              14,
+              10
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_four",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E5": {
+            "stage": "E5",
+            "group": "encoder",
+            "channels": 256,
+            "spatial_shape": [
+              7,
+              7,
+              5
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_five -> optional dropout",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          }
+        },
+        "decoder": {
+          "D4": {
+            "stage": "D4",
+            "group": "decoder",
+            "channels": 128,
+            "spatial_shape": [
+              14,
+              14,
+              10
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_five_up + E4 -> out_conv_4 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D3": {
+            "stage": "D3",
+            "group": "decoder",
+            "channels": 64,
+            "spatial_shape": [
+              28,
+              28,
+              20
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_six -> block_six_up + E3 -> out_conv_3 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D2": {
+            "stage": "D2",
+            "group": "decoder",
+            "channels": 32,
+            "spatial_shape": [
+              56,
+              56,
+              40
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_seven -> block_seven_up + E2 -> out_conv_2 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D1": {
+            "stage": "D1",
+            "group": "decoder",
+            "channels": 16,
+            "spatial_shape": [
+              112,
+              112,
+              80
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_nine -> optional dropout -> out_conv input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          }
+        }
+      },
+      "peak_allocated_mib": 3981.138671875,
+      "optimizer_steps": 0,
+      "checkpoint_writes": 0
+    },
+    "Pancreas": {
+      "batch_shape": [
+        4,
+        1,
+        96,
+        96,
+        96
+      ],
+      "case_ids": [
+        "image0057",
+        "image0018",
+        "image0032",
+        "image0079"
+      ],
+      "labeled_ids": [
+        "image0057",
+        "image0018"
+      ],
+      "modes": {
+        "train": {
+          "losses": [
+            0.06424272060394287,
+            0.039269473403692245,
+            0.0892159640789032,
+            0.0006047558272257447,
+            1.2999999523162842
+          ],
+          "comparisons": {
+            "baseline_repeat": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": false,
+                "max_abs_difference": 3.725290298461914e-09,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  3.725290298461914e-09,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "default": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "features": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": false,
+                "max_abs_difference": 3.725290298461914e-09,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  3.725290298461914e-09,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            }
+          }
+        },
+        "eval": {
+          "losses": [
+            0.06417715549468994,
+            0.037898577749729156,
+            0.09045574069023132,
+            0.000596686324570328,
+            1.2999999523162842
+          ],
+          "comparisons": {
+            "baseline_repeat": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "default": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "features": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            }
+          }
+        }
+      },
+      "stages": {
+        "encoder": {
+          "E1": {
+            "stage": "E1",
+            "group": "encoder",
+            "channels": 16,
+            "spatial_shape": [
+              96,
+              96,
+              96
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_one",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E2": {
+            "stage": "E2",
+            "group": "encoder",
+            "channels": 32,
+            "spatial_shape": [
+              48,
+              48,
+              48
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_two",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E3": {
+            "stage": "E3",
+            "group": "encoder",
+            "channels": 64,
+            "spatial_shape": [
+              24,
+              24,
+              24
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_three",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E4": {
+            "stage": "E4",
+            "group": "encoder",
+            "channels": 128,
+            "spatial_shape": [
+              12,
+              12,
+              12
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_four",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E5": {
+            "stage": "E5",
+            "group": "encoder",
+            "channels": 256,
+            "spatial_shape": [
+              6,
+              6,
+              6
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_five -> optional dropout",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          }
+        },
+        "decoder": {
+          "D4": {
+            "stage": "D4",
+            "group": "decoder",
+            "channels": 128,
+            "spatial_shape": [
+              12,
+              12,
+              12
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_five_up + E4 -> out_conv_4 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D3": {
+            "stage": "D3",
+            "group": "decoder",
+            "channels": 64,
+            "spatial_shape": [
+              24,
+              24,
+              24
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_six -> block_six_up + E3 -> out_conv_3 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D2": {
+            "stage": "D2",
+            "group": "decoder",
+            "channels": 32,
+            "spatial_shape": [
+              48,
+              48,
+              48
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_seven -> block_seven_up + E2 -> out_conv_2 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D1": {
+            "stage": "D1",
+            "group": "decoder",
+            "channels": 16,
+            "spatial_shape": [
+              96,
+              96,
+              96
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_nine -> optional dropout -> out_conv input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          }
+        }
+      },
+      "peak_allocated_mib": 5154.583984375,
+      "optimizer_steps": 0,
+      "checkpoint_writes": 0
+    },
+    "BraTS19": {
+      "batch_shape": [
+        4,
+        1,
+        96,
+        96,
+        96
+      ],
+      "case_ids": [
+        "BraTS19_TCIA02_370_1",
+        "BraTS19_CBICA_ASA_1",
+        "BraTS19_CBICA_BHZ_1",
+        "BraTS19_TCIA02_179_1"
+      ],
+      "labeled_ids": [
+        "BraTS19_TCIA02_370_1",
+        "BraTS19_CBICA_ASA_1"
+      ],
+      "modes": {
+        "train": {
+          "losses": [
+            0.05242832750082016,
+            0.03130409121513367,
+            0.07355256378650665,
+            0.002850645687431097,
+            1.2999999523162842
+          ],
+          "comparisons": {
+            "baseline_repeat": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "default": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "features": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            }
+          }
+        },
+        "eval": {
+          "losses": [
+            0.05490691214799881,
+            0.03464479744434357,
+            0.07516902685165405,
+            0.013848762959241867,
+            1.2999999523162842
+          ],
+          "comparisons": {
+            "baseline_repeat": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "default": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            },
+            "features": {
+              "exact_keys": [
+                "supervised_outputs",
+                "unlabeled_outputs",
+                "teacher_outputs",
+                "sup_grad",
+                "mt_grad",
+                "student_buffers",
+                "teacher_buffers",
+                "final_rng"
+              ],
+              "scalar_rtol": 1e-06,
+              "scalar_atol": 1e-07,
+              "normalized_gradient_rtol": 1e-06,
+              "normalized_gradient_atol": 1e-07,
+              "losses": {
+                "exact": true,
+                "max_abs_difference": 0.0,
+                "per_scalar_abs_difference": [
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "combined_grad": {
+                "exact": true,
+                "max_abs_difference": 0.0
+              }
+            }
+          }
+        }
+      },
+      "stages": {
+        "encoder": {
+          "E1": {
+            "stage": "E1",
+            "group": "encoder",
+            "channels": 16,
+            "spatial_shape": [
+              96,
+              96,
+              96
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_one",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E2": {
+            "stage": "E2",
+            "group": "encoder",
+            "channels": 32,
+            "spatial_shape": [
+              48,
+              48,
+              48
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_two",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E3": {
+            "stage": "E3",
+            "group": "encoder",
+            "channels": 64,
+            "spatial_shape": [
+              24,
+              24,
+              24
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_three",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E4": {
+            "stage": "E4",
+            "group": "encoder",
+            "channels": 128,
+            "spatial_shape": [
+              12,
+              12,
+              12
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_four",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "E5": {
+            "stage": "E5",
+            "group": "encoder",
+            "channels": 256,
+            "spatial_shape": [
+              6,
+              6,
+              6
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_five -> optional dropout",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          }
+        },
+        "decoder": {
+          "D4": {
+            "stage": "D4",
+            "group": "decoder",
+            "channels": 128,
+            "spatial_shape": [
+              12,
+              12,
+              12
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_five_up + E4 -> out_conv_4 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D3": {
+            "stage": "D3",
+            "group": "decoder",
+            "channels": 64,
+            "spatial_shape": [
+              24,
+              24,
+              24
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_six -> block_six_up + E3 -> out_conv_3 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D2": {
+            "stage": "D2",
+            "group": "decoder",
+            "channels": 32,
+            "spatial_shape": [
+              48,
+              48,
+              48
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_seven -> block_seven_up + E2 -> out_conv_2 input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          },
+          "D1": {
+            "stage": "D1",
+            "group": "decoder",
+            "channels": 16,
+            "spatial_shape": [
+              96,
+              96,
+              96
+            ],
+            "batch_size": 2,
+            "requires_grad": true,
+            "source": "block_nine -> optional dropout -> out_conv input",
+            "dtype": "torch.float32",
+            "device": "cuda:4"
+          }
+        }
+      },
+      "peak_allocated_mib": 4978.1279296875,
+      "optimizer_steps": 0,
+      "checkpoint_writes": 0
+    }
+  },
+  "elapsed_seconds": 64.32409086590633
+}

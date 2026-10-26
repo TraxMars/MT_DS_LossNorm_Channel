@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "datasets": {
+    "LA": {
+      "status": "PASS",
+      "observations": 72,
+      "max_raw_relative_reconstruction": 1.516577457884114e-06,
+      "max_lossnorm_relative_reconstruction": 8.225804765170625e-05,
+      "invalid_channels": 51,
+      "max_raw_lossnorm_mini_cosine_difference": 4.440892098500626e-16,
+      "model_BN_RNG_grad_restored": true,
+      "U_GT_reads": 0,
+      "optimizer_steps": 0
+    },
+    "Pancreas": {
+      "status": "PASS",
+      "observations": 68,
+      "max_raw_relative_reconstruction": 1.9741521296430183e-06,
+      "max_lossnorm_relative_reconstruction": 0.000692642032433573,
+      "invalid_channels": 214,
+      "max_raw_lossnorm_mini_cosine_difference": 3.3306690738754696e-16,
+      "model_BN_RNG_grad_restored": true,
+      "U_GT_reads": 0,
+      "optimizer_steps": 0
+    }
+  }
+}

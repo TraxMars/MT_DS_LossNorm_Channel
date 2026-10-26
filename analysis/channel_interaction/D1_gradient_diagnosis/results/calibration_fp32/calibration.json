@@ -1,0 +1,29 @@
+{
+  "dtype": "torch.float32",
+  "checks": {
+    "lossnorm_denominator": 0.0009757454972714186,
+    "normalized_scale_factor": 76.8643055076662,
+    "normalized_scalar": 0.30000001192092896,
+    "gradient_reconstruction": [
+      {
+        "stage": "E3",
+        "raw_max_abs_error": 1.8553691916167736e-10,
+        "raw_relative_l2_error": 1.3320577459905615e-06,
+        "normalized_relative_l2_error": 1.334659526381963e-06,
+        "normalized_max_abs_error": 5.8673322200775146e-08,
+        "raw_reconstructed_norm": 0.0036369379063518996,
+        "lossnorm_reconstructed_norm": 1.1182028253849772
+      },
+      {
+        "stage": "D1",
+        "raw_max_abs_error": 0.0,
+        "raw_relative_l2_error": 0.0,
+        "normalized_relative_l2_error": 0.00021903636044301366,
+        "normalized_max_abs_error": 1.0349787771701813e-05,
+        "raw_reconstructed_norm": 0.0006442029335281574,
+        "lossnorm_reconstructed_norm": 0.1980648443665723
+      }
+    ]
+  },
+  "elapsed_seconds": 19.16904796101153
+}

@@ -1,0 +1,13 @@
+{
+  "base_commit": "44873676c3faca78abcd02eac35dfca21910592c",
+  "branch": "experiment/stage1a-gradient-diagnostics",
+  "scripts": {
+    "analysis/stage1a_gradients/core.py": "d69360892bf038927053a4853989275155af7958af9864e887072bcd0361364f",
+    "analysis/stage1a_gradients/run.py": "8eb212e9caf15f80f29bb7c300deed92a9d4e8807b1ed5b341dc48250fc190b2",
+    "analysis/stage1a_gradients/stats_tools.py": "3883872364ac90342cb25bca34aff2277f7885b72fb10ee560ba459e00fe9c26",
+    "analysis/stage1a_gradients/summarize.py": "7528e84f82ee5678ed8b00e242765981e84bb2774a3716c786305fcac41394d0",
+    "analysis/stage1a_gradients/verify_outputs.py": "80f5187591436f1c03b3fbc5e98d90b614b6a52263c279c561c1c131f9ad2137",
+    "tests/test_stage1a_diagnostics.py": "ba889d36239f824b79558f6d1bc592ed7b288eca9bd6f34d9bf8716b08a0870c"
+  },
+  "scope": "Only new diagnostic scripts/tests/output; no production code changes"
+}

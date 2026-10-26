@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "probe_cases": 4,
+  "singleton_invalid": 1,
+  "group_invalid": 0,
+  "bootstrap": "1000 resamples of 4 probe cases; crops/groups remain within case",
+  "supplemental_endpoints": "Absolute boundary CE delta and score-vs-prediction-change are descriptive sensitivity endpoints, not selection criteria",
+  "all_results_exploratory": true,
+  "not_independent_generalization": true
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "unittest_total": 31,
+  "suites": [
+    {
+      "suite": "test_stage_features.py",
+      "status": "PASS",
+      "tests_run": 7,
+      "elapsed_seconds": 9.842215221142396,
+      "log": "test_all_six_original_best_checkpoints_strict (c0_regression_test_stage_features.StageFeaturesTests) ... ok\ntest_baseline_and_schema (c0_regression_test_stage_features.StageFeaturesTests) ... ok\ntest_default_and_upstream_outputs_train_eval (c0_regression_test_stage_features.StageFeaturesTests) ... ok\ntest_helpers_reject_bad_inputs_and_preserve_tensor (c0_regression_test_stage_features.StageFeaturesTests) ... ok\ntest_loss_and_parameter_gradients_train_eval_warmup (c0_regression_test_stage_features.StageFeaturesTests) ... ok\ntest_nine_stages_identity_shapes_no_recompute_and_gradients (c0_regression_test_stage_features.StageFeaturesTests) ... ok\ntest_teacher_bn_dropout_ema_and_normalization (c0_regression_test_stage_features.StageFeaturesTests) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 9.842s\n\nOK\n"
+    },
+    {
+      "suite": "test_stage1a_diagnostics.py",
+      "status": "PASS",
+      "tests_run": 10,
+      "elapsed_seconds": 0.6571818320080638,
+      "log": "test_autograd_reachability_shapes_existing_grad_slots_and_state (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_case_pair_cosines_negative_sign_invalid_masks_and_bootstrap (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_discovered_parameter_names_axes_and_reachability (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_four_scale_losses_and_original_aggregate_lossnorm (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_profile_simplex_rank_constraint_is_explicit (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_rank_one_can_describe_conflicting_heads_not_cooperation (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_signed_cosine_invalid_zero_tiny_and_nonfinite (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_single_reachable_head_has_no_interpretable_profile_pca (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_transpose_convolution_output_channel_vectorization (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\ntest_unlabeled_loader_forbids_label_and_crops_ignore_label_values (c0_regression_test_stage1a_diagnostics.DiagnosticTests) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.657s\n\nOK\n"
+    },
+    {
+      "suite": "test_stage1b_boundary.py",
+      "status": "PASS",
+      "tests_run": 14,
+      "elapsed_seconds": 0.22908570105209947,
+      "log": "test_all_stage_gradients_and_existing_grad_slots_preserved (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_balanced_ce_positive_outer_sign_and_volume_average_conservation (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_constant_teacher_and_absent_levelset_are_invalid (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_decoder_hook_changes_final_output_not_only_auxiliary_head (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_energy_matching_and_invalid_cap_are_explicit (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_explicit_difference_operator_native_voxel_units (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_full_volume_boundary_before_crop_has_no_artificial_crop_face (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_invalid_empty_boundary_and_insufficient_control_are_explicit (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_linear_head_logits_additive_but_ce_nonadditivity_is_not_synergy (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_matched_regions_class_counts_and_no_duplicate_voxels (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_paired_case_bootstrap_uses_shared_indices (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_pointwise_final_head_has_no_remote_band_ce_effect (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_result_guard_protects_old_directories (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\ntest_teacher_stop_gradient_and_weight_histogram_control (c0_regression_test_stage1b_boundary.BoundaryTests) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.229s\n\nOK\n"
+    },
+    {
+      "suite": "verify_core.py",
+      "status": "PASS",
+      "exit_code": 0,
+      "stdout": "PASS: exact original predictions and parameter keys at all four scales\nPASS: consistency sends gradients only to the student\nPASS: supervised and consistency gradients, all four heads, and first EMA update\nPASS: L/L.detach() retains gradients and the zero-loss safeguard is finite\nPASS: sliding-window overlap, padding and restored volume dimensions\nAll core verification checks passed.\n",
+      "stderr": ""
+    }
+  ],
+  "historical_reports_not_overwritten": true
+}

@@ -1,0 +1,2294 @@
+[
+  {
+    "path": "analysis/stage1a_gradients/.gitignore",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/FINDINGS.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/README.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/SCRIPT_MANIFEST.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/SOURCES.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/TEST_RESULTS.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/VERIFICATION.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/core.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/run.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/design.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/extraction_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/parameter_mapping.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/per_observation_channels.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/protection_before.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E5.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E5.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/RAW_GRADIENT_MANIFEST.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/REPORT.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/channel_profiles.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/cross_scale_summary.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/design.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/extraction_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/case_stability.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/case_stability.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/channel_profile_pca.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/channel_profile_pca.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/cross_scale_cosines.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/cross_scale_cosines.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/d1_signed_channel_cosines.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/d1_signed_channel_cosines.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/validity_and_lu.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/validity_and_lu.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/gradient_reconstruction.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/hdf5_access_log.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/losses.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/lu_case_pairs.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/norm_scaling.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/observations.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/output_verification.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/parameter_mapping.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/pca_clusters.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_channel.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_channel_multiscale.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_observation_channels.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_observation_cross_scale.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/protection_after.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/protection_before.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E5.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E5.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/scale_summary.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/summary_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/validity_matrices.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/stats_tools.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/summarize.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1a_gradients/verify_outputs.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/.gitignore",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/ARTIFACT_MANIFEST.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/DESIGN.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/EXECUTION_NOTES.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/FINAL_STATUS.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/PROTECTION_BEFORE.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/README.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/REGRESSION_RESULTS.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/REMOTE_AUDIT.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/REMOTE_INVENTORY.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/REMOTE_RECHECK.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/REMOTE_RECHECK_ATTEMPT_01.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/REPLAY_OF_MEASUREMENT_REFINEMENT.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/SMOKE_REPORT.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/TEST_ATTEMPT_01.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/TEST_ATTEMPT_02.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/TEST_REPORT.md",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/TEST_RESULTS.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/nodes.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/objectives_c0.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/pairs.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/regressions.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/report.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/AB_compatibility.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/deltas.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/environment.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/execution_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/feature_gradient_stats.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/fidelity_by_stage_dose.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/fidelity_gates.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/figures/direction_uncertainty.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/figures/direction_uncertainty.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/figures/dose_fidelity.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/figures/dose_fidelity.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/figures/predicted_actual.pdf",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/figures/predicted_actual.png",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/geometry.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/hdf5_access_log.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/intervention_metrics.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/node_identity.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/noise_calibration.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/parameter_gradient_stats.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/L_0_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/L_1_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/L_4_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/L_5_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/U_0_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/U_1_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/U_4_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/U_5_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_0_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_0_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_0_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_0_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_0_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_1_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_1_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_1_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_1_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_1_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_4_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_4_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_4_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_4_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_4_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_5_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_5_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_5_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_5_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/L_5_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_0_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_0_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_0_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_0_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_0_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_1_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_1_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_1_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_1_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_1_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_4_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_4_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_4_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_4_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_4_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_5_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_5_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_5_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_5_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/features/U_5_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_0_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_1_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_4_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/L_5_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_0_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_1_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_4_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/raw/parameters/U_5_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/reference_replay.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/report_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/source_at_run.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/summary_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/verification_hdf5_access_log.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_checked/verification_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/AB_compatibility.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/deltas.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/environment.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/execution_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/feature_gradient_stats.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/fidelity_by_stage_dose.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/fidelity_gates.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/geometry.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/hdf5_access_log.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/intervention_metrics.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/node_identity.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/noise_calibration.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/parameter_gradient_stats.csv",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/L_0_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/L_1_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/L_4_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/L_5_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/U_0_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/U_1_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/U_4_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/U_5_pairs.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_0_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_0_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_0_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_0_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_0_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_1_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_1_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_1_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_1_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_1_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_4_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_4_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_4_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_4_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_4_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_5_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_5_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_5_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_5_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/L_5_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_0_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_0_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_0_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_0_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_0_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_1_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_1_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_1_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_1_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_1_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_4_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_4_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_4_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_4_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_4_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_5_D1.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_5_D2.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_5_D3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_5_E3.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/features/U_5_E4.npz",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_0_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_1_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_4_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_boundary_ce_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_boundary_ce_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_boundary_ce_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_boundary_ce_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_boundary_ce_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_region_ce_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_region_ce_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_region_ce_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_region_ce_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_region_ce_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m0_5_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m0_5_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m0_5_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m0_5_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m0_5_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m1_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m1_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m1_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m1_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m1_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/L_5_transition_m2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_0_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_1_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_4_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_edge_w2_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_edge_w2_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_edge_w2_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_edge_w2_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_edge_w2_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_mt_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_mt_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_mt_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_mt_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_mt_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_u_transition_D1.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_u_transition_D2.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_u_transition_D3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_u_transition_E3.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/raw/parameters/U_5_u_transition_E4.npy",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/reference_replay.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/source_at_run.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/summary_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/verification_hdf5_access_log.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/runs/c0_la10_fixed/verification_results.json",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/smoke.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/summarize.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/support.py",
+    "equal": true
+  },
+  {
+    "path": "analysis/stage1c_boundary_attribution/verify.py",
+    "equal": true
+  }
+]

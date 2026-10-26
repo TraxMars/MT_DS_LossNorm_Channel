@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rows": 1440,
+  "max_absolute_changes": {
+    "delta_hat": 0.0,
+    "delta_actual": 0.0,
+    "epsilon": 0.0,
+    "alpha": 0.0,
+    "target_l2": 0.0
+  },
+  "meaning": "Only perturbation energy measurement/logging was refined; no cases, doses, scores or uncertainty thresholds changed."
+}

@@ -1,0 +1,2006 @@
+{
+  "base_commit": "67a0bf11ff4c889787a79962cf3f0b8a83804bb6",
+  "files": {
+    "/aita_data/home/aita_duanxuelong/Dataset/ACDC/all_slices.list": {
+      "size": 51568,
+      "sha256": "30542ca264d0d4ed03d4efa170e298d06607e26090a1d96e73793c49da1ca70e"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/ACDC/test.list": {
+      "size": 760,
+      "sha256": "98161bdfaad072bf5713d7345751ab5a2bf3e5468b8edb03fd9ebfedc4503671"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/ACDC/train.list": {
+      "size": 2660,
+      "sha256": "97a399f7bdbfe96b93cf8731a4bf3dd78562269bada57464fdc0dbc3f0f45746"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/ACDC/train_slices.list": {
+      "size": 35556,
+      "sha256": "1b21b2a69d1b28b4dfce6837fdb0572414d337566b51b3dd0e0fda342a6f0648"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/ACDC/val.list": {
+      "size": 380,
+      "sha256": "61b935c936d8e12f7889e82d954f421fa25fb95305e92a476096b3242de8777d"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/LA/test.list": {
+      "size": 420,
+      "sha256": "e55b18069e27d6eab3dc21b8d1dc05a99ef83110fedc789f81c461d7bb152199"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/LA/train.list": {
+      "size": 1680,
+      "sha256": "e88c3f0bae70edcca4bc16eca890673eee2bf3f7b74418249cb01b8cde2f924e"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/sample_test.list": {
+      "size": 20,
+      "sha256": "f60a4cac4a912e4e82262caa9bed402c353c91d325671b8542c50aedf6d32400"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/test.list": {
+      "size": 200,
+      "sha256": "e55da970a819580907e86de9a2d65dd2a1ab13c24721a5ba6acfa7b4d3a84ebb"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/train.list": {
+      "size": 620,
+      "sha256": "96e54f3254f359a10ce5fa8a99ead8735f56660392d45f1f871dfc327d6383cf"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/brats19/Flods/25l.list": {
+      "size": 533,
+      "sha256": "983e7d8e9edd371639b0dbf99aaece02141b8814e10c44941442d4f576e39f9c"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/brats19/Flods/50l.list": {
+      "size": 1064,
+      "sha256": "6f3f16a467827b9f2160902d3bf418e1d4e8ebaec19160aeb581ce69512ea0ea"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/brats19/Flods/test.list": {
+      "size": 1223,
+      "sha256": "3ac76c8f71ac6db01937431bc69d24e46003af7f597e1c964c3c07b3a9ba2746"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/brats19/Flods/train.list": {
+      "size": 5067,
+      "sha256": "7d897caa29191e248c4461264993abcc4ea7c88bb7b4be9bf2cbc9b51941ddfe"
+    },
+    "/aita_data/home/aita_duanxuelong/Dataset/brats19/Flods/val.list": {
+      "size": 529,
+      "sha256": "8d4f876d27a409dab65d2df60643df4b1bd52d1fd62c131f59932eb91676854f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/.gitignore": {
+      "size": 592,
+      "sha256": "f7a33e1d599c44ba75af949a93817aed615c55e5666e5ee2d4f779a244e3bac4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/README.md": {
+      "size": 4653,
+      "sha256": "f30866694c3b3742f8f4e4735a9f0b592a2a740b1ea7305695503be262793fbd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/best_metrics.json": {
+      "size": 4647,
+      "sha256": "181fdf7ef607a8345b658aa7fe8d650e6a15542b87d5871c8f52edaa9053d01a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "c6ac78ce3f680e47eee7b3511b12833000c9c23e4116875b056cb123b3789ba9"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/config.json": {
+      "size": 1116,
+      "sha256": "978c6ce2856f3b37d1acf7c4c3ea6c2317b81a44feaec29005bf2e2e328df42d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/data_split_manifest.json": {
+      "size": 18086,
+      "sha256": "eed12429ecb3c2fdbe2f3300eede831dc33b5cc1c6b50f20ba45e97307727d79"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "4f5705ebee1af7736b955f2b6cf30f071db389889128f0098eb236906a069326"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/latest_validation.json": {
+      "size": 4693,
+      "sha256": "0a6a1c829b6a59332a1a361486b951fb34e3c55857a75ab693ba9b571ff3babd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/log.txt": {
+      "size": 178792,
+      "sha256": "5db3db8c36fd3e8fa90d123cfda3d5bdc4699ead305324b2785c54164fe101c3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/run_status.json": {
+      "size": 244,
+      "sha256": "a0392401d3ea066e6766900e443b40372678a0ac04b4a6f428c35109aa9ff9b3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "7fb1d8bad075f0d9e406814dd2dbc1587c9ef8dff2a428e0cf17423c9012278f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/tensorboard/events.out.tfevents.1792494050.gpu04.aita.cute.ac.cn.1897275.0": {
+      "size": 851911,
+      "sha256": "b8d6d7df22cdc395d555f56ed2f2a5bcac182e976c6bd7469b815f9f7c52e4b5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/test_metrics.json": {
+      "size": 10943,
+      "sha256": "959cac27d6204d7a62e25092b54cb9bfa79e0973604963ab192f5d18af18727e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/training_metrics.csv": {
+      "size": 250792,
+      "sha256": "756be0bd191fe28b841599360bc39b6f62c64d0dddc65c301439fb9dba4eaf44"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_25l/validation_metrics.jsonl": {
+      "size": 264024,
+      "sha256": "32776a9f299d45d7b74237554f65f8256f567edd76c2105b5f96b122d1edb967"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/best_metrics.json": {
+      "size": 4671,
+      "sha256": "1c9333a476126f8915c6c5f1d21716d8d605b4bbd86654c7e50d280f63cdb3b7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "09fd35cb5815164609f280318e18ef9ea096e9442a9a2b0ee7043798dfddf36a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/config.json": {
+      "size": 1116,
+      "sha256": "fb60986fb72e083d099c028827dfaa9f3d7074c943b414375ac0d90599baf671"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/data_split_manifest.json": {
+      "size": 18086,
+      "sha256": "2f1176bc2d60ec0cfceb377fc42cf2c402e6b16675b61920bd18068df36f4f6c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "f78efc7049f75f2c0c531efda90284e2b37a8c973e16acd86e0b704514cbf872"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/latest_validation.json": {
+      "size": 4663,
+      "sha256": "c06af325052888f8367978ad54b5bf8b2e8dc373d7639c3c7c09188a5707344d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/log.txt": {
+      "size": 178796,
+      "sha256": "f3ec45dd5232e85fd4ecee934017de76de88bcc86ecf34da7dbd60ed501efc4e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/run_status.json": {
+      "size": 244,
+      "sha256": "c28aef2ddf45c40449aed1d4742b4b025b5aba47f706f4c898f64c07bb55ce9d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "aff9d0b3b4cd86dc00f277d971d0cffb602baaa12b8f9a3160f026a5e258f876"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/tensorboard/events.out.tfevents.1792505114.gpu04.aita.cute.ac.cn.3620136.0": {
+      "size": 851911,
+      "sha256": "6054abf52f5e2375998c17ab472c98b5aa162ae9e9239bbfab90cdd7c740ace3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/test_metrics.json": {
+      "size": 10990,
+      "sha256": "d5f416549c7eb0a146026dabd60f9d11865e81f3c0b6daed28413a440f8da51d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/training_metrics.csv": {
+      "size": 250838,
+      "sha256": "c7cb7afae55d6abc1fe4f179db64776be8bf3d812a652e00f743e27c241453e3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/BraTS19_50l/validation_metrics.jsonl": {
+      "size": 263627,
+      "sha256": "28f0926f7546725ab61b3267b4b7615b3df6b6451ee24bd7dae9f4689b03c9c2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/best_metrics.json": {
+      "size": 3769,
+      "sha256": "876855411b8d7ade0d1d63d6b47f7225a9c666f720e078d2eacdbdf48bfeff2c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "6ce2288db6b571d3cd92a3b776228e5d214e239e25c9b0e3f57efc13991d29fa"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/config.json": {
+      "size": 1097,
+      "sha256": "fc92949f0fe2ba8357c421c2a2ffa219939110b1db034d2d70b211a9a47af5f0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/data_split_manifest.json": {
+      "size": 5993,
+      "sha256": "31a4d7ad3ff7d96e7fb72221a8f3c9184585115e3c24346b36ea726ef6cec6b7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/last_checkpoint.pth": {
+      "size": 113638959,
+      "sha256": "8285cee97f5d75abe79d30df2381567b347d1827d576ea0c16e581bb80141f8e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/latest_validation.json": {
+      "size": 3785,
+      "sha256": "6b24b0ce73bc42fb5ccb9467b79b857d4c30611e54ff5214a25885150a1a787d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/log.txt": {
+      "size": 178764,
+      "sha256": "099f9482fc306b24cfc254d857cf06b6a85480b17ecb9dda793e9d254ae4faf1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/run_status.json": {
+      "size": 238,
+      "sha256": "c7f932e47caf08ea2312427d9051e81262fc47caaaf43e62ce2efc7d8fdbdb19"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "71793d5c9d19409dfb318e2b707a1464fc77edc2ce02e5a007ef0f5dd2da81be"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/tensorboard/events.out.tfevents.1792505114.gpu04.aita.cute.ac.cn.3620134.0": {
+      "size": 851911,
+      "sha256": "3e93255f5bf9ddd86fce0511314a2d46f96f9e7a61e2073dff74ce0d01bd78c4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/test_metrics.json": {
+      "size": 3747,
+      "sha256": "3faf2787cccd6f51d50224b7313bb09afe59aaf58acc247976f44c4ea415bc63"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/training_metrics.csv": {
+      "size": 249338,
+      "sha256": "e5c365ff2382ba7378cac46cbdca7f3124041f532e5d40e6ae16fdb07adf0768"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_16l/validation_metrics.jsonl": {
+      "size": 213871,
+      "sha256": "50686edb898dfb6dd58c9255c4ad2c9a52c362a0098a235222994a174e828cf4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/best_metrics.json": {
+      "size": 3822,
+      "sha256": "f1a11e01a7949345a2c4864d94bc2a82fb2b6eca98f4c27907fb3feaadd0576a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "2782124fe685b12544e7b47525738b04d90ee479c58162ce9f82698a072f93a1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/config.json": {
+      "size": 1095,
+      "sha256": "2e5cf1a6ecc430cb49cbca1b2eb915287cbfdce03601463013a8e21fb8a87d99"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/data_split_manifest.json": {
+      "size": 5993,
+      "sha256": "dffcc44ed2b7ca0d3f4981327159c1c5223c3a1ebdc8d642ab3386aa7b98a49e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/last_checkpoint.pth": {
+      "size": 113638959,
+      "sha256": "85489c52c0905aebde65eacf5cea215aac51ee825ed3e5a845da86fe7f23e168"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/latest_validation.json": {
+      "size": 3806,
+      "sha256": "99de534b0d2b6058a3fb5ea7cfcbd9e20faaed371749140627c49d45a75574f9"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/log.txt": {
+      "size": 178775,
+      "sha256": "eea8977748e0fceb32fe6c4c3b9472bcc50bf1c0d44b7c17e50ffd8c42740ee8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/run_status.json": {
+      "size": 238,
+      "sha256": "d487356f3a14a71e03e25ef2e63fcc5d24b520692684d4fa44edd0b01b747b63"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "76e60078d18f697695f3539db688bdd6432331c18d99d81f09eca543078154ab"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/tensorboard/events.out.tfevents.1792494049.gpu04.aita.cute.ac.cn.1897273.0": {
+      "size": 851911,
+      "sha256": "aa36cd8d084ca0463a47237d0d406a1b7e0f755f916fe8538a9711cf4bc70c50"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/test_metrics.json": {
+      "size": 3800,
+      "sha256": "24e2ff444a4f1eac0f446cb9afcb60e70138a25f4d62e1ca7c35daa7a8f027c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/training_metrics.csv": {
+      "size": 250410,
+      "sha256": "90ea95d11cfd25d883bd6c50b127fada55590b72e5067991a933bcc4c9ad45cb"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/LA_8l/validation_metrics.jsonl": {
+      "size": 213918,
+      "sha256": "b4aac1fa0351379a14033eb7b6e232d58710961b552bd4338ec8fce12a739af1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/best_metrics.json": {
+      "size": 3551,
+      "sha256": "7e66f0099b701e55061049df98975bfcd62c9e0483b6c5bd1efd18fd2ab6458c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "00aa1f7e6e8fd098a567d8271c187f9535b4a89ee7f83984ef67b182c5159100"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/config.json": {
+      "size": 1113,
+      "sha256": "2b92fb2e86c64b22c1cb3d46326a78dcb99dc507201804756728e283c05efc62"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/data_split_manifest.json": {
+      "size": 3347,
+      "sha256": "06a3fefbfe7d3c77e144e9433727ef79d4e1246d04caf8322589ca11a1d3c737"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "69a2666e5ab6eef3812cc9844b50c12bde3c2dc70f65e0267d2669870aa34884"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/latest_validation.json": {
+      "size": 3520,
+      "sha256": "62495ffda7c0740591f44fbf6cb7f010dacaca81878fb5634a55d7bfbed6beb6"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/log.txt": {
+      "size": 178806,
+      "sha256": "5cad0d79cbe4b8aef421527d9d1959146d9e1b907fd562bf051483e9e2bf3cf2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/run_status.json": {
+      "size": 244,
+      "sha256": "c4c5fc252b289141b6145d225cb66693605688d834266770c1d4ab409c649e03"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "85d58bcfe1f275a35f063650ce761a2375d2a3dfee17ff5e77bf4e301c6b0c4f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/tensorboard/events.out.tfevents.1792505114.gpu04.aita.cute.ac.cn.3620135.0": {
+      "size": 851911,
+      "sha256": "d97c66f047fa86a3cb6082c0637501ffed01f8bf67139651157f13e8eb8aac56"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/test_metrics.json": {
+      "size": 3529,
+      "sha256": "9b6919f4ccbff2214c7e16f07275936d74cd7c3219a10e729b93daa15973b212"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/training_metrics.csv": {
+      "size": 250561,
+      "sha256": "dd8d890d97b4adde735b42db794de3e4aa5ec3871443775b7031ba4a8c512b4b"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_12l/validation_metrics.jsonl": {
+      "size": 198002,
+      "sha256": "4a11ab59ca43914eddc9fa6802911530fb2e7960aa94681ccc620cd8c0d27fe3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/best_metrics.json": {
+      "size": 3548,
+      "sha256": "caaa5d65f4aa6d0647c9edf18b232b977b9be4f27d89e382d5449899a38fda1b"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "a48a63d8c40d9ee2a8df903bf87cedbfb3f5c6762cd1c825ccdeaba0dc40dd96"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/config.json": {
+      "size": 1111,
+      "sha256": "131171a691d6348d9a88354d4b7219f16c1b60de508ceb9edfa3837706fba3c8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/data_split_manifest.json": {
+      "size": 3347,
+      "sha256": "f49704746b9fd5cb10ad140f13c2b1935eb9d0f7820e11e44d66f2f9ef6a91d1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "55e7b3c4837bc993daa0acd6c23e9a56a3461d08b2be1219c003f3c6376b7835"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/latest_validation.json": {
+      "size": 3610,
+      "sha256": "dedc6497f5ce397ad30a2585fb952323c6196d70e2b52c8ae9b392f6273d448c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/log.txt": {
+      "size": 178813,
+      "sha256": "08df5df8c5b3db862bbfb848e7fc95291e8b5cf9477c87c0adb9a52f22096b28"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/run_status.json": {
+      "size": 244,
+      "sha256": "53bfe6fb85f9daecfb97e182c63b3ab2bd63b37ed3c88efabf831890699af33a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "34accbb06be51f20277df8df84061c1067d63c7a67509f12000f9b31828a1183"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/tensorboard/events.out.tfevents.1792494048.gpu04.aita.cute.ac.cn.1897274.0": {
+      "size": 851911,
+      "sha256": "da32cf476566a32cee9551d3e33edbb2865729bedd530694ff51992285f5d3b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/test_metrics.json": {
+      "size": 3526,
+      "sha256": "d79906f5793929e5fe4bf4d071bdb5abc23af4bb43cbc257c0d589e0e0c66c57"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/training_metrics.csv": {
+      "size": 251119,
+      "sha256": "5c4e882641d6a04748f5a999659ff5c128c7bb684d4dafea65028fcfb6030822"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/Results/seed_42/Pancreas_6l/validation_metrics.jsonl": {
+      "size": 198651,
+      "sha256": "29f1dbdf6b644a2c3edac5d04ef2d3a3b5f75db3baf02c9510b84c63d5c1a644"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_190042/BraTS19.log": {
+      "size": 178792,
+      "sha256": "5db3db8c36fd3e8fa90d123cfda3d5bdc4699ead305324b2785c54164fe101c3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_190042/LA.log": {
+      "size": 178775,
+      "sha256": "eea8977748e0fceb32fe6c4c3b9472bcc50bf1c0d44b7c17e50ffd8c42740ee8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_190042/Pancreas.log": {
+      "size": 178813,
+      "sha256": "08df5df8c5b3db862bbfb848e7fc95291e8b5cf9477c87c0adb9a52f22096b28"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_190042/launch_manifest.json": {
+      "size": 2814,
+      "sha256": "87c336defb4a1d20341b1ade11b1943ba870ed1812a54cdc64138df2e0979481"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_220502/BraTS19.log": {
+      "size": 178796,
+      "sha256": "f3ec45dd5232e85fd4ecee934017de76de88bcc86ecf34da7dbd60ed501efc4e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_220502/LA.log": {
+      "size": 178764,
+      "sha256": "099f9482fc306b24cfc254d857cf06b6a85480b17ecb9dda793e9d254ae4faf1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_220502/Pancreas.log": {
+      "size": 178806,
+      "sha256": "5cad0d79cbe4b8aef421527d9d1959146d9e1b907fd562bf051483e9e2bf3cf2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_logs/20261020_220502/launch_manifest.json": {
+      "size": 2844,
+      "sha256": "798b352f86b54c4f01c428fad86b1a60becce8a22e0ed2ea13d0a6c9ade66744"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_manifest.json": {
+      "size": 2814,
+      "sha256": "87c336defb4a1d20341b1ade11b1943ba870ed1812a54cdc64138df2e0979481"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/launch_manifest_20pct.json": {
+      "size": 2844,
+      "sha256": "798b352f86b54c4f01c428fad86b1a60becce8a22e0ed2ea13d0a6c9ade66744"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/preserved_manifest_20261021.json": {
+      "size": 6067,
+      "sha256": "45236cff9f720a98881f7341892c63578740ad843ea46ebd491b7b919a4ff7d6"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/requirements.txt": {
+      "size": 41,
+      "sha256": "c70d5b576f1107cc77513d2e6912cf999724ff89771102597c63e120698d66b5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/scripts/launch_three.py": {
+      "size": 4039,
+      "sha256": "1f446ea2c0c3f2777ef81b362ef4bf345f596fee519e0a46cfd97cd9a6e747f1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/summary/results.csv": {
+      "size": 2726,
+      "sha256": "30fd35ab39d38b415d91261f5146967797ac452e41ceedc03280103cccb7cf34"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/summary/results.json": {
+      "size": 5592,
+      "sha256": "c25fd4fa60a824c9f3183d2918bf2d6bd4bb4dc51102a270b757b8a47810ce37"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/summary/results.md": {
+      "size": 1008,
+      "sha256": "fb57c5daadb380be119bebc2b68e7cef2a290440511c7041721d84b7cefabf08"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/tests/verify_core.py": {
+      "size": 4329,
+      "sha256": "f4e2c13c83ac93ecffde196fa4c8b356248a746d7a790975c3a6e4edcd73e434"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_report.json": {
+      "size": 3390,
+      "sha256": "f07dd0475ef3a8a68f1de70b15ccda17d56b01b3b314b010d403fe436de33adf"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/code/networks/vnet_ds.py": {
+      "size": 6963,
+      "sha256": "71fe8a78e97cb306b7e1d6554249d35c401cc21c02d12b79cf448adcf88fb6f5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/config.json": {
+      "size": 1082,
+      "sha256": "edef6d23e3c4bc8c4a4f133050094749b67243d207ca9866b4eee2b82d6f4bcf"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/data_split_manifest.json": {
+      "size": 18086,
+      "sha256": "eed12429ecb3c2fdbe2f3300eede831dc33b5cc1c6b50f20ba45e97307727d79"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/last_checkpoint.pth": {
+      "size": 113638959,
+      "sha256": "28e9a1935a3932cb4744cebf1463f77adcbb86e5b6eb9f4f4bbe2e6f4e10b9e3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/log.txt": {
+      "size": 1252,
+      "sha256": "2b4257a789c22f2fdb5b1bdbeae440ce741285c7066ce83980dfc99546bb0f4c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/run_status.json": {
+      "size": 222,
+      "sha256": "85cbe20fa24684c7a2ed35ddfeb768fa46358863c4fd1e995b0fae2091e769d0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/tensorboard/events.out.tfevents.1792493899.gpu04.aita.cute.ac.cn.1878358.0": {
+      "size": 1198,
+      "sha256": "de2aa2e37ea84cb0acd47b49f7bd80b760d732a226549f4b8f1b25bef775e799"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/BraTS19_full_patch/training_metrics.csv": {
+      "size": 444,
+      "sha256": "568a443521910c171562d632bda7ba44a102b4665b30ff09610bd498724477cc"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/code/networks/vnet_ds.py": {
+      "size": 6963,
+      "sha256": "71fe8a78e97cb306b7e1d6554249d35c401cc21c02d12b79cf448adcf88fb6f5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/config.json": {
+      "size": 1062,
+      "sha256": "a411d8a400a33c7a2f168f2a74a622e24f3768fe05ecde10d373c15c8e8f8dfd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/data_split_manifest.json": {
+      "size": 5993,
+      "sha256": "dffcc44ed2b7ca0d3f4981327159c1c5223c3a1ebdc8d642ab3386aa7b98a49e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "ead8558cebf82fe818c33f5815502c4d65a52683ce40555806600766a8339e01"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/log.txt": {
+      "size": 2416,
+      "sha256": "353d590c2e02a63ed1b0952bcdcf0ea909b3f7826e5169e3bf50b5d6dfb4aa31"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/run_status.json": {
+      "size": 216,
+      "sha256": "b148a25614dc47fe92840b2f6dee45b62cd967a2217435f951cdb7e24acccffc"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/tensorboard/events.out.tfevents.1792493864.gpu04.aita.cute.ac.cn.1873208.0": {
+      "size": 1198,
+      "sha256": "2d9776624615afe6cacb2686cc4a7aa786a80a0382275fca6798194c4b541d38"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/tensorboard/events.out.tfevents.1792493905.gpu04.aita.cute.ac.cn.1879072.0": {
+      "size": 643,
+      "sha256": "8c6d36520e458e2f3c9792f662fd7118c0db0c16fc2aded4476396ffe0b11ffe"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/LA_full_patch/training_metrics.csv": {
+      "size": 607,
+      "sha256": "52f3748462e6c8ced2e70f875aa5cb0cc9deec50b60191c35dc70477546bee87"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/code/networks/vnet_ds.py": {
+      "size": 6963,
+      "sha256": "71fe8a78e97cb306b7e1d6554249d35c401cc21c02d12b79cf448adcf88fb6f5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/config.json": {
+      "size": 1078,
+      "sha256": "81d9dd70e61aff07fbd4d5f44a50279f4bf9b039532b5115d86008b90ae42cf4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/data_split_manifest.json": {
+      "size": 3347,
+      "sha256": "f49704746b9fd5cb10ad140f13c2b1935eb9d0f7820e11e44d66f2f9ef6a91d1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "8e56b1f8f0498c9c587fc7700ba7dcca9a6d96df001c611b70b835548308dd2a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/log.txt": {
+      "size": 2342,
+      "sha256": "8d8c4f30bbd31da7e6b0fddc7b7508f127264ddc8221ba99de11de58d07ab2c5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/run_status.json": {
+      "size": 222,
+      "sha256": "2192d5401f8a2d59be4a4cec3f2362c8e4b7227e9972b024dbcbb2e050a79df1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/tensorboard/events.out.tfevents.1792493904.gpu04.aita.cute.ac.cn.1878996.0": {
+      "size": 643,
+      "sha256": "ff2ba62e1c295fd93404cb2e1bb273f8dfa90eda45d0c8bac5bfc45b640db858"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/tensorboard/events.out.tfevents.1792493946.gpu04.aita.cute.ac.cn.1884604.0": {
+      "size": 643,
+      "sha256": "2b23ead7a644b9e130f08f869deb8a4a177b5d25af3c9ec5493559f49550aeb2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm/verification_runs/Pancreas_full_patch/training_metrics.csv": {
+      "size": 441,
+      "sha256": "b2ab4eedc74fabb5eb5e7bd8afdcbb6ebb9504fa68e791fb36252d2c1dc0d551"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/.gitignore": {
+      "size": 592,
+      "sha256": "f7a33e1d599c44ba75af949a93817aed615c55e5666e5ee2d4f779a244e3bac4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/README.md": {
+      "size": 4653,
+      "sha256": "f30866694c3b3742f8f4e4735a9f0b592a2a740b1ea7305695503be262793fbd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/best_metrics.json": {
+      "size": 4647,
+      "sha256": "181fdf7ef607a8345b658aa7fe8d650e6a15542b87d5871c8f52edaa9053d01a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "c6ac78ce3f680e47eee7b3511b12833000c9c23e4116875b056cb123b3789ba9"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/config.json": {
+      "size": 1116,
+      "sha256": "978c6ce2856f3b37d1acf7c4c3ea6c2317b81a44feaec29005bf2e2e328df42d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/data_split_manifest.json": {
+      "size": 18086,
+      "sha256": "eed12429ecb3c2fdbe2f3300eede831dc33b5cc1c6b50f20ba45e97307727d79"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "4f5705ebee1af7736b955f2b6cf30f071db389889128f0098eb236906a069326"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/latest_validation.json": {
+      "size": 4693,
+      "sha256": "0a6a1c829b6a59332a1a361486b951fb34e3c55857a75ab693ba9b571ff3babd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/log.txt": {
+      "size": 178792,
+      "sha256": "5db3db8c36fd3e8fa90d123cfda3d5bdc4699ead305324b2785c54164fe101c3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/run_status.json": {
+      "size": 244,
+      "sha256": "a0392401d3ea066e6766900e443b40372678a0ac04b4a6f428c35109aa9ff9b3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "7fb1d8bad075f0d9e406814dd2dbc1587c9ef8dff2a428e0cf17423c9012278f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/tensorboard/events.out.tfevents.1792494050.gpu04.aita.cute.ac.cn.1897275.0": {
+      "size": 851911,
+      "sha256": "b8d6d7df22cdc395d555f56ed2f2a5bcac182e976c6bd7469b815f9f7c52e4b5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/test_metrics.json": {
+      "size": 10943,
+      "sha256": "959cac27d6204d7a62e25092b54cb9bfa79e0973604963ab192f5d18af18727e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/training_metrics.csv": {
+      "size": 250792,
+      "sha256": "756be0bd191fe28b841599360bc39b6f62c64d0dddc65c301439fb9dba4eaf44"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_25l/validation_metrics.jsonl": {
+      "size": 264024,
+      "sha256": "32776a9f299d45d7b74237554f65f8256f567edd76c2105b5f96b122d1edb967"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/best_metrics.json": {
+      "size": 4671,
+      "sha256": "1c9333a476126f8915c6c5f1d21716d8d605b4bbd86654c7e50d280f63cdb3b7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "09fd35cb5815164609f280318e18ef9ea096e9442a9a2b0ee7043798dfddf36a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/config.json": {
+      "size": 1116,
+      "sha256": "fb60986fb72e083d099c028827dfaa9f3d7074c943b414375ac0d90599baf671"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/data_split_manifest.json": {
+      "size": 18086,
+      "sha256": "2f1176bc2d60ec0cfceb377fc42cf2c402e6b16675b61920bd18068df36f4f6c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "f78efc7049f75f2c0c531efda90284e2b37a8c973e16acd86e0b704514cbf872"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/latest_validation.json": {
+      "size": 4663,
+      "sha256": "c06af325052888f8367978ad54b5bf8b2e8dc373d7639c3c7c09188a5707344d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/log.txt": {
+      "size": 178796,
+      "sha256": "f3ec45dd5232e85fd4ecee934017de76de88bcc86ecf34da7dbd60ed501efc4e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/run_status.json": {
+      "size": 244,
+      "sha256": "c28aef2ddf45c40449aed1d4742b4b025b5aba47f706f4c898f64c07bb55ce9d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "aff9d0b3b4cd86dc00f277d971d0cffb602baaa12b8f9a3160f026a5e258f876"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/tensorboard/events.out.tfevents.1792505114.gpu04.aita.cute.ac.cn.3620136.0": {
+      "size": 851911,
+      "sha256": "6054abf52f5e2375998c17ab472c98b5aa162ae9e9239bbfab90cdd7c740ace3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/test_metrics.json": {
+      "size": 10990,
+      "sha256": "d5f416549c7eb0a146026dabd60f9d11865e81f3c0b6daed28413a440f8da51d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/training_metrics.csv": {
+      "size": 250838,
+      "sha256": "c7cb7afae55d6abc1fe4f179db64776be8bf3d812a652e00f743e27c241453e3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/BraTS19_50l/validation_metrics.jsonl": {
+      "size": 263627,
+      "sha256": "28f0926f7546725ab61b3267b4b7615b3df6b6451ee24bd7dae9f4689b03c9c2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/best_metrics.json": {
+      "size": 3769,
+      "sha256": "876855411b8d7ade0d1d63d6b47f7225a9c666f720e078d2eacdbdf48bfeff2c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "6ce2288db6b571d3cd92a3b776228e5d214e239e25c9b0e3f57efc13991d29fa"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/config.json": {
+      "size": 1097,
+      "sha256": "fc92949f0fe2ba8357c421c2a2ffa219939110b1db034d2d70b211a9a47af5f0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/data_split_manifest.json": {
+      "size": 5993,
+      "sha256": "31a4d7ad3ff7d96e7fb72221a8f3c9184585115e3c24346b36ea726ef6cec6b7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/last_checkpoint.pth": {
+      "size": 113638959,
+      "sha256": "8285cee97f5d75abe79d30df2381567b347d1827d576ea0c16e581bb80141f8e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/latest_validation.json": {
+      "size": 3785,
+      "sha256": "6b24b0ce73bc42fb5ccb9467b79b857d4c30611e54ff5214a25885150a1a787d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/log.txt": {
+      "size": 178764,
+      "sha256": "099f9482fc306b24cfc254d857cf06b6a85480b17ecb9dda793e9d254ae4faf1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/run_status.json": {
+      "size": 238,
+      "sha256": "c7f932e47caf08ea2312427d9051e81262fc47caaaf43e62ce2efc7d8fdbdb19"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "71793d5c9d19409dfb318e2b707a1464fc77edc2ce02e5a007ef0f5dd2da81be"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/tensorboard/events.out.tfevents.1792505114.gpu04.aita.cute.ac.cn.3620134.0": {
+      "size": 851911,
+      "sha256": "3e93255f5bf9ddd86fce0511314a2d46f96f9e7a61e2073dff74ce0d01bd78c4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/test_metrics.json": {
+      "size": 3747,
+      "sha256": "3faf2787cccd6f51d50224b7313bb09afe59aaf58acc247976f44c4ea415bc63"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/training_metrics.csv": {
+      "size": 249338,
+      "sha256": "e5c365ff2382ba7378cac46cbdca7f3124041f532e5d40e6ae16fdb07adf0768"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_16l/validation_metrics.jsonl": {
+      "size": 213871,
+      "sha256": "50686edb898dfb6dd58c9255c4ad2c9a52c362a0098a235222994a174e828cf4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/best_metrics.json": {
+      "size": 3822,
+      "sha256": "f1a11e01a7949345a2c4864d94bc2a82fb2b6eca98f4c27907fb3feaadd0576a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "2782124fe685b12544e7b47525738b04d90ee479c58162ce9f82698a072f93a1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/config.json": {
+      "size": 1095,
+      "sha256": "2e5cf1a6ecc430cb49cbca1b2eb915287cbfdce03601463013a8e21fb8a87d99"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/data_split_manifest.json": {
+      "size": 5993,
+      "sha256": "dffcc44ed2b7ca0d3f4981327159c1c5223c3a1ebdc8d642ab3386aa7b98a49e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/last_checkpoint.pth": {
+      "size": 113638959,
+      "sha256": "85489c52c0905aebde65eacf5cea215aac51ee825ed3e5a845da86fe7f23e168"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/latest_validation.json": {
+      "size": 3806,
+      "sha256": "99de534b0d2b6058a3fb5ea7cfcbd9e20faaed371749140627c49d45a75574f9"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/log.txt": {
+      "size": 178775,
+      "sha256": "eea8977748e0fceb32fe6c4c3b9472bcc50bf1c0d44b7c17e50ffd8c42740ee8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/run_status.json": {
+      "size": 238,
+      "sha256": "d487356f3a14a71e03e25ef2e63fcc5d24b520692684d4fa44edd0b01b747b63"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "76e60078d18f697695f3539db688bdd6432331c18d99d81f09eca543078154ab"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/tensorboard/events.out.tfevents.1792494049.gpu04.aita.cute.ac.cn.1897273.0": {
+      "size": 851911,
+      "sha256": "aa36cd8d084ca0463a47237d0d406a1b7e0f755f916fe8538a9711cf4bc70c50"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/test_metrics.json": {
+      "size": 3800,
+      "sha256": "24e2ff444a4f1eac0f446cb9afcb60e70138a25f4d62e1ca7c35daa7a8f027c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/training_metrics.csv": {
+      "size": 250410,
+      "sha256": "90ea95d11cfd25d883bd6c50b127fada55590b72e5067991a933bcc4c9ad45cb"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/LA_8l/validation_metrics.jsonl": {
+      "size": 213918,
+      "sha256": "b4aac1fa0351379a14033eb7b6e232d58710961b552bd4338ec8fce12a739af1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/best_metrics.json": {
+      "size": 3551,
+      "sha256": "7e66f0099b701e55061049df98975bfcd62c9e0483b6c5bd1efd18fd2ab6458c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "00aa1f7e6e8fd098a567d8271c187f9535b4a89ee7f83984ef67b182c5159100"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/config.json": {
+      "size": 1113,
+      "sha256": "2b92fb2e86c64b22c1cb3d46326a78dcb99dc507201804756728e283c05efc62"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/data_split_manifest.json": {
+      "size": 3347,
+      "sha256": "06a3fefbfe7d3c77e144e9433727ef79d4e1246d04caf8322589ca11a1d3c737"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "69a2666e5ab6eef3812cc9844b50c12bde3c2dc70f65e0267d2669870aa34884"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/latest_validation.json": {
+      "size": 3520,
+      "sha256": "62495ffda7c0740591f44fbf6cb7f010dacaca81878fb5634a55d7bfbed6beb6"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/log.txt": {
+      "size": 178806,
+      "sha256": "5cad0d79cbe4b8aef421527d9d1959146d9e1b907fd562bf051483e9e2bf3cf2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/run_status.json": {
+      "size": 244,
+      "sha256": "c4c5fc252b289141b6145d225cb66693605688d834266770c1d4ab409c649e03"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "85d58bcfe1f275a35f063650ce761a2375d2a3dfee17ff5e77bf4e301c6b0c4f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/tensorboard/events.out.tfevents.1792505114.gpu04.aita.cute.ac.cn.3620135.0": {
+      "size": 851911,
+      "sha256": "d97c66f047fa86a3cb6082c0637501ffed01f8bf67139651157f13e8eb8aac56"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/test_metrics.json": {
+      "size": 3529,
+      "sha256": "9b6919f4ccbff2214c7e16f07275936d74cd7c3219a10e729b93daa15973b212"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/training_metrics.csv": {
+      "size": 250561,
+      "sha256": "dd8d890d97b4adde735b42db794de3e4aa5ec3871443775b7031ba4a8c512b4b"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_12l/validation_metrics.jsonl": {
+      "size": 198002,
+      "sha256": "4a11ab59ca43914eddc9fa6802911530fb2e7960aa94681ccc620cd8c0d27fe3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/best_metrics.json": {
+      "size": 3548,
+      "sha256": "caaa5d65f4aa6d0647c9edf18b232b977b9be4f27d89e382d5449899a38fda1b"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/best_model.pth": {
+      "size": 37892324,
+      "sha256": "a48a63d8c40d9ee2a8df903bf87cedbfb3f5c6762cd1c825ccdeaba0dc40dd96"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/code/networks/vnet_ds.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/config.json": {
+      "size": 1111,
+      "sha256": "131171a691d6348d9a88354d4b7219f16c1b60de508ceb9edfa3837706fba3c8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/data_split_manifest.json": {
+      "size": 3347,
+      "sha256": "f49704746b9fd5cb10ad140f13c2b1935eb9d0f7820e11e44d66f2f9ef6a91d1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "55e7b3c4837bc993daa0acd6c23e9a56a3461d08b2be1219c003f3c6376b7835"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/latest_validation.json": {
+      "size": 3610,
+      "sha256": "dedc6497f5ce397ad30a2585fb952323c6196d70e2b52c8ae9b392f6273d448c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/log.txt": {
+      "size": 178813,
+      "sha256": "08df5df8c5b3db862bbfb848e7fc95291e8b5cf9477c87c0adb9a52f22096b28"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/run_status.json": {
+      "size": 244,
+      "sha256": "53bfe6fb85f9daecfb97e182c63b3ab2bd63b37ed3c88efabf831890699af33a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/teacher_at_best_student.pth": {
+      "size": 37895209,
+      "sha256": "34accbb06be51f20277df8df84061c1067d63c7a67509f12000f9b31828a1183"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/tensorboard/events.out.tfevents.1792494048.gpu04.aita.cute.ac.cn.1897274.0": {
+      "size": 851911,
+      "sha256": "da32cf476566a32cee9551d3e33edbb2865729bedd530694ff51992285f5d3b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/test_metrics.json": {
+      "size": 3526,
+      "sha256": "d79906f5793929e5fe4bf4d071bdb5abc23af4bb43cbc257c0d589e0e0c66c57"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/training_metrics.csv": {
+      "size": 251119,
+      "sha256": "5c4e882641d6a04748f5a999659ff5c128c7bb684d4dafea65028fcfb6030822"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/Results/seed_42/Pancreas_6l/validation_metrics.jsonl": {
+      "size": 198651,
+      "sha256": "29f1dbdf6b644a2c3edac5d04ef2d3a3b5f75db3baf02c9510b84c63d5c1a644"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/.gitignore": {
+      "size": 264,
+      "sha256": "e75267893977d6b9ffb5286c2783878c41906e8cd8a2eb4c209c0440357d7781"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/FINDINGS.md": {
+      "size": 7865,
+      "sha256": "761aa914525da9cea829f7521f3ee8aa3b2180f2fca18263d8c170c1d7b1dc15"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/README.md": {
+      "size": 9782,
+      "sha256": "3c355389677f4c90e3add4b8966b451e022ff9c9aa4f2f8d61ef1525602246fe"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/SCRIPT_MANIFEST.json": {
+      "size": 901,
+      "sha256": "8862fb2e5f952d58304b55df2f90ba172d3f04b9e2255a36f7eef704aebe387a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/SOURCES.json": {
+      "size": 1849,
+      "sha256": "6b5f6f31fbbd4d910169331ba62a0fdcd510e1bda5e6350288e52b9d8ac68683"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/TEST_RESULTS.json": {
+      "size": 117,
+      "sha256": "d153cdf4e597f75186b40e9e89ad2edc69761665417b58347e43acc4c8481477"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/VERIFICATION.md": {
+      "size": 6780,
+      "sha256": "6ebd7972212cce808812a43850c208cc64a76cd2cecedb42ab22cd3169970700"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/core.py": {
+      "size": 11829,
+      "sha256": "d69360892bf038927053a4853989275155af7958af9864e887072bcd0361364f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/run.py": {
+      "size": 16875,
+      "sha256": "8eb212e9caf15f80f29bb7c300deed92a9d4e8807b1ed5b341dc48250fc190b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/design.json": {
+      "size": 1790,
+      "sha256": "e2a6ffd73f302d5de19fc18d48386d29c2e01f9422832e3ec5e6b842d85aa5ee"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/extraction_results.json": {
+      "size": 1820,
+      "sha256": "f844a347dab4fd5686b900f3cf549eecff1de5db920a2d8f34b636ca321e55d8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/parameter_mapping.json": {
+      "size": 3985,
+      "sha256": "60f27469a0a6a93ad16793e11d310b2c0387bc1b57c526fb0d918b94acb7af65"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/per_observation_channels.csv": {
+      "size": 157,
+      "sha256": "30896908b3ce0bd96dbede1421c40e7a406c4f74df674539a9e6722285390346"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/protection_before.json": {
+      "size": 86303,
+      "sha256": "970a47c53bcb0da3044505a1ca611a73da598413af7cbeac838b885ca02105e5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D1.npy": {
+      "size": 1769600,
+      "sha256": "9b1be54cb636dd253718ecc25c3073ec640b8ec84acffe8cb0fe02d193e748e2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D2.npy": {
+      "size": 4194432,
+      "sha256": "1122643601a9c72a2b7fef4363dfb9c7b941d58afd4aa0a43b17aa67a2587735"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D3.npy": {
+      "size": 16777344,
+      "sha256": "e01e471146390e77355da077ae8e30301644170b0281df6c1140cc4c3ab91239"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_D4.npy": {
+      "size": 67108992,
+      "sha256": "88f5fe45965d3d9fd261ba3a7328a6ea5908e9eb5d5962e3c8c5d8d1471deb71"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E1.npy": {
+      "size": 110720,
+      "sha256": "e8536bf1ef20ade0f79b3a91a7bee8c4aca98834659f155cb8de8b8e9436f8b9"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E2.npy": {
+      "size": 7078016,
+      "sha256": "01572a0ddca404aa5e0713d549ed96c0cfb3f7ae3ff0166c3874c00881b80b10"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E3.npy": {
+      "size": 28311680,
+      "sha256": "3908c705a360491d9c4fbe3eb9f6435092c46d7cd3be26d8e638a6b317b6a4e2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E4.npy": {
+      "size": 113246336,
+      "sha256": "af86d2f9836274f3660cd9e0f1f4af7c3b2fa65b3ffab14bc1a1a7bdffa99361"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/L_E5.npy": {
+      "size": 452984960,
+      "sha256": "7ab2db020c2344f3121f207c5b0bd0653ed641e8efe23a8fca73b05c37b2225a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D1.npy": {
+      "size": 3539072,
+      "sha256": "0aa01a97fd25d6460484c8b364431d54ca6ac03dd22ab34bce8b7f6112d0febe"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D2.npy": {
+      "size": 8388736,
+      "sha256": "711eb7e587e59d9ac90e0d415a42b06f3d7c875ffca88213beb52ce4e9de46d8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D3.npy": {
+      "size": 33554560,
+      "sha256": "9ba0b5f8a456998ff9878c9a68dcde3b315b683f230e9fa486a8a4b60496ef8c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_D4.npy": {
+      "size": 134217856,
+      "sha256": "f1f435658f50efeaf002d21abe8b8c953422c63f4d8c9af6949a0ded212105b1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E1.npy": {
+      "size": 221312,
+      "sha256": "e10492396b648123d6fb95ba6b5f9eed83502abdccdb58a52469d3b88640a544"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E2.npy": {
+      "size": 14155904,
+      "sha256": "e817203e04e9707956d48d71dd5360b14a1b09d8c9cae4a74d7409c0154ad218"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E3.npy": {
+      "size": 56623232,
+      "sha256": "d9581290eff0b6823684c6e2bab2147678e27ee9ca78d0308014ced3472bf0e1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E4.npy": {
+      "size": 226492544,
+      "sha256": "94d2cbc03666e246ede20690fd6940b98a77a899a755a3ec10a797abc2b9e39c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142/raw/U_E5.npy": {
+      "size": 905969792,
+      "sha256": "1a921fedd617d65bb2453f971690fc722bd1bdb4621de33b354934199dcf3919"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/RAW_GRADIENT_MANIFEST.json": {
+      "size": 2411,
+      "sha256": "3c4507ae83a159a758ed4c629ba714577c2ae25d92820de927be5760e0014246"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/REPORT.md": {
+      "size": 8255,
+      "sha256": "aab75d5e8632868df83b07e867c2445c00a8f53636d9f4c5a56b05874f855af2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/channel_profiles.csv": {
+      "size": 123817,
+      "sha256": "9541e6d2df3978f4a0d1c20ab0351342a1be196d1e4f55a749915c75751d0507"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/cross_scale_summary.csv": {
+      "size": 6902,
+      "sha256": "77c2a32122ee816e7df0a31ee98817468d4331a907011aee5fc72031c0a6b5f0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/design.json": {
+      "size": 1875,
+      "sha256": "ebe67b1f3a6ad34dc3eb1414a2cb0b05f9030db2c0ca79a270ab336919129910"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/extraction_results.json": {
+      "size": 618,
+      "sha256": "d37959bf2d6bbe73e24ffb18e2eb9647efbaf44526d1d257ae2226b2237fa38b"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/case_stability.pdf": {
+      "size": 28021,
+      "sha256": "f226c65c76b266cdadf170bed0762b112640e00583e54991cb9c832da2cb7aa2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/case_stability.png": {
+      "size": 229923,
+      "sha256": "96b7829128ca562984120a395f081acb7a48169fedd7c13c32d27f8c23db8126"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/channel_profile_pca.pdf": {
+      "size": 32788,
+      "sha256": "64248f162d0f741e04ae88ff461fc9244742d491c64539697bc181d33162fcd1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/channel_profile_pca.png": {
+      "size": 501997,
+      "sha256": "f3de9bdcbf1da8fcb03d6ff3f0e065b42bcc4a3369bb27e97582fbf7bc54de95"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/cross_scale_cosines.pdf": {
+      "size": 17560,
+      "sha256": "7eb5b804df091d75fb5deddefcb3e9e352386b42633410504b0970bd2524d9e7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/cross_scale_cosines.png": {
+      "size": 121413,
+      "sha256": "f74930e7c88484430ddc8aa142919e7ac1cde4d9656b2bc84c60ef1e2bae2575"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/d1_signed_channel_cosines.pdf": {
+      "size": 19109,
+      "sha256": "a20bdaace7d4e818cde4130e76391e75692826b6be2cf8ba21b8b2642f5dc1aa"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/d1_signed_channel_cosines.png": {
+      "size": 75931,
+      "sha256": "f4bca822d8cc64b412a49aff089bb4ce6d215a1484d88c7d968def321e3feb1e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/validity_and_lu.pdf": {
+      "size": 24481,
+      "sha256": "06fc338b50297e6ab3bff232109722b31be5be33b7e61219ec37bbbaa13f7fb4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/figures/validity_and_lu.png": {
+      "size": 115870,
+      "sha256": "fa68354d73f32c704453149e124d4a9d084e399d43e0d0af3c41fe4c56a2249c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/gradient_reconstruction.json": {
+      "size": 127596,
+      "sha256": "643b6536bb03b880b1a514b3f143185de5b69a38366e4a717233c1a2817a0f73"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/hdf5_access_log.json": {
+      "size": 6531,
+      "sha256": "68ade325a5aaa07b777203bb8abbefae4ad9bd0811b75267043f4301e6827db4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/losses.csv": {
+      "size": 24028,
+      "sha256": "6005538ca9fd60b4ca129c761feec2df6f00c1439c3ed65429faef11f6e3fa47"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/lu_case_pairs.csv": {
+      "size": 38209501,
+      "sha256": "fb7201ea812f744906f22477a28023161a1947100d5345e25fad292fcf2ea72c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/norm_scaling.json": {
+      "size": 1360,
+      "sha256": "d28df64ece00ecc44df701d776d718f5d330870fb6455fd0f9282145a54b9678"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/observations.json": {
+      "size": 38174,
+      "sha256": "37a23b3d668e8a66a4a403ccbefeeaf74af3a9122cfe5ecfe615c6532b669ecd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/output_verification.json": {
+      "size": 428,
+      "sha256": "ce0ba94d2b2ac7c7b21b6e202eb45adb9b49cc5ef97c4fa0a82c6b72a46c2437"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/parameter_mapping.json": {
+      "size": 3985,
+      "sha256": "60f27469a0a6a93ad16793e11d310b2c0387bc1b57c526fb0d918b94acb7af65"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/pca_clusters.json": {
+      "size": 26007,
+      "sha256": "0f6bb46ec48eebf214d6b3aaeca93bdd13e58f968308199efc6292df154f3d64"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_channel.csv": {
+      "size": 936017,
+      "sha256": "b18025dd2929b14e02f28856b90d2021937e8fdc7289f7c21a31bf4e244463d2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_channel_multiscale.csv": {
+      "size": 78748,
+      "sha256": "a887f763c159920949a2e3061cd50c4bf047c8471139af37da4aa0c4265eb16e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_observation_channels.csv": {
+      "size": 19942258,
+      "sha256": "b14ec994c22c686a727979a8fcb55726274357bcfc646c2f9130fac706008130"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/per_observation_cross_scale.csv": {
+      "size": 12970114,
+      "sha256": "668e75b181a5fdbc6f4b97771377ce59230e770d3950a38fe289e353d2234290"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/protection_after.json": {
+      "size": 75,
+      "sha256": "d15c3baea6dce9c7d41b2cf42a715294d7eedc860a638ea7b5c76dd63b866609"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/protection_before.json": {
+      "size": 86303,
+      "sha256": "970a47c53bcb0da3044505a1ca611a73da598413af7cbeac838b885ca02105e5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D1.npy": {
+      "size": 1769600,
+      "sha256": "29213a8862bd41e0875cee251de4e8c4534d3d13ea8eb0d3d21736627f5593d2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D2.npy": {
+      "size": 4194432,
+      "sha256": "cbe34a9ad6a6da36ab0156a66045fa359d448177134e6e0da46b14f502bbb808"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D3.npy": {
+      "size": 16777344,
+      "sha256": "43871e6d32a59a772050e66cf0036b1812b3c37f60450d87c271124a8b982f0d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_D4.npy": {
+      "size": 67108992,
+      "sha256": "7144e9921a50639822ba3d024d872acb8786f13d89012000122ccb0666fd824e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E1.npy": {
+      "size": 110720,
+      "sha256": "9f537223f55bb9e9fe0e15ea6d491955cb88e62bdcc427aeada33e73cae95885"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E2.npy": {
+      "size": 7078016,
+      "sha256": "86c75294ebfada906be0005042a8d784348b5023d4cc844287583ac4168fcf3b"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E3.npy": {
+      "size": 28311680,
+      "sha256": "8a9c95691d3cfe1e3bbb621670af1d92391d96fb50b14a1290dc5d6970a84177"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E4.npy": {
+      "size": 113246336,
+      "sha256": "fea36bff173168bee12b33fec793f399a76973adf416d8e3f35010271eb23b40"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/L_E5.npy": {
+      "size": 452984960,
+      "sha256": "3d2b3084618fc020d5f64e5b582767d7e27d5b237b37e1752791725edfa3e9e8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D1.npy": {
+      "size": 3539072,
+      "sha256": "be46b4f03c24fe33a22739e5f0f8447a38b8abc52ed8b4747c4f33966148f1fa"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D2.npy": {
+      "size": 8388736,
+      "sha256": "82670f2d2e25b5baf2ce8623983afc5fb8e4c054fb837552788f4fc40a61ed5f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D3.npy": {
+      "size": 33554560,
+      "sha256": "b69a1e6dac16cc39f286d4a4bda3e933aa1510f7bd6bd97f091f839c8b192c46"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_D4.npy": {
+      "size": 134217856,
+      "sha256": "320c9a75764e1a3e0452de5a1a90683fa7df9ed04b4e4b01c6b1ef58c9326de3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E1.npy": {
+      "size": 221312,
+      "sha256": "0a578a9d13406b75fd531f55429e6403ee7eea84ae677e9a2b1c7a81ccd316d5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E2.npy": {
+      "size": 14155904,
+      "sha256": "b48eee325c90260f052365cf1142b705e7b8512fa88d054b2520743d295ecf15"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E3.npy": {
+      "size": 56623232,
+      "sha256": "df8479faaab20919f6c231f2ad570cbe5ffef2bcccc61afa1a7720be90248653"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E4.npy": {
+      "size": 226492544,
+      "sha256": "aadbe8d100504818186953e6694dc1eabdb63e9a9949600831f2239a44cc5e05"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/raw/U_E5.npy": {
+      "size": 905969792,
+      "sha256": "448ecb1c1c694bd924d864fb690e0bdf6b4ef162eab54118db61c85fe434f267"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/scale_summary.csv": {
+      "size": 6255,
+      "sha256": "05fb109bbddef2577e81e9b23c53e9ac8881800dad62b9bf1d934a42e53453a1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/summary_results.json": {
+      "size": 305,
+      "sha256": "ea0a6f330b977eec99301db3aa92f230faec5606e050f3864d89e7380b270294"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/runs/la10_iter15000_seed142_fp32/validity_matrices.json": {
+      "size": 9301,
+      "sha256": "4cc8eebde38b5141ef8f2ddc577c278931ce59e338b323c808f74152d9ffb98d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/stats_tools.py": {
+      "size": 8897,
+      "sha256": "3883872364ac90342cb25bca34aff2277f7885b72fb10ee560ba459e00fe9c26"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/summarize.py": {
+      "size": 30402,
+      "sha256": "7528e84f82ee5678ed8b00e242765981e84bb2774a3716c786305fcac41394d0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage1a_gradients/verify_outputs.py": {
+      "size": 6266,
+      "sha256": "80f5187591436f1c03b3fbc5e98d90b614b6a52263c279c561c1c131f9ad2137"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/AUDIT.md": {
+      "size": 9833,
+      "sha256": "ee79cc4b9765aa0ced3d74e610099accdad9e98a8a94d323e4c400c2c380a5e5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/BASELINE_MANIFEST.json": {
+      "size": 647117,
+      "sha256": "7084846e09d4df83de45de0ca8d697bae1f40cfa44e73011cac160490a8083b5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/CPU_RESULTS.json": {
+      "size": 13024,
+      "sha256": "9ec8a3c23cbe3ffd0cfcf7557c98251ef77e46aa31b943db655901c8dc3d5379"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/EXPERIMENT_CONFIGS.json": {
+      "size": 72593,
+      "sha256": "600332daef508f171b72d5086027b52dfcbe9d1698919b5907fdb86fce385c65"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/GPU_ATTEMPTS.json": {
+      "size": 918,
+      "sha256": "592e3bce831522e947304bc2ef74004c5838cbac15b34d02f5c2057d86c89a11"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/GPU_RESULTS.json": {
+      "size": 31559,
+      "sha256": "6531984b7a2e681369e6356db1f8e8e7e17b567be134f235595f278f450369b1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/INTEGRITY_RESULTS.json": {
+      "size": 2409,
+      "sha256": "cd78f8f322e954ab6256ff171218163818fbd285a648e7ed6e53e1c8d6b27376"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/README.md": {
+      "size": 6538,
+      "sha256": "96fd848c4842aa9190c2b99ba4283947adca759f58fdf8c476a31f6db1d3cd83"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/VERIFICATION.md": {
+      "size": 9793,
+      "sha256": "685fd01f3937613ef5d8020aab713a4b46d3eca8733cb2ad1d5b596de996f13f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/reference/upstream_vnet.py": {
+      "size": 14961,
+      "sha256": "0600d4d0ca7a226f84829820f3ef35bf3f4dbec4a6c269f58f602c725e126a55"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/analysis/stage_features/reference/vnet_ds_baseline.py": {
+      "size": 6939,
+      "sha256": "57f29fc308d484c09cd2f080c5e283aea7a59e99eb4b0bf5612a25bd0e1e41b2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/boundary/__init__.py": {
+      "size": 249,
+      "sha256": "8f37cf6ac3dc9f00016b5c1c52354be4dce8266307199f8c79e258e96843b749"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/boundary/features.py": {
+      "size": 2700,
+      "sha256": "17c55c583f109c802a097fc25c0d632e0c172690f77c48ce176fe29d499f684f"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/networks/vnet_ds.py": {
+      "size": 7747,
+      "sha256": "d70304cdabd31a40265331e2075a32d551aea6e33b61ed6794b953d3752e308d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_190042/BraTS19.log": {
+      "size": 178792,
+      "sha256": "5db3db8c36fd3e8fa90d123cfda3d5bdc4699ead305324b2785c54164fe101c3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_190042/LA.log": {
+      "size": 178775,
+      "sha256": "eea8977748e0fceb32fe6c4c3b9472bcc50bf1c0d44b7c17e50ffd8c42740ee8"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_190042/Pancreas.log": {
+      "size": 178813,
+      "sha256": "08df5df8c5b3db862bbfb848e7fc95291e8b5cf9477c87c0adb9a52f22096b28"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_190042/launch_manifest.json": {
+      "size": 2814,
+      "sha256": "87c336defb4a1d20341b1ade11b1943ba870ed1812a54cdc64138df2e0979481"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_220502/BraTS19.log": {
+      "size": 178796,
+      "sha256": "f3ec45dd5232e85fd4ecee934017de76de88bcc86ecf34da7dbd60ed501efc4e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_220502/LA.log": {
+      "size": 178764,
+      "sha256": "099f9482fc306b24cfc254d857cf06b6a85480b17ecb9dda793e9d254ae4faf1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_220502/Pancreas.log": {
+      "size": 178806,
+      "sha256": "5cad0d79cbe4b8aef421527d9d1959146d9e1b907fd562bf051483e9e2bf3cf2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_logs/20261020_220502/launch_manifest.json": {
+      "size": 2844,
+      "sha256": "798b352f86b54c4f01c428fad86b1a60becce8a22e0ed2ea13d0a6c9ade66744"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_manifest.json": {
+      "size": 2814,
+      "sha256": "87c336defb4a1d20341b1ade11b1943ba870ed1812a54cdc64138df2e0979481"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/launch_manifest_20pct.json": {
+      "size": 2844,
+      "sha256": "798b352f86b54c4f01c428fad86b1a60becce8a22e0ed2ea13d0a6c9ade66744"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/preserved_manifest_20261021.json": {
+      "size": 6067,
+      "sha256": "45236cff9f720a98881f7341892c63578740ad843ea46ebd491b7b919a4ff7d6"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/requirements.txt": {
+      "size": 41,
+      "sha256": "c70d5b576f1107cc77513d2e6912cf999724ff89771102597c63e120698d66b5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/scripts/launch_three.py": {
+      "size": 4039,
+      "sha256": "1f446ea2c0c3f2777ef81b362ef4bf345f596fee519e0a46cfd97cd9a6e747f1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/summary/results.csv": {
+      "size": 2726,
+      "sha256": "30fd35ab39d38b415d91261f5146967797ac452e41ceedc03280103cccb7cf34"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/summary/results.json": {
+      "size": 5592,
+      "sha256": "c25fd4fa60a824c9f3183d2918bf2d6bd4bb4dc51102a270b757b8a47810ce37"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/summary/results.md": {
+      "size": 1008,
+      "sha256": "fb57c5daadb380be119bebc2b68e7cef2a290440511c7041721d84b7cefabf08"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/tests/test_stage1a_diagnostics.py": {
+      "size": 10264,
+      "sha256": "ba889d36239f824b79558f6d1bc592ed7b288eca9bd6f34d9bf8716b08a0870c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/tests/test_stage_features.py": {
+      "size": 25422,
+      "sha256": "4c2f0c45c520d3a9c22c2382a7e7f60027466ca3a309c9c406557891576febee"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/tests/verify_core.py": {
+      "size": 4329,
+      "sha256": "f4e2c13c83ac93ecffde196fa4c8b356248a746d7a790975c3a6e4edcd73e434"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/tests/verify_stage0_integrity.py": {
+      "size": 5450,
+      "sha256": "91ab0de463cc4b0d46ffdade070cd1d4fc5a349323fc0bd8437fbdff40cf90a0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_report.json": {
+      "size": 3390,
+      "sha256": "f07dd0475ef3a8a68f1de70b15ccda17d56b01b3b314b010d403fe436de33adf"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/code/networks/vnet_ds.py": {
+      "size": 6963,
+      "sha256": "71fe8a78e97cb306b7e1d6554249d35c401cc21c02d12b79cf448adcf88fb6f5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/config.json": {
+      "size": 1082,
+      "sha256": "edef6d23e3c4bc8c4a4f133050094749b67243d207ca9866b4eee2b82d6f4bcf"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/data_split_manifest.json": {
+      "size": 18086,
+      "sha256": "eed12429ecb3c2fdbe2f3300eede831dc33b5cc1c6b50f20ba45e97307727d79"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/last_checkpoint.pth": {
+      "size": 113638959,
+      "sha256": "28e9a1935a3932cb4744cebf1463f77adcbb86e5b6eb9f4f4bbe2e6f4e10b9e3"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/log.txt": {
+      "size": 1252,
+      "sha256": "2b4257a789c22f2fdb5b1bdbeae440ce741285c7066ce83980dfc99546bb0f4c"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/run_status.json": {
+      "size": 222,
+      "sha256": "85cbe20fa24684c7a2ed35ddfeb768fa46358863c4fd1e995b0fae2091e769d0"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/tensorboard/events.out.tfevents.1792493899.gpu04.aita.cute.ac.cn.1878358.0": {
+      "size": 1198,
+      "sha256": "de2aa2e37ea84cb0acd47b49f7bd80b760d732a226549f4b8f1b25bef775e799"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/BraTS19_full_patch/training_metrics.csv": {
+      "size": 444,
+      "sha256": "568a443521910c171562d632bda7ba44a102b4665b30ff09610bd498724477cc"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/code/networks/vnet_ds.py": {
+      "size": 6963,
+      "sha256": "71fe8a78e97cb306b7e1d6554249d35c401cc21c02d12b79cf448adcf88fb6f5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/config.json": {
+      "size": 1062,
+      "sha256": "a411d8a400a33c7a2f168f2a74a622e24f3768fe05ecde10d373c15c8e8f8dfd"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/data_split_manifest.json": {
+      "size": 5993,
+      "sha256": "dffcc44ed2b7ca0d3f4981327159c1c5223c3a1ebdc8d642ab3386aa7b98a49e"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "ead8558cebf82fe818c33f5815502c4d65a52683ce40555806600766a8339e01"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/log.txt": {
+      "size": 2416,
+      "sha256": "353d590c2e02a63ed1b0952bcdcf0ea909b3f7826e5169e3bf50b5d6dfb4aa31"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/run_status.json": {
+      "size": 216,
+      "sha256": "b148a25614dc47fe92840b2f6dee45b62cd967a2217435f951cdb7e24acccffc"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/tensorboard/events.out.tfevents.1792493864.gpu04.aita.cute.ac.cn.1873208.0": {
+      "size": 1198,
+      "sha256": "2d9776624615afe6cacb2686cc4a7aa786a80a0382275fca6798194c4b541d38"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/tensorboard/events.out.tfevents.1792493905.gpu04.aita.cute.ac.cn.1879072.0": {
+      "size": 643,
+      "sha256": "8c6d36520e458e2f3c9792f662fd7118c0db0c16fc2aded4476396ffe0b11ffe"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/LA_full_patch/training_metrics.csv": {
+      "size": 607,
+      "sha256": "52f3748462e6c8ced2e70f875aa5cb0cc9deec50b60191c35dc70477546bee87"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/code/data.py": {
+      "size": 5375,
+      "sha256": "2d2dffc6b84c8e3f704348d7afec8f0bd82690ccb8ff990dbb924f7a1ee1377d"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/code/evaluate.py": {
+      "size": 2902,
+      "sha256": "a2904f0981165b0bd7640c3202d897e7feaa8f9a37df3efe103c3bd6d2327421"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/code/networks/__init__.py": {
+      "size": 28,
+      "sha256": "85c7cedba3b4be93ff6b7f172a17c2bbc251de3477dcbd6dfadc7892eae3c946"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/code/networks/vnet_ds.py": {
+      "size": 6963,
+      "sha256": "71fe8a78e97cb306b7e1d6554249d35c401cc21c02d12b79cf448adcf88fb6f5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/code/objectives.py": {
+      "size": 1744,
+      "sha256": "c2768ba6753d880b83be19a858a3df3f91d60ce96801d10a4df0f79301366384"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/code/train.py": {
+      "size": 16049,
+      "sha256": "5da28e7732cb3e43efbd31dd4828958ec3fcfb660f70aeea111fcbd82e1cc6c7"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/config.json": {
+      "size": 1078,
+      "sha256": "81d9dd70e61aff07fbd4d5f44a50279f4bf9b039532b5115d86008b90ae42cf4"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/data_split_manifest.json": {
+      "size": 3347,
+      "sha256": "f49704746b9fd5cb10ad140f13c2b1935eb9d0f7820e11e44d66f2f9ef6a91d1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/last_checkpoint.pth": {
+      "size": 113639023,
+      "sha256": "8e56b1f8f0498c9c587fc7700ba7dcca9a6d96df001c611b70b835548308dd2a"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/log.txt": {
+      "size": 2342,
+      "sha256": "8d8c4f30bbd31da7e6b0fddc7b7508f127264ddc8221ba99de11de58d07ab2c5"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/provenance.json": {
+      "size": 333,
+      "sha256": "9fc0f923bbd1d65516e086a01bf06c4a31c68cb82b1ce31a3e6073c47bdd5cc1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/run_status.json": {
+      "size": 222,
+      "sha256": "2192d5401f8a2d59be4a4cec3f2362c8e4b7227e9972b024dbcbb2e050a79df1"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/tensorboard/events.out.tfevents.1792493904.gpu04.aita.cute.ac.cn.1878996.0": {
+      "size": 643,
+      "sha256": "ff2ba62e1c295fd93404cb2e1bb273f8dfa90eda45d0c8bac5bfc45b640db858"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/tensorboard/events.out.tfevents.1792493946.gpu04.aita.cute.ac.cn.1884604.0": {
+      "size": 643,
+      "sha256": "2b23ead7a644b9e130f08f869deb8a4a177b5d25af3c9ec5493559f49550aeb2"
+    },
+    "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Boundary/verification_runs/Pancreas_full_patch/training_metrics.csv": {
+      "size": 441,
+      "sha256": "b2ab4eedc74fabb5eb5e7bd8afdcbb6ebb9504fa68e791fb36252d2c1dc0d551"
+    }
+  },
+  "data_policy": "Read-only HDF5; no container hashing to avoid unlabeled GT bytes. Lists hashed but test IDs never used for selection."
+}

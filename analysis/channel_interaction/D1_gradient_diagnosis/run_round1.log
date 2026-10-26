@@ -1,0 +1,69 @@
+LA eval L 06SR5RBREL16DQ6M8LWS crop 0: 8.6s
+LA eval L 06SR5RBREL16DQ6M8LWS crop 1: 14.0s
+LA eval L 0RZDK210BSMWAA6467LU crop 0: 19.1s
+LA eval L 0RZDK210BSMWAA6467LU crop 1: 23.7s
+LA eval L 1D7CUD1955YZPGK8XHJX crop 0: 28.1s
+LA eval L 1D7CUD1955YZPGK8XHJX crop 1: 32.7s
+LA eval L 1GU15S0GJ6PFNARO469W crop 0: 36.9s
+LA eval L 1GU15S0GJ6PFNARO469W crop 1: 40.8s
+LA eval L 1MHBF3G6DCPWHSKG7XCP crop 0: 45.0s
+LA eval L 1MHBF3G6DCPWHSKG7XCP crop 1: 48.2s
+LA eval L 23X6SY44VT9KFHR7S7OC crop 0: 51.6s
+LA eval L 23X6SY44VT9KFHR7S7OC crop 1: 55.0s
+LA eval L 2XL5HSFSE93RMOJDRGR4 crop 0: 58.2s
+LA eval L 2XL5HSFSE93RMOJDRGR4 crop 1: 61.8s
+LA eval L 38CWS74285MFGZZXR09Z crop 0: 65.7s
+LA eval L 38CWS74285MFGZZXR09Z crop 1: 69.7s
+LA eval U 3C2QTUNI0852XV7ZH4Q1 crop 0: 77.5s
+LA eval U 3C2QTUNI0852XV7ZH4Q1 crop 1: 84.9s
+LA eval U 3DA0T2V6JJ2NLUAV6FWM crop 0: 91.1s
+LA eval U 3DA0T2V6JJ2NLUAV6FWM crop 1: 96.5s
+LA eval U 57SGAJMLCTCH92QUA0EE crop 0: 102.8s
+LA eval U 57SGAJMLCTCH92QUA0EE crop 1: 108.8s
+LA eval U 5QFK2PMHNX7UALK52NNA crop 0: 116.0s
+LA eval U 5QFK2PMHNX7UALK52NNA crop 1: 123.0s
+LA eval U 8GYK8A9MBRC9TV0FVSRA crop 0: 133.6s
+LA eval U 8GYK8A9MBRC9TV0FVSRA crop 1: 140.3s
+LA eval U 8ZG2TRZ81MAWHZPN9KKG crop 0: 147.0s
+LA eval U 8ZG2TRZ81MAWHZPN9KKG crop 1: 155.3s
+LA eval U BXJWOUYP2J3EN4U92517 crop 0: 162.5s
+LA eval U BXJWOUYP2J3EN4U92517 crop 1: 169.1s
+LA eval U BZUFJX66T0W6ZPVTL9DU crop 0: 176.8s
+LA eval U BZUFJX66T0W6ZPVTL9DU crop 1: 183.4s
+LA eval U CBIJFVZ5L9BS0LKWE8YL crop 0: 192.6s
+LA eval U CBIJFVZ5L9BS0LKWE8YL crop 1: 199.5s
+LA eval U EJ5V7SPR4961JWD6SS8V crop 0: 208.2s
+LA eval U EJ5V7SPR4961JWD6SS8V crop 1: 214.1s
+LA eval U FGM5NIWN3URY4HF4WNUW crop 0: 220.8s
+LA eval U FGM5NIWN3URY4HF4WNUW crop 1: 228.3s
+LA eval U JEC6HJ7SQJXBKVREX03F crop 0: 235.6s
+LA eval U JEC6HJ7SQJXBKVREX03F crop 1: 243.5s
+LA eval U OIRDLE32TXZX942FVZMM crop 0: 253.3s
+LA eval U OIRDLE32TXZX942FVZMM crop 1: 261.5s
+LA eval U R8ER97O9UUN77C02VE2J crop 0: 266.4s
+LA eval U R8ER97O9UUN77C02VE2J crop 1: 271.6s
+LA eval U RSZY41MT2FGDKHWWL5L2 crop 0: 278.7s
+LA eval U RSZY41MT2FGDKHWWL5L2 crop 1: 285.5s
+LA eval U TDDI6L3Y0L9VVFP9MNFS crop 0: 292.0s
+LA eval U TDDI6L3Y0L9VVFP9MNFS crop 1: 299.4s
+LA eval mini 0 repeat 0: 319.0s
+LA eval mini 0 repeat 1: 338.4s
+LA eval mini 1 repeat 0: 357.6s
+LA eval mini 1 repeat 1: 376.8s
+LA eval mini 2 repeat 0: 397.7s
+LA eval mini 2 repeat 1: 415.8s
+LA train mini 0 repeat 0: 430.1s
+Traceback (most recent call last):
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/channel_interaction/D1_gradient_diagnosis/code/run.py", line 130, in <module>
+    if __name__=='__main__': main()
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/channel_interaction/D1_gradient_diagnosis/code/run.py", line 125, in main
+    results={ds:dataset_run(ds,args,out/ds) for ds in SPECS}
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/channel_interaction/D1_gradient_diagnosis/code/run.py", line 125, in <dictcomp>
+    results={ds:dataset_run(ds,args,out/ds) for ds in SPECS}
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/channel_interaction/D1_gradient_diagnosis/code/run.py", line 79, in dataset_run
+    raw,meta=extract(student,teacher,x,y,mapping,config)
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/channel_interaction/D1_gradient_diagnosis/code/diagnostic.py", line 83, in extract
+    gradients,checks=parameter_gradients(losses,total,mapping,eps=config['normalization_eps'],
+  File "/aita_data/home/aita_duanxuelong/MT_DS_LossNorm_Channel/analysis/stage1a_gradients/core.py", line 144, in parameter_gradients
+    raise AssertionError(f"LossNorm gradient reconstruction {stage}: relative L2 error {normalized_relative}")
+AssertionError: LossNorm gradient reconstruction D1: relative L2 error 0.00021903636044301366

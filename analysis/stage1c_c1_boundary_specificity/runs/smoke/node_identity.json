@@ -1,0 +1,370 @@
+[
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "stage": "E3",
+    "module": "block_three",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "stage": "E4",
+    "module": "block_four",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      128,
+      14,
+      14,
+      10
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "stage": "D3",
+    "module": "block_seven",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "stage": "D2",
+    "module": "block_eight",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      32,
+      56,
+      56,
+      40
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 0,
+    "repeat": 0,
+    "stage": "D1",
+    "module": "out_conv",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      16,
+      112,
+      112,
+      80
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "stage": "E3",
+    "module": "block_three",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "stage": "E4",
+    "module": "block_four",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      128,
+      14,
+      14,
+      10
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "stage": "D3",
+    "module": "block_seven",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "stage": "D2",
+    "module": "block_eight",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      32,
+      56,
+      56,
+      40
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "06SR5RBREL16DQ6M8LWS",
+    "index": 1,
+    "repeat": 1,
+    "stage": "D1",
+    "module": "out_conv",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      16,
+      112,
+      112,
+      80
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "stage": "E3",
+    "module": "block_three",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "stage": "E4",
+    "module": "block_four",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      128,
+      14,
+      14,
+      10
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "stage": "D3",
+    "module": "block_seven",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "stage": "D2",
+    "module": "block_eight",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      32,
+      56,
+      56,
+      40
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 4,
+    "repeat": 0,
+    "stage": "D1",
+    "module": "out_conv",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      16,
+      112,
+      112,
+      80
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "stage": "E3",
+    "module": "block_three",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "stage": "E4",
+    "module": "block_four",
+    "site": "output",
+    "same_object": true,
+    "shape": [
+      1,
+      128,
+      14,
+      14,
+      10
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "stage": "D3",
+    "module": "block_seven",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      64,
+      28,
+      28,
+      20
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "stage": "D2",
+    "module": "block_eight",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      32,
+      56,
+      56,
+      40
+    ],
+    "requires_grad": true,
+    "forward_calls": 1,
+    "skip_fusion_max_error": 0.0
+  },
+  {
+    "case": "1D7CUD1955YZPGK8XHJX",
+    "index": 5,
+    "repeat": 1,
+    "stage": "D1",
+    "module": "out_conv",
+    "site": "input",
+    "same_object": true,
+    "shape": [
+      1,
+      16,
+      112,
+      112,
+      80
+    ],
+    "requires_grad": true,
+    "forward_calls": 1
+  }
+]

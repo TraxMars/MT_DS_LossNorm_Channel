@@ -1,0 +1,1307 @@
+{
+  "status": "PASS",
+  "datasets": {
+    "LA": {
+      "status": "PASS",
+      "state_sha256": {
+        "student": "db4c6754e3c77268ef74029ca63d88ffc8edefbdef0d1c701f34381bf70b8234",
+        "teacher": "f7f5b44334cfcdd8be236c3344ab6028f507d20c6565cdb1defd2a6e5570e767"
+      },
+      "baseline_state_equal": true,
+      "disk_config_equals_checkpoint": true,
+      "baseline_split_manifest_equal": true,
+      "data_inventory": [
+        {
+          "split": "train",
+          "case": "06SR5RBREL16DQ6M8LWS",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/06SR5RBREL16DQ6M8LWS/mri_norm2.h5",
+          "bytes": 2729902,
+          "mtime_ns": 1792392023194169696
+        },
+        {
+          "split": "train",
+          "case": "0RZDK210BSMWAA6467LU",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/0RZDK210BSMWAA6467LU/mri_norm2.h5",
+          "bytes": 2097311,
+          "mtime_ns": 1792392023214169501
+        },
+        {
+          "split": "train",
+          "case": "1D7CUD1955YZPGK8XHJX",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1D7CUD1955YZPGK8XHJX/mri_norm2.h5",
+          "bytes": 2373952,
+          "mtime_ns": 1792392023238169270
+        },
+        {
+          "split": "train",
+          "case": "1GU15S0GJ6PFNARO469W",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1GU15S0GJ6PFNARO469W/mri_norm2.h5",
+          "bytes": 1867851,
+          "mtime_ns": 1792392023258169076
+        },
+        {
+          "split": "train",
+          "case": "1MHBF3G6DCPWHSKG7XCP",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/1MHBF3G6DCPWHSKG7XCP/mri_norm2.h5",
+          "bytes": 2092884,
+          "mtime_ns": 1792392023278168882
+        },
+        {
+          "split": "train",
+          "case": "23X6SY44VT9KFHR7S7OC",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/23X6SY44VT9KFHR7S7OC/mri_norm2.h5",
+          "bytes": 2980570,
+          "mtime_ns": 1792392023306168611
+        },
+        {
+          "split": "train",
+          "case": "2XL5HSFSE93RMOJDRGR4",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/2XL5HSFSE93RMOJDRGR4/mri_norm2.h5",
+          "bytes": 2702784,
+          "mtime_ns": 1792392023334168340
+        },
+        {
+          "split": "train",
+          "case": "38CWS74285MFGZZXR09Z",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/38CWS74285MFGZZXR09Z/mri_norm2.h5",
+          "bytes": 2770396,
+          "mtime_ns": 1792392023362168069
+        },
+        {
+          "split": "train",
+          "case": "3C2QTUNI0852XV7ZH4Q1",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/3C2QTUNI0852XV7ZH4Q1/mri_norm2.h5",
+          "bytes": 2160057,
+          "mtime_ns": 1792392023386167837
+        },
+        {
+          "split": "train",
+          "case": "3DA0T2V6JJ2NLUAV6FWM",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/3DA0T2V6JJ2NLUAV6FWM/mri_norm2.h5",
+          "bytes": 3146228,
+          "mtime_ns": 1792392023418167527
+        },
+        {
+          "split": "train",
+          "case": "4498CA6DZWELOXCBRYRF",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/4498CA6DZWELOXCBRYRF/mri_norm2.h5",
+          "bytes": 3084942,
+          "mtime_ns": 1792392023446167256
+        },
+        {
+          "split": "train",
+          "case": "45C45I6IXAFGNRO067W9",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/45C45I6IXAFGNRO067W9/mri_norm2.h5",
+          "bytes": 2155016,
+          "mtime_ns": 1792392023470167024
+        },
+        {
+          "split": "train",
+          "case": "4CHFJGF6ZUM7CMZTNFQF",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/4CHFJGF6ZUM7CMZTNFQF/mri_norm2.h5",
+          "bytes": 3257463,
+          "mtime_ns": 1792392023502166714
+        },
+        {
+          "split": "train",
+          "case": "4EPVTT1HPA8U60CDUKXE",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/4EPVTT1HPA8U60CDUKXE/mri_norm2.h5",
+          "bytes": 3029739,
+          "mtime_ns": 1792392023534166404
+        },
+        {
+          "split": "train",
+          "case": "57SGAJMLCTCH92QUA0EE",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/57SGAJMLCTCH92QUA0EE/mri_norm2.h5",
+          "bytes": 2463224,
+          "mtime_ns": 1792392023558166172
+        },
+        {
+          "split": "train",
+          "case": "5BHTH9RHH3PQT913I59W",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/5BHTH9RHH3PQT913I59W/mri_norm2.h5",
+          "bytes": 3125705,
+          "mtime_ns": 1792392023590165862
+        },
+        {
+          "split": "train",
+          "case": "5FKQL4K14KCB72Y8YMC2",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/5FKQL4K14KCB72Y8YMC2/mri_norm2.h5",
+          "bytes": 1586801,
+          "mtime_ns": 1792392023606165708
+        },
+        {
+          "split": "train",
+          "case": "5HH0WPWIY06DLAFOBQ4M",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/5HH0WPWIY06DLAFOBQ4M/mri_norm2.h5",
+          "bytes": 1936577,
+          "mtime_ns": 1792392023626165514
+        },
+        {
+          "split": "train",
+          "case": "5QFK2PMHNX7UALK52NNA",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/5QFK2PMHNX7UALK52NNA/mri_norm2.h5",
+          "bytes": 1886832,
+          "mtime_ns": 1792392023646165320
+        },
+        {
+          "split": "train",
+          "case": "5UB5KFD2PK38Z4LS6W80",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/5UB5KFD2PK38Z4LS6W80/mri_norm2.h5",
+          "bytes": 2534383,
+          "mtime_ns": 1792392023674165050
+        },
+        {
+          "split": "train",
+          "case": "6799D6LEBH3NSRV1KH27",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/6799D6LEBH3NSRV1KH27/mri_norm2.h5",
+          "bytes": 3026028,
+          "mtime_ns": 1792392023702164778
+        },
+        {
+          "split": "train",
+          "case": "78NJ5YFQF72BGC8RO51C",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/78NJ5YFQF72BGC8RO51C/mri_norm2.h5",
+          "bytes": 2431796,
+          "mtime_ns": 1792392023730164507
+        },
+        {
+          "split": "train",
+          "case": "7FUCNXB39F78WTOP5K71",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/7FUCNXB39F78WTOP5K71/mri_norm2.h5",
+          "bytes": 1978319,
+          "mtime_ns": 1792392023750164313
+        },
+        {
+          "split": "train",
+          "case": "8GYK8A9MBRC9TV0FVSRA",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/8GYK8A9MBRC9TV0FVSRA/mri_norm2.h5",
+          "bytes": 2239482,
+          "mtime_ns": 1792392023774164081
+        },
+        {
+          "split": "train",
+          "case": "8M99G0JLAXG9GLPV0O8G",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/8M99G0JLAXG9GLPV0O8G/mri_norm2.h5",
+          "bytes": 1475622,
+          "mtime_ns": 1792392023790163926
+        },
+        {
+          "split": "train",
+          "case": "8RE90C8H5DKF4V6HO8UU",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/8RE90C8H5DKF4V6HO8UU/mri_norm2.h5",
+          "bytes": 2037247,
+          "mtime_ns": 1792392023810163733
+        },
+        {
+          "split": "train",
+          "case": "8ZG2TRZ81MAWHZPN9KKG",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/8ZG2TRZ81MAWHZPN9KKG/mri_norm2.h5",
+          "bytes": 2971794,
+          "mtime_ns": 1792392023842163423
+        },
+        {
+          "split": "train",
+          "case": "9DCM2IB45SK6YKQNYUQY",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/9DCM2IB45SK6YKQNYUQY/mri_norm2.h5",
+          "bytes": 3363637,
+          "mtime_ns": 1792392023874163113
+        },
+        {
+          "split": "train",
+          "case": "9DHWWP5Y66VDMPXISZ13",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/9DHWWP5Y66VDMPXISZ13/mri_norm2.h5",
+          "bytes": 1844904,
+          "mtime_ns": 1792392023894162920
+        },
+        {
+          "split": "train",
+          "case": "9DQYTIU00I4JC0OEOKQQ",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/9DQYTIU00I4JC0OEOKQQ/mri_norm2.h5",
+          "bytes": 2174608,
+          "mtime_ns": 1792392023918162687
+        },
+        {
+          "split": "train",
+          "case": "A11O45O3NAXWM7T2H8CH",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/A11O45O3NAXWM7T2H8CH/mri_norm2.h5",
+          "bytes": 1855530,
+          "mtime_ns": 1792392023938162494
+        },
+        {
+          "split": "train",
+          "case": "A4R1S23KR0KU2WSYHK2X",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/A4R1S23KR0KU2WSYHK2X/mri_norm2.h5",
+          "bytes": 2445073,
+          "mtime_ns": 1792392023962162261
+        },
+        {
+          "split": "train",
+          "case": "A5RNNK0A891WUSC2V624",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/A5RNNK0A891WUSC2V624/mri_norm2.h5",
+          "bytes": 3271991,
+          "mtime_ns": 1792392023994161952
+        },
+        {
+          "split": "train",
+          "case": "AT5CRO5JUDBWD4RUPXSQ",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/AT5CRO5JUDBWD4RUPXSQ/mri_norm2.h5",
+          "bytes": 2481500,
+          "mtime_ns": 1792392024018161719
+        },
+        {
+          "split": "train",
+          "case": "BNK95S2SJXEGSW7VAKYU",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/BNK95S2SJXEGSW7VAKYU/mri_norm2.h5",
+          "bytes": 2433277,
+          "mtime_ns": 1792392024042161487
+        },
+        {
+          "split": "train",
+          "case": "BXJWOUYP2J3EN4U92517",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/BXJWOUYP2J3EN4U92517/mri_norm2.h5",
+          "bytes": 3311273,
+          "mtime_ns": 1792392024078161138
+        },
+        {
+          "split": "train",
+          "case": "BYSRSI3H4YTWKMM3MADP",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/BYSRSI3H4YTWKMM3MADP/mri_norm2.h5",
+          "bytes": 2847258,
+          "mtime_ns": 1792392024106160868
+        },
+        {
+          "split": "train",
+          "case": "BZUFJX66T0W6ZPVTL9DU",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/BZUFJX66T0W6ZPVTL9DU/mri_norm2.h5",
+          "bytes": 1937631,
+          "mtime_ns": 1792392024126160674
+        },
+        {
+          "split": "train",
+          "case": "CB5P5W7X310NIIVU7UZV",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/CB5P5W7X310NIIVU7UZV/mri_norm2.h5",
+          "bytes": 2603026,
+          "mtime_ns": 1792392024150160442
+        },
+        {
+          "split": "train",
+          "case": "CBIJFVZ5L9BS0LKWE8YL",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/CBIJFVZ5L9BS0LKWE8YL/mri_norm2.h5",
+          "bytes": 2142913,
+          "mtime_ns": 1792392024174160210
+        },
+        {
+          "split": "train",
+          "case": "CCGAKN4EDT72KC8TTJ76",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/CCGAKN4EDT72KC8TTJ76/mri_norm2.h5",
+          "bytes": 2592381,
+          "mtime_ns": 1792392024198159977
+        },
+        {
+          "split": "train",
+          "case": "CLXFYOBQDCVXQ9P7YC07",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/CLXFYOBQDCVXQ9P7YC07/mri_norm2.h5",
+          "bytes": 3085677,
+          "mtime_ns": 1792392024226159706
+        },
+        {
+          "split": "train",
+          "case": "CMPXO4J23G58J53Q98SZ",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/CMPXO4J23G58J53Q98SZ/mri_norm2.h5",
+          "bytes": 2170216,
+          "mtime_ns": 1792392024254159435
+        },
+        {
+          "split": "train",
+          "case": "CZPMV6KWZ4I7IJJP9FOK",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/CZPMV6KWZ4I7IJJP9FOK/mri_norm2.h5",
+          "bytes": 2033595,
+          "mtime_ns": 1792392024278159203
+        },
+        {
+          "split": "train",
+          "case": "DLKXBV73A55ZTSZ0QQI2",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/DLKXBV73A55ZTSZ0QQI2/mri_norm2.h5",
+          "bytes": 2153108,
+          "mtime_ns": 1792392024298159009
+        },
+        {
+          "split": "train",
+          "case": "DQ5UYBGR5QP6L692QSG6",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/DQ5UYBGR5QP6L692QSG6/mri_norm2.h5",
+          "bytes": 1735799,
+          "mtime_ns": 1792392024318158816
+        },
+        {
+          "split": "train",
+          "case": "DYXSCIWHLSUOZIDDSZ40",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/DYXSCIWHLSUOZIDDSZ40/mri_norm2.h5",
+          "bytes": 2110220,
+          "mtime_ns": 1792392024342158583
+        },
+        {
+          "split": "train",
+          "case": "E2ZMO66WGS74UKXTZPPQ",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/E2ZMO66WGS74UKXTZPPQ/mri_norm2.h5",
+          "bytes": 2043201,
+          "mtime_ns": 1792392024366158351
+        },
+        {
+          "split": "train",
+          "case": "EJ5V7SPR4961JWD6SS8V",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/EJ5V7SPR4961JWD6SS8V/mri_norm2.h5",
+          "bytes": 2767534,
+          "mtime_ns": 1792392024394158080
+        },
+        {
+          "split": "train",
+          "case": "FGM5NIWN3URY4HF4WNUW",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/FGM5NIWN3URY4HF4WNUW/mri_norm2.h5",
+          "bytes": 1557742,
+          "mtime_ns": 1792392024410157925
+        },
+        {
+          "split": "train",
+          "case": "GSC9KNY0VEZXFSGWNF25",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/GSC9KNY0VEZXFSGWNF25/mri_norm2.h5",
+          "bytes": 1870916,
+          "mtime_ns": 1792392024426157770
+        },
+        {
+          "split": "train",
+          "case": "HVE7DR3CUA2IM3RC6OMA",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/HVE7DR3CUA2IM3RC6OMA/mri_norm2.h5",
+          "bytes": 1969534,
+          "mtime_ns": 1792392024446157576
+        },
+        {
+          "split": "train",
+          "case": "HZZ4O0BRKF8S0YX3NNF7",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/HZZ4O0BRKF8S0YX3NNF7/mri_norm2.h5",
+          "bytes": 1798529,
+          "mtime_ns": 1792392024470157344
+        },
+        {
+          "split": "train",
+          "case": "I2VZ7N8H9QYNYT7ZZF1Y",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/I2VZ7N8H9QYNYT7ZZF1Y/mri_norm2.h5",
+          "bytes": 2284333,
+          "mtime_ns": 1792392024490157151
+        },
+        {
+          "split": "train",
+          "case": "IDWWHGWJ5STOQXSDT6GU",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/IDWWHGWJ5STOQXSDT6GU/mri_norm2.h5",
+          "bytes": 2673588,
+          "mtime_ns": 1792392024518156880
+        },
+        {
+          "split": "train",
+          "case": "IIY6TYJMTJIZRIZLB9YW",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/IIY6TYJMTJIZRIZLB9YW/mri_norm2.h5",
+          "bytes": 1994370,
+          "mtime_ns": 1792392024542156647
+        },
+        {
+          "split": "train",
+          "case": "IJJY51YW3W4YJJ7DTVTK",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/IJJY51YW3W4YJJ7DTVTK/mri_norm2.h5",
+          "bytes": 1885310,
+          "mtime_ns": 1792392024562156454
+        },
+        {
+          "split": "train",
+          "case": "IQYKPTWXVV9H0IHB8YXC",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/IQYKPTWXVV9H0IHB8YXC/mri_norm2.h5",
+          "bytes": 2086902,
+          "mtime_ns": 1792392024586156221
+        },
+        {
+          "split": "train",
+          "case": "JEC6HJ7SQJXBKVREX03F",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/JEC6HJ7SQJXBKVREX03F/mri_norm2.h5",
+          "bytes": 1737382,
+          "mtime_ns": 1792392024602156067
+        },
+        {
+          "split": "train",
+          "case": "JGFOLWJF7YCYD8DPHQNH",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/JGFOLWJF7YCYD8DPHQNH/mri_norm2.h5",
+          "bytes": 2312464,
+          "mtime_ns": 1792392024626155834
+        },
+        {
+          "split": "train",
+          "case": "K32FD6LRSUSSXGS1YUOX",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/K32FD6LRSUSSXGS1YUOX/mri_norm2.h5",
+          "bytes": 2378275,
+          "mtime_ns": 1792392024654155563
+        },
+        {
+          "split": "train",
+          "case": "KM5RYAMP4P4ZP6XWP3Q2",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/KM5RYAMP4P4ZP6XWP3Q2/mri_norm2.h5",
+          "bytes": 2202433,
+          "mtime_ns": 1792392024674155369
+        },
+        {
+          "split": "train",
+          "case": "KSNYHUBHHUJTYJ14UQZR",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/KSNYHUBHHUJTYJ14UQZR/mri_norm2.h5",
+          "bytes": 2068311,
+          "mtime_ns": 1792392024698155137
+        },
+        {
+          "split": "train",
+          "case": "LH4FVU3TQDEC87YGN6FL",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/LH4FVU3TQDEC87YGN6FL/mri_norm2.h5",
+          "bytes": 2065189,
+          "mtime_ns": 1792392024718154943
+        },
+        {
+          "split": "train",
+          "case": "LJSDNMND9SHKM7Q4IRHJ",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/LJSDNMND9SHKM7Q4IRHJ/mri_norm2.h5",
+          "bytes": 2500143,
+          "mtime_ns": 1792392024742154711
+        },
+        {
+          "split": "train",
+          "case": "MFTDVMBWFNQ3F5KHBRDR",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/MFTDVMBWFNQ3F5KHBRDR/mri_norm2.h5",
+          "bytes": 1894189,
+          "mtime_ns": 1792392024762154518
+        },
+        {
+          "split": "train",
+          "case": "MJHV7F65TB2A76CQLOC3",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/MJHV7F65TB2A76CQLOC3/mri_norm2.h5",
+          "bytes": 2645575,
+          "mtime_ns": 1792392024790154247
+        },
+        {
+          "split": "train",
+          "case": "MVKIPGBKTNSENNP1S4HB",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/MVKIPGBKTNSENNP1S4HB/mri_norm2.h5",
+          "bytes": 2169783,
+          "mtime_ns": 1792392024814154014
+        },
+        {
+          "split": "train",
+          "case": "O5TSIKRD4AIB8K84WIR9",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/O5TSIKRD4AIB8K84WIR9/mri_norm2.h5",
+          "bytes": 2763342,
+          "mtime_ns": 1792392024842153744
+        },
+        {
+          "split": "train",
+          "case": "OIRDLE32TXZX942FVZMM",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/OIRDLE32TXZX942FVZMM/mri_norm2.h5",
+          "bytes": 2214530,
+          "mtime_ns": 1792392024866153511
+        },
+        {
+          "split": "train",
+          "case": "P1OTI3IWJUIB5NRLULLH",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/P1OTI3IWJUIB5NRLULLH/mri_norm2.h5",
+          "bytes": 2483047,
+          "mtime_ns": 1792392024890153279
+        },
+        {
+          "split": "train",
+          "case": "PVNXUK681N9BY14K4Z86",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/PVNXUK681N9BY14K4Z86/mri_norm2.h5",
+          "bytes": 1813241,
+          "mtime_ns": 1792392024910153085
+        },
+        {
+          "split": "train",
+          "case": "Q0MEX9ZIKAGJORSPLQ3Y",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/Q0MEX9ZIKAGJORSPLQ3Y/mri_norm2.h5",
+          "bytes": 2661524,
+          "mtime_ns": 1792392024934152853
+        },
+        {
+          "split": "train",
+          "case": "Q7J0WYM695R9MA285ZW0",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/Q7J0WYM695R9MA285ZW0/mri_norm2.h5",
+          "bytes": 2081406,
+          "mtime_ns": 1792392024958152621
+        },
+        {
+          "split": "train",
+          "case": "QZC1W0FNR19KJFLOCFLH",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/QZC1W0FNR19KJFLOCFLH/mri_norm2.h5",
+          "bytes": 1966228,
+          "mtime_ns": 1792392024978152427
+        },
+        {
+          "split": "train",
+          "case": "R8ER97O9UUN77C02VE2J",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/R8ER97O9UUN77C02VE2J/mri_norm2.h5",
+          "bytes": 2057547,
+          "mtime_ns": 1792392024998152234
+        },
+        {
+          "split": "train",
+          "case": "RSZY41MT2FGDKHWWL5L2",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/RSZY41MT2FGDKHWWL5L2/mri_norm2.h5",
+          "bytes": 1988882,
+          "mtime_ns": 1792392025018152040
+        },
+        {
+          "split": "train",
+          "case": "SN4LF8SGBSRQUPTDSX78",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/SN4LF8SGBSRQUPTDSX78/mri_norm2.h5",
+          "bytes": 3369566,
+          "mtime_ns": 1792392025050151730
+        },
+        {
+          "split": "train",
+          "case": "TDDI6L3Y0L9VVFP9MNFS",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/TDDI6L3Y0L9VVFP9MNFS/mri_norm2.h5",
+          "bytes": 1824350,
+          "mtime_ns": 1792392025070151537
+        },
+        {
+          "split": "train",
+          "case": "UZUZZT2W9IUSHL6ASOX3",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/UZUZZT2W9IUSHL6ASOX3/mri_norm2.h5",
+          "bytes": 2270657,
+          "mtime_ns": 1792392025162150646
+        },
+        {
+          "split": "test",
+          "case": "UPT6DX9IQY9JAZ7HJKA7",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/UPT6DX9IQY9JAZ7HJKA7/mri_norm2.h5",
+          "bytes": 1555653,
+          "mtime_ns": 1792392025118151072
+        },
+        {
+          "split": "test",
+          "case": "UTBUJIWZMKP64E3N73YC",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/UTBUJIWZMKP64E3N73YC/mri_norm2.h5",
+          "bytes": 1940234,
+          "mtime_ns": 1792392025138150879
+        },
+        {
+          "split": "test",
+          "case": "ULHWPWKKLTE921LQLH1P",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/ULHWPWKKLTE921LQLH1P/mri_norm2.h5",
+          "bytes": 3248429,
+          "mtime_ns": 1792392025102151226
+        },
+        {
+          "split": "test",
+          "case": "V0MZOWJ6MU3RMRCV9EXR",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/V0MZOWJ6MU3RMRCV9EXR/mri_norm2.h5",
+          "bytes": 2079613,
+          "mtime_ns": 1792392025186150414
+        },
+        {
+          "split": "test",
+          "case": "VDOF02M8ZHEAADFMS6NP",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/VDOF02M8ZHEAADFMS6NP/mri_norm2.h5",
+          "bytes": 2076981,
+          "mtime_ns": 1792392025206150220
+        },
+        {
+          "split": "test",
+          "case": "VG4C826RAAKVMV9BQLVD",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/VG4C826RAAKVMV9BQLVD/mri_norm2.h5",
+          "bytes": 2259148,
+          "mtime_ns": 1792392025230149988
+        },
+        {
+          "split": "test",
+          "case": "VIXBEFTNVHZWKAKURJBN",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/VIXBEFTNVHZWKAKURJBN/mri_norm2.h5",
+          "bytes": 1586166,
+          "mtime_ns": 1792392025246149832
+        },
+        {
+          "split": "test",
+          "case": "VQ2L3WM8KEVF6L44E6G9",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/VQ2L3WM8KEVF6L44E6G9/mri_norm2.h5",
+          "bytes": 2251660,
+          "mtime_ns": 1792392025270149601
+        },
+        {
+          "split": "test",
+          "case": "WBG9WYZ1B25WDT5WAT8T",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/WBG9WYZ1B25WDT5WAT8T/mri_norm2.h5",
+          "bytes": 3171369,
+          "mtime_ns": 1792392025302149291
+        },
+        {
+          "split": "test",
+          "case": "WMDG2EFA6L2SNDZXIRU0",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/WMDG2EFA6L2SNDZXIRU0/mri_norm2.h5",
+          "bytes": 2168439,
+          "mtime_ns": 1792392025326149058
+        },
+        {
+          "split": "test",
+          "case": "WNPKE0W404QE9AELX1LR",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/WNPKE0W404QE9AELX1LR/mri_norm2.h5",
+          "bytes": 1824772,
+          "mtime_ns": 1792392025342148904
+        },
+        {
+          "split": "test",
+          "case": "WSJB9P4JCXUVHBOYFVWL",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/WSJB9P4JCXUVHBOYFVWL/mri_norm2.h5",
+          "bytes": 1841697,
+          "mtime_ns": 1792392025362148710
+        },
+        {
+          "split": "test",
+          "case": "WW8F5CO4S4K5IM5Z7EXX",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/WW8F5CO4S4K5IM5Z7EXX/mri_norm2.h5",
+          "bytes": 2210000,
+          "mtime_ns": 1792392025386148478
+        },
+        {
+          "split": "test",
+          "case": "X18LU5AOBNNDMLTA0JZL",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/X18LU5AOBNNDMLTA0JZL/mri_norm2.h5",
+          "bytes": 2423596,
+          "mtime_ns": 1792392025410148245
+        },
+        {
+          "split": "test",
+          "case": "XYDLYJ5CS19FDBVLJIPI",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/XYDLYJ5CS19FDBVLJIPI/mri_norm2.h5",
+          "bytes": 2150886,
+          "mtime_ns": 1792392025434148013
+        },
+        {
+          "split": "test",
+          "case": "Y7ZU0B2APPF54WG6PDMF",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/Y7ZU0B2APPF54WG6PDMF/mri_norm2.h5",
+          "bytes": 2500433,
+          "mtime_ns": 1792392025458147781
+        },
+        {
+          "split": "test",
+          "case": "YDKD1HVHSME6NVMA8I39",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/YDKD1HVHSME6NVMA8I39/mri_norm2.h5",
+          "bytes": 2799064,
+          "mtime_ns": 1792392025494147432
+        },
+        {
+          "split": "test",
+          "case": "Z9GMG63CJLL0VW893BB1",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/Z9GMG63CJLL0VW893BB1/mri_norm2.h5",
+          "bytes": 1912738,
+          "mtime_ns": 1792392025514147239
+        },
+        {
+          "split": "test",
+          "case": "ZIJLJAVQV3FJ6JSQOH1E",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/ZIJLJAVQV3FJ6JSQOH1E/mri_norm2.h5",
+          "bytes": 3196004,
+          "mtime_ns": 1792392025550146890
+        },
+        {
+          "split": "test",
+          "case": "ZQPMJ4XEC5A4BISD45P1",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/LA/2018LA_Seg_TrainingSet/ZQPMJ4XEC5A4BISD45P1/mri_norm2.h5",
+          "bytes": 2759561,
+          "mtime_ns": 1792392025582146580
+        }
+      ],
+      "content_reads": 0,
+      "GT_reads": 0
+    },
+    "Pancreas": {
+      "status": "PASS",
+      "state_sha256": {
+        "student": "e6472ea65c93cd7b7acba381bfd2db6ac90995bc8fda0653d6a8785a0f37e3ac",
+        "teacher": "52a4db55c0dbc7fa3c3d8884a268c33899dcc2171b89f0409f45bf1998431e7c"
+      },
+      "baseline_state_equal": true,
+      "disk_config_equals_checkpoint": true,
+      "baseline_split_manifest_equal": true,
+      "data_inventory": [
+        {
+          "split": "train",
+          "case": "image0057",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0057_norm.h5",
+          "bytes": 20841393,
+          "mtime_ns": 1792392038362022875
+        },
+        {
+          "split": "train",
+          "case": "image0018",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0018_norm.h5",
+          "bytes": 19455791,
+          "mtime_ns": 1792392030106102789
+        },
+        {
+          "split": "train",
+          "case": "image0062",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0062_norm.h5",
+          "bytes": 18289229,
+          "mtime_ns": 1792392039430012536
+        },
+        {
+          "split": "train",
+          "case": "image0031",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0031_norm.h5",
+          "bytes": 19179493,
+          "mtime_ns": 1792392032714077545
+        },
+        {
+          "split": "train",
+          "case": "image0020",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0020_norm.h5",
+          "bytes": 19739684,
+          "mtime_ns": 1792392030494099034
+        },
+        {
+          "split": "train",
+          "case": "image0017",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0017_norm.h5",
+          "bytes": 18822436,
+          "mtime_ns": 1792392029886104919
+        },
+        {
+          "split": "train",
+          "case": "image0032",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0032_norm.h5",
+          "bytes": 20738647,
+          "mtime_ns": 1792392032930075454
+        },
+        {
+          "split": "train",
+          "case": "image0079",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0079_norm.h5",
+          "bytes": 23969135,
+          "mtime_ns": 1792392043085977147
+        },
+        {
+          "split": "train",
+          "case": "image0061",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0061_norm.h5",
+          "bytes": 23668710,
+          "mtime_ns": 1792392039198014783
+        },
+        {
+          "split": "train",
+          "case": "image0064",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0064_norm.h5",
+          "bytes": 14964053,
+          "mtime_ns": 1792392039882008161
+        },
+        {
+          "split": "train",
+          "case": "image0070",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0070_norm.h5",
+          "bytes": 7354621,
+          "mtime_ns": 1792392040997997359
+        },
+        {
+          "split": "train",
+          "case": "image0019",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0019_norm.h5",
+          "bytes": 17255429,
+          "mtime_ns": 1792392030290101008
+        },
+        {
+          "split": "train",
+          "case": "image0048",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0048_norm.h5",
+          "bytes": 17339166,
+          "mtime_ns": 1792392036606039872
+        },
+        {
+          "split": "train",
+          "case": "image0076",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0076_norm.h5",
+          "bytes": 15638981,
+          "mtime_ns": 1792392042273985007
+        },
+        {
+          "split": "train",
+          "case": "image0041",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0041_norm.h5",
+          "bytes": 23974276,
+          "mtime_ns": 1792392034722058108
+        },
+        {
+          "split": "train",
+          "case": "image0052",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0052_norm.h5",
+          "bytes": 16252909,
+          "mtime_ns": 1792392037414032051
+        },
+        {
+          "split": "train",
+          "case": "image0049",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0049_norm.h5",
+          "bytes": 17034485,
+          "mtime_ns": 1792392036838037626
+        },
+        {
+          "split": "train",
+          "case": "image0071",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0071_norm.h5",
+          "bytes": 14661289,
+          "mtime_ns": 1792392041177995617
+        },
+        {
+          "split": "train",
+          "case": "image0072",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0072_norm.h5",
+          "bytes": 17657573,
+          "mtime_ns": 1792392041381993642
+        },
+        {
+          "split": "train",
+          "case": "image0034",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0034_norm.h5",
+          "bytes": 17706934,
+          "mtime_ns": 1792392033522069724
+        },
+        {
+          "split": "train",
+          "case": "image0010",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0010_norm.h5",
+          "bytes": 19409616,
+          "mtime_ns": 1792392028202121219
+        },
+        {
+          "split": "train",
+          "case": "image0015",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0015_norm.h5",
+          "bytes": 20688822,
+          "mtime_ns": 1792392029390109720
+        },
+        {
+          "split": "train",
+          "case": "image0077",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0077_norm.h5",
+          "bytes": 20365661,
+          "mtime_ns": 1792392042541982413
+        },
+        {
+          "split": "train",
+          "case": "image0080",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0080_norm.h5",
+          "bytes": 13395820,
+          "mtime_ns": 1792392043241975638
+        },
+        {
+          "split": "train",
+          "case": "image0027",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0027_norm.h5",
+          "bytes": 19360667,
+          "mtime_ns": 1792392031914085288
+        },
+        {
+          "split": "train",
+          "case": "image0047",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0047_norm.h5",
+          "bytes": 17045329,
+          "mtime_ns": 1792392036398041885
+        },
+        {
+          "split": "train",
+          "case": "image0022",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0022_norm.h5",
+          "bytes": 17056244,
+          "mtime_ns": 1792392030934094775
+        },
+        {
+          "split": "train",
+          "case": "image0014",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0014_norm.h5",
+          "bytes": 16712497,
+          "mtime_ns": 1792392029114112392
+        },
+        {
+          "split": "train",
+          "case": "image0068",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0068_norm.h5",
+          "bytes": 20332648,
+          "mtime_ns": 1792392040678000456
+        },
+        {
+          "split": "train",
+          "case": "image0058",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0058_norm.h5",
+          "bytes": 13444467,
+          "mtime_ns": 1792392038518021364
+        },
+        {
+          "split": "train",
+          "case": "image0007",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0007_norm.h5",
+          "bytes": 16033556,
+          "mtime_ns": 1792392027386129118
+        },
+        {
+          "split": "train",
+          "case": "image0011",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0011_norm.h5",
+          "bytes": 16477714,
+          "mtime_ns": 1792392028406119245
+        },
+        {
+          "split": "train",
+          "case": "image0024",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0024_norm.h5",
+          "bytes": 18084246,
+          "mtime_ns": 1792392031326090981
+        },
+        {
+          "split": "train",
+          "case": "image0042",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0042_norm.h5",
+          "bytes": 15536060,
+          "mtime_ns": 1792392034878056598
+        },
+        {
+          "split": "train",
+          "case": "image0082",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0082_norm.h5",
+          "bytes": 20536466,
+          "mtime_ns": 1792392043657971612
+        },
+        {
+          "split": "train",
+          "case": "image0035",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0035_norm.h5",
+          "bytes": 19896120,
+          "mtime_ns": 1792392033330071582
+        },
+        {
+          "split": "train",
+          "case": "image0012",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0012_norm.h5",
+          "bytes": 19889158,
+          "mtime_ns": 1792392028678116612
+        },
+        {
+          "split": "train",
+          "case": "image0055",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0055_norm.h5",
+          "bytes": 14318354,
+          "mtime_ns": 1792392037950026862
+        },
+        {
+          "split": "train",
+          "case": "image0075",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0075_norm.h5",
+          "bytes": 18920577,
+          "mtime_ns": 1792392042061987059
+        },
+        {
+          "split": "train",
+          "case": "image0078",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0078_norm.h5",
+          "bytes": 21415663,
+          "mtime_ns": 1792392042829979625
+        },
+        {
+          "split": "train",
+          "case": "image0016",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0016_norm.h5",
+          "bytes": 20263093,
+          "mtime_ns": 1792392029670107010
+        },
+        {
+          "split": "train",
+          "case": "image0013",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0013_norm.h5",
+          "bytes": 14367422,
+          "mtime_ns": 1792392028910114366
+        },
+        {
+          "split": "train",
+          "case": "image0053",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0053_norm.h5",
+          "bytes": 14631384,
+          "mtime_ns": 1792392037586030386
+        },
+        {
+          "split": "train",
+          "case": "image0023",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0023_norm.h5",
+          "bytes": 17675747,
+          "mtime_ns": 1792392031130092878
+        },
+        {
+          "split": "train",
+          "case": "image0056",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0056_norm.h5",
+          "bytes": 17987167,
+          "mtime_ns": 1792392038130025120
+        },
+        {
+          "split": "train",
+          "case": "image0033",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0033_norm.h5",
+          "bytes": 15767487,
+          "mtime_ns": 1792392033102073789
+        },
+        {
+          "split": "train",
+          "case": "image0038",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0038_norm.h5",
+          "bytes": 17595398,
+          "mtime_ns": 1792392034094064187
+        },
+        {
+          "split": "train",
+          "case": "image0030",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0030_norm.h5",
+          "bytes": 25702302,
+          "mtime_ns": 1792392032506079558
+        },
+        {
+          "split": "train",
+          "case": "image0081",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0081_norm.h5",
+          "bytes": 14744534,
+          "mtime_ns": 1792392043437973740
+        },
+        {
+          "split": "train",
+          "case": "image0029",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0029_norm.h5",
+          "bytes": 14267976,
+          "mtime_ns": 1792392032274081804
+        },
+        {
+          "split": "train",
+          "case": "image0036",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0036_norm.h5",
+          "bytes": 16937347,
+          "mtime_ns": 1792392033718067827
+        },
+        {
+          "split": "train",
+          "case": "image0044",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0044_norm.h5",
+          "bytes": 23050467,
+          "mtime_ns": 1792392035802047654
+        },
+        {
+          "split": "train",
+          "case": "image0002",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0002_norm.h5",
+          "bytes": 19375653,
+          "mtime_ns": 1792392026162140966
+        },
+        {
+          "split": "train",
+          "case": "image0045",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0045_norm.h5",
+          "bytes": 21500839,
+          "mtime_ns": 1792392036026045486
+        },
+        {
+          "split": "train",
+          "case": "image0026",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0026_norm.h5",
+          "bytes": 25607776,
+          "mtime_ns": 1792392031690087457
+        },
+        {
+          "split": "train",
+          "case": "image0065",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0065_norm.h5",
+          "bytes": 17015173,
+          "mtime_ns": 1792392040078006264
+        },
+        {
+          "split": "train",
+          "case": "image0066",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0066_norm.h5",
+          "bytes": 14547453,
+          "mtime_ns": 1792392040262004483
+        },
+        {
+          "split": "train",
+          "case": "image0043",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0043_norm.h5",
+          "bytes": 15159007,
+          "mtime_ns": 1792392035046054972
+        },
+        {
+          "split": "train",
+          "case": "image0028",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0028_norm.h5",
+          "bytes": 16523825,
+          "mtime_ns": 1792392032098083508
+        },
+        {
+          "split": "train",
+          "case": "image0063",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0063_norm.h5",
+          "bytes": 20976770,
+          "mtime_ns": 1792392039682010097
+        },
+        {
+          "split": "train",
+          "case": "image0069",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0069_norm.h5",
+          "bytes": 18433128,
+          "mtime_ns": 1792392040893998365
+        },
+        {
+          "split": "train",
+          "case": "image0003",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0003_norm.h5",
+          "bytes": 13583798,
+          "mtime_ns": 1792392026362139030
+        },
+        {
+          "split": "test",
+          "case": "image0050",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0050_norm.h5",
+          "bytes": 18638231,
+          "mtime_ns": 1792392037062035458
+        },
+        {
+          "split": "test",
+          "case": "image0059",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0059_norm.h5",
+          "bytes": 17545542,
+          "mtime_ns": 1792392038710019506
+        },
+        {
+          "split": "test",
+          "case": "image0037",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0037_norm.h5",
+          "bytes": 17330661,
+          "mtime_ns": 1792392033898066085
+        },
+        {
+          "split": "test",
+          "case": "image0060",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0060_norm.h5",
+          "bytes": 22203450,
+          "mtime_ns": 1792392038954017144
+        },
+        {
+          "split": "test",
+          "case": "image0040",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0040_norm.h5",
+          "bytes": 16969180,
+          "mtime_ns": 1792392034478060470
+        },
+        {
+          "split": "test",
+          "case": "image0074",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0074_norm.h5",
+          "bytes": 18619235,
+          "mtime_ns": 1792392041801989576
+        },
+        {
+          "split": "test",
+          "case": "image0004",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0004_norm.h5",
+          "bytes": 21706955,
+          "mtime_ns": 1792392026686135894
+        },
+        {
+          "split": "test",
+          "case": "image0046",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0046_norm.h5",
+          "bytes": 15018415,
+          "mtime_ns": 1792392036210043705
+        },
+        {
+          "split": "test",
+          "case": "image0008",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0008_norm.h5",
+          "bytes": 19696862,
+          "mtime_ns": 1792392027658126486
+        },
+        {
+          "split": "test",
+          "case": "image0054",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0054_norm.h5",
+          "bytes": 18495788,
+          "mtime_ns": 1792392037778028528
+        },
+        {
+          "split": "test",
+          "case": "image0005",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0005_norm.h5",
+          "bytes": 17638495,
+          "mtime_ns": 1792392026870134113
+        },
+        {
+          "split": "test",
+          "case": "image0073",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0073_norm.h5",
+          "bytes": 19531525,
+          "mtime_ns": 1792392041597991550
+        },
+        {
+          "split": "test",
+          "case": "image0001",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0001_norm.h5",
+          "bytes": 20249042,
+          "mtime_ns": 1792392025866143831
+        },
+        {
+          "split": "test",
+          "case": "image0039",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0039_norm.h5",
+          "bytes": 17174095,
+          "mtime_ns": 1792392034274062445
+        },
+        {
+          "split": "test",
+          "case": "image0006",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0006_norm.h5",
+          "bytes": 17519057,
+          "mtime_ns": 1792392027146131442
+        },
+        {
+          "split": "test",
+          "case": "image0067",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0067_norm.h5",
+          "bytes": 15103334,
+          "mtime_ns": 1792392040434002818
+        },
+        {
+          "split": "test",
+          "case": "image0025",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0025_norm.h5",
+          "bytes": 6481712,
+          "mtime_ns": 1792392031414090129
+        },
+        {
+          "split": "test",
+          "case": "image0051",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0051_norm.h5",
+          "bytes": 14119476,
+          "mtime_ns": 1792392037226033870
+        },
+        {
+          "split": "test",
+          "case": "image0021",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0021_norm.h5",
+          "bytes": 22530624,
+          "mtime_ns": 1792392030742096634
+        },
+        {
+          "split": "test",
+          "case": "image0009",
+          "path": "/aita_data/home/aita_duanxuelong/Dataset/Pancreas/Pancreas_h5/image0009_norm.h5",
+          "bytes": 14879621,
+          "mtime_ns": 1792392027894124201
+        }
+      ],
+      "content_reads": 0,
+      "GT_reads": 0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+test_history_mutation_and_addition_are_detected (__main__.IntegrityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.016s
+
+OK

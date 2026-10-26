@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "figures": 6,
+  "formats": [
+    "PNG",
+    "PDF"
+  ],
+  "report": "REPORT.md"
+}

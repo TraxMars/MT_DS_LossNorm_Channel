@@ -1,0 +1,74 @@
+{
+  "raw/L_D1.npy": {
+    "size_bytes": 1769600,
+    "sha256": "29213a8862bd41e0875cee251de4e8c4534d3d13ea8eb0d3d21736627f5593d2"
+  },
+  "raw/L_D2.npy": {
+    "size_bytes": 4194432,
+    "sha256": "cbe34a9ad6a6da36ab0156a66045fa359d448177134e6e0da46b14f502bbb808"
+  },
+  "raw/L_D3.npy": {
+    "size_bytes": 16777344,
+    "sha256": "43871e6d32a59a772050e66cf0036b1812b3c37f60450d87c271124a8b982f0d"
+  },
+  "raw/L_D4.npy": {
+    "size_bytes": 67108992,
+    "sha256": "7144e9921a50639822ba3d024d872acb8786f13d89012000122ccb0666fd824e"
+  },
+  "raw/L_E1.npy": {
+    "size_bytes": 110720,
+    "sha256": "9f537223f55bb9e9fe0e15ea6d491955cb88e62bdcc427aeada33e73cae95885"
+  },
+  "raw/L_E2.npy": {
+    "size_bytes": 7078016,
+    "sha256": "86c75294ebfada906be0005042a8d784348b5023d4cc844287583ac4168fcf3b"
+  },
+  "raw/L_E3.npy": {
+    "size_bytes": 28311680,
+    "sha256": "8a9c95691d3cfe1e3bbb621670af1d92391d96fb50b14a1290dc5d6970a84177"
+  },
+  "raw/L_E4.npy": {
+    "size_bytes": 113246336,
+    "sha256": "fea36bff173168bee12b33fec793f399a76973adf416d8e3f35010271eb23b40"
+  },
+  "raw/L_E5.npy": {
+    "size_bytes": 452984960,
+    "sha256": "3d2b3084618fc020d5f64e5b582767d7e27d5b237b37e1752791725edfa3e9e8"
+  },
+  "raw/U_D1.npy": {
+    "size_bytes": 3539072,
+    "sha256": "be46b4f03c24fe33a22739e5f0f8447a38b8abc52ed8b4747c4f33966148f1fa"
+  },
+  "raw/U_D2.npy": {
+    "size_bytes": 8388736,
+    "sha256": "82670f2d2e25b5baf2ce8623983afc5fb8e4c054fb837552788f4fc40a61ed5f"
+  },
+  "raw/U_D3.npy": {
+    "size_bytes": 33554560,
+    "sha256": "b69a1e6dac16cc39f286d4a4bda3e933aa1510f7bd6bd97f091f839c8b192c46"
+  },
+  "raw/U_D4.npy": {
+    "size_bytes": 134217856,
+    "sha256": "320c9a75764e1a3e0452de5a1a90683fa7df9ed04b4e4b01c6b1ef58c9326de3"
+  },
+  "raw/U_E1.npy": {
+    "size_bytes": 221312,
+    "sha256": "0a578a9d13406b75fd531f55429e6403ee7eea84ae677e9a2b1c7a81ccd316d5"
+  },
+  "raw/U_E2.npy": {
+    "size_bytes": 14155904,
+    "sha256": "b48eee325c90260f052365cf1142b705e7b8512fa88d054b2520743d295ecf15"
+  },
+  "raw/U_E3.npy": {
+    "size_bytes": 56623232,
+    "sha256": "df8479faaab20919f6c231f2ad570cbe5ffef2bcccc61afa1a7720be90248653"
+  },
+  "raw/U_E4.npy": {
+    "size_bytes": 226492544,
+    "sha256": "aadbe8d100504818186953e6694dc1eabdb63e9a9949600831f2239a44cc5e05"
+  },
+  "raw/U_E5.npy": {
+    "size_bytes": 905969792,
+    "sha256": "448ecb1c1c694bd924d864fb690e0bdf6b4ef162eab54118db61c85fe434f267"
+  }
+}

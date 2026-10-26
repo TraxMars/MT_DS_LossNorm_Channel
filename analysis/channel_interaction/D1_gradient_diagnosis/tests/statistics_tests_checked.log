@@ -1,0 +1,10 @@
+test_before_average_normalization_can_change_direction (__main__.StatisticsTests) ... ok
+test_cancellation_and_broadcast (__main__.StatisticsTests) ... ok
+test_case_bootstrap_keeps_two_domains (__main__.StatisticsTests) ... ok
+test_summary_pipeline_retains_dead_and_unreachable_channels (__main__.StatisticsTests) ... ok
+test_zero_channels_never_enter_pairwise_conflict_denominator (__main__.StatisticsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.288s
+
+OK
